@@ -1,0 +1,73 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	$("#select01").on("change", function(e){
+	    		if($("#select01").val() === ''){
+	    			$("#select02").setData({selectOptions02: [{value: '', text: '-중분류-'}]});
+	    			$("#select03").setData({selectOptions03: [{value: '', text: '-소분류-'}]});
+	    		}
+	    		else if($("#select01").val() === 'Cat1'){
+	    			$("#select02").setData({selectOptions02: [{value: '', text: '-중분류-'},{value: 'Cat1-1', text: 'Cat1-1'},{value: 'Cat1-2', text: 'Cat1-2'}]});
+	    			$("#select03").setData({selectOptions03: [{value: '', text: '-소분류-'}]});
+	    		}
+	    		else if($("#select01").val() === 'Cat2'){
+	    			$("#select02").setData({selectOptions02: [{value: '', text: '-중분류-'},{value: 'Cat2-1', text: 'Cat2-1'},{value: 'Cat2-2', text: 'Cat2-2'}]});
+	    			$("#select03").setData({selectOptions03: [{value: '', text: '-소분류-'}]});
+	    		}
+	    	});
+	    	
+	    	$("#select02").on("change", function(e){
+	    		if($("#select02").val() === ''){
+	    			$("#select03").setData({selectOptions03: [{value: '', text: '-소분류-'}]});
+	    		}
+	    		else if($("#select02").val() === 'Cat1-1'){
+	    			$("#select03").setData({selectOptions03: [{value: '', text: '-소분류-'},{value: 'Cat1-1-1', text: 'Cat1-1-1'},{value: 'Cat1-1-2', text: 'Cat1-1-2'}]});
+	    		}
+	    		else if($("#select02").val() === 'Cat1-2'){
+	    			$("#select03").setData({selectOptions03: [{value: '', text: '-소분류-'},{value: 'Cat1-2-1', text: 'Cat1-2-1'},{value: 'Cat1-2-2', text: 'Cat1-2-2'}]});
+	    		}
+	    		else if($("#select02").val() === 'Cat2-1'){
+	    			$("#select03").setData({selectOptions03: [{value: '', text: '-소분류-'},{value: 'Cat2-1-1', text: 'Cat2-1-1'},{value: 'Cat2-1-2', text: 'Cat2-1-2'}]});
+	    		}
+	    		else if($("#select02").val() === 'Cat2-2'){
+	    			$("#select03").setData({selectOptions03: [{value: '', text: '-소분류-'},{value: 'Cat2-2-1', text: 'Cat2-2-1'},{value: 'Cat2-2-2', text: 'Cat2-2-2'}]});
+	    		}
+	    	});
+	    	
+	    	$("#button01").on("click", function(e){
+	    		alert(JSON.stringify($('#form01').getData()));
+	    	});
+	    }
+	});
+	</script>
+	
+	<form id="form01">
+    <table class="Table Form-type">
+        <colgroup>
+            <col style="width:100px"/>
+            <col />
+            <col style="width:100px"/>
+        </colgroup>
+        <tbody>
+            <tr>
+                <th>카테고리</th>
+                <td>
+                	<select id="select01" class="Select" data-bind="options: selectOptions01, selectedOptions: selected01">
+					    <option value="">-대분류-</option>
+					    <option value="Cat1">Cat1</option>
+					    <option value="Cat2">Cat2</option>
+					</select>
+                	<select id="select02" class="Select" data-bind="options: selectOptions02,selectedOptions: selected02">
+					    <option value="">-중분류-</option>
+					</select>
+                	<select id="select03" class="Select" data-bind="options: selectOptions03,selectedOptions: selected03">
+					    <option value="">-소분류-</option>
+					</select>
+                </td>
+            	<td><button class="Button" id="button01"><span class="Icon Search" data-position="left"></span>검색</button></td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+"""

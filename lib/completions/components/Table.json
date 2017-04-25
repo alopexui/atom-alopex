@@ -1,0 +1,91 @@
+{
+  "data-resizable":{
+    "snippet": "data-resizable=\"$1\"",
+    "description": "[Alopex] Table 컴포넌트의 크기 조절 기능 사용 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Attributes_dataresizable",
+    "values" : [
+      {
+        "text" : "true",
+        "snippet": "true",
+        "description": "[Alopex] 크기 조절 기능를 사용으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      },
+      {
+        "text" : "false",
+        "snippet": "false",
+        "description": "[Alopex] 크기 조절 기능를 사용안함으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      }
+    ]
+  },
+  "data-sortable":{
+    "snippet": "data-sortable=\"$1\"",
+    "description": "[Alopex] Table 컴포넌트의 정렬 옵션을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Attributes_datasortable",
+    "values" : [
+      {
+        "text" : "string",
+        "snippet": "string",
+        "description": "[Alopex] 정렬 옵션을 문자열 타입으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "date",
+        "snippet": "date",
+        "description": "[Alopex] 정렬 옵션을 날짜 타입으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "number",
+        "snippet": "number",
+        "description": "[Alopex] 정렬 옵션을 숫자 타입으로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-sort-function":{
+    "snippet": "data-sort-function=\"$1\"",
+    "description": "[Alopex] Table 컴포넌트의 사용자 정의 소팅 함수를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Attributes_datasortable",
+    "values" : [
+      {
+        "text" : "functionName",
+        "snippet": "functionName",
+        "description": "[Alopex] 사용자 정의 소팅 함수를 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-editable":{
+    "snippet": "data-editable=\"$1\"",
+    "description": "[Alopex] Table 컴포넌트의 사용자 정의 소팅 함수를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Attributes_datasortable",
+    "values" : [
+      {
+        "text" : "functionName",
+        "snippet": "functionName",
+        "description": "[Alopex] 사용자 정의 소팅 함수를 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-scroller-use": {
+    "snippet": "data-scroller-use=\"$1\"",
+    "description": "[Alopex] Table 컴포넌트의 Wrapper 와 Scroller 엘리먼트 생성 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Attributes_datascrolleruse",
+    "values" : [
+      {
+        "text" : "true",
+        "snippet": "true",
+        "description": "[Alopex] Wrapper 와 Scroller 엘리먼트 생성 여부를 사용으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      },
+      {
+        "text" : "false",
+        "snippet": "false",
+        "description": "[Alopex] Wrapper 와 Scroller 엘리먼트 생성 여부를 사용안함으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      }
+    ]
+  }
+}

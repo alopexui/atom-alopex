@@ -1,0 +1,16 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	$("#button01").on("click", function(e){
+	    		alert(JSON.stringify($('#input01').getData()));
+	    	});
+	    }
+	});
+	</script>
+	
+	<input class="Textinput Margin-right-5" id="input01" data-bind="value: input01">
+	<button class="Button" id="button01">
+		<span class="Icon Search" data-position="left"></span>검색
+	</button>
+"""

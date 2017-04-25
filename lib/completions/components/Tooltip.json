@@ -1,0 +1,91 @@
+{
+  "data-base": {
+    "snippet": "data-base=\"$1\"",
+    "description": "[Alopex] ToolTip 컴포넌트의 base 엘리먼트를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tooltip#Attributes_database"
+  },
+  "data-position": {
+    "snippet": "data-position=\"$1\"",
+    "description": "[Alopex] ToolTip 컴포넌트의 위치를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tooltip#Attributes_dataposition",
+    "values" : [
+      {
+        "text" : "left",
+        "snippet": "left",
+        "description":  "[Alopex] ToolTip 위치를 base 엘리먼트의 왼쪽 맞춤으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "right",
+        "snippet": "right",
+        "description":  "[Alopex] ToolTip 위치를 base 엘리먼트의 오른쪽 맞춤으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "top",
+        "snippet": "top",
+        "description": "[Alopex] ToolTip 위치를 base 엘리먼트의 위쪽 맞춤으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "bottom",
+        "snippet": "bottom",
+        "description": "[Alopex] ToolTip 위치를 base 엘리먼트의 아래쪽 맞춤으로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-tooltip-trigger": {
+    "snippet": "data-tooltip-trigger=\"$1\"",
+    "description": "[Alopex] ToolTip 컴포넌트의 트리거를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tooltip#Attributes_datatooltiptrigger",
+    "values": [
+      {
+        "text" : "click",
+        "snippet": "click",
+        "description": "[Alopex] ToolTip 트리거를 'click'으로 지정합니다",
+        "leftLabelHTML" : "Event Name"
+      },
+      {
+        "text" : "dblclickdblclick",
+        "snippet": "dblclick",
+        "description": "[Alopex] ToolTip 트리거를 'dblclick'으로 지정합니다",
+        "leftLabelHTML" : "Event Name"
+      }
+    ]
+  },
+  "data-animation":{
+    "snippet": "data-animation=\"$1\"",
+    "description": "[Alopex] ToolTip 컴포넌트의 open/close 애니메이션 효과를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tooltip#Attributes_dataanimation",
+    "values" : [
+      {
+        "text" : "fade",
+        "snippet": "fade",
+        "description": "[Alopex] open/close 애니메이션 효과를 fadeIn/fadeOut으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "slide",
+        "snippet": "slide",
+        "description": "[Alopex] open/close 애니메이션 효과를 slideDown/slideUp으로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-animationtime":{
+    "snippet": "data-animationtime=\"$1\"",
+    "description": "[Alopex] ToolTip 컴포넌트의 애니메이션 시간을 ms 단위로 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tooltip#Attributes_dataanimationtime"
+  },
+  "data-open-callback":{
+    "snippet": "data-open-callback=\"$1\"",
+    "description": "[Alopex] ToolTip 컴포넌트의 open 콜백 함수명을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tooltip#Attributes_dataopencallback"
+  },
+  "data-close-callback":{
+    "snippet": "data-close-callback=\"$1\"",
+    "description": "[Alopex] ToolTip 컴포넌트의 close 콜백 함수명을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tooltip#Attributes_dataclosecallback"
+  }
+}

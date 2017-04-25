@@ -1,0 +1,12 @@
+'.text.html.basic,.text.html.jsp,.text.html.php':
+  'Basic' :
+    'prefix': 'Dialog(Basic)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '기본 Dialog 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Basic'
+    'body': """
+<div class="Dialog" data-dialog-type="blank">
+    <div class="Dialog-contents">contents</div>
+</div>
+"""

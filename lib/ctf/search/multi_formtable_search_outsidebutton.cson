@@ -1,0 +1,80 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+
+	    	$("#button01").on("click", function(e){
+	    		$('#input01').setData({
+	    			input01: "담당자"
+	    	    });
+	    	});
+	    	
+	    	$("#button02").on("click", function(e){
+	    		var validator = $('#select01').validator();
+	    	    var validate = validator.validate(); //  'true' or 'false'
+	    	    if(validate) { 
+	    	    	alert(JSON.stringify($('#form01').getData()));         
+	    	    } else {
+	    	        alert('Selectbox is not valid');
+	    	    }
+	    	});
+	    }
+	});
+	</script>
+	
+	<form id="form01">
+	<div class="Table-wrapper">
+        <table class="Table Form-type">
+            <colgroup>
+                <col style="width:100px"/>
+                <col />
+                <col style="width:100px"/>
+            </colgroup>
+            <tbody>
+                <tr>
+                    <th><span class="Color-danger Padding-right-5">*</span>품목</th>
+                    <td>
+                    	<select id="select01" class="Select" data-bind="selectedOptions: selected01" data-validation-rule="{required:true}">
+						    <option value="">전체</option>
+						    <option value="Product1">Product1</option>
+						    <option value="Product2">Product2</option>
+						    <option value="Product3">Product3</option>
+						</select>
+					</td>
+                	<th>담당자</th>
+                	<td>
+                		<input class="Textinput Margin-right-5" id="input01" data-bind="value: input01">
+                		<button class="Button" id="button01">찾기</button>
+                	</td>
+                </tr>
+                <tr>
+                    <th>검색범위</th>
+                    <td>
+                    	<label id="checkTest01">
+						    <input class="Checkbox" type="checkbox" name="checkbox01" value = "check1" checked="checked" data-bind="checked: mycheckbox">
+						    국내
+						</label>
+						<label id="checkTest02">
+						    <input class="Checkbox" type="checkbox" name="checkbox01" value = "check2" data-bind="checked: mycheckbox">
+						    국외
+						</label>
+					</td>
+                	<th>기간</th>
+                	<td>
+                		<div class="Daterange" data-default-date="false" >
+						    <div class="Startdate Dateinput">
+						        <input id="daterange01" data-bind="value: daterange01">
+						    </div>
+						    ~
+						    <div class="Enddate Dateinput">
+						        <input id="daterange02" data-bind="value: daterange02">
+						    </div>
+						</div>
+                	</td>
+                </tr>
+            </tbody>
+        </table>
+	</div>
+	<div class="Float-right Margin-bottom-10"><button class="Button Warning Margin-right-5" id="button02">검색</button></div>
+	</form>
+"""

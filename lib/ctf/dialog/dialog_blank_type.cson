@@ -1,0 +1,26 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	$("#button01").on("click", function(e){
+	    		$('#dialogId').open({
+	    		      title:"Basic",
+	    		      left:50,
+	    		      top:50,
+	    		      width: 270,
+	    		      height: 270,
+	    		      xButtonClickCallback : function(el){ // 우측 상단 X 버튼으로 닫을 경우 동작하는 콜백
+	    		      	alert("X Button Pressed!!");
+	    		      	return true;
+	    		      }
+    		    });
+	    	});
+	    }
+	});
+	</script>
+	
+	<div id="dialogId" class="Dialog" data-dialog-type="blank">
+    	<div class="Dialog-contents">컨텐츠 영역 입니다.</div>
+	</div>
+	<button class="Button" id="button01">열기</button>
+"""

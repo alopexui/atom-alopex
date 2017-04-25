@@ -1,0 +1,39 @@
+﻿'.text.html.basic,.text.html.jsp,.text.html.php':
+  'Basic' :
+    'prefix': 'Table(Basic)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '기본 Table 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=table#Basic'
+    'body': """
+<table class="Table">
+  <colgroup>
+      <col />
+      <col />
+      <col />
+      <col />
+  </colgroup>
+  <thead>
+      <tr>
+          <th>1st Header </th>
+          <th>2nd Header </th>
+          <th>3rd Header </th>
+          <th>4th Header </th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td> Row 1, Col 1</td>
+          <td> Row 1, Col 2</td>
+          <td> Row 1, Col 3 </td>
+          <td> Row 1, Col 4 </td>
+      </tr>
+      <tr>
+          <td> Row 2, Col 1</td>
+          <td> Row 2, Col 2</td>
+          <td> Row 2, Col 3 </td>
+          <td> Row 2, Col 4 </td>
+      </tr>
+  </tbody>
+</table>
+"""

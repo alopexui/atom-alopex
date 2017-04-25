@@ -1,0 +1,45 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	var uploadObj4 = $("#fileuploaderC").setOptions({
+	            url : '/upload',
+	            fileName : 'uploadFiles',
+	            maxFileSize : 1000000,
+	            deleteCallback: function (fileInfo, pd) {
+	                $a.request('/delete', {
+	                    data : {"fileName":fileInfo.name},
+	                    success : function(res) {
+	                    	pd.statusbar.hide();
+	                    	alert(res.fileName +"이 삭제되었습니다.");
+	                    }
+	                });
+	            },
+	            onError : function(files,status,errMsg,pd){
+	                var errorInfo = files+" / "+status+" / "+errMsg;
+	                alert(errorInfo);
+	            }
+	 		});    
+	    	
+		    $("#startUploadC").on('click', function(){
+		    	$("#fileuploaderC").startUpload();
+		    });
+	
+		    $("#stopUploadC").on('click', function(){
+		    	$("#fileuploaderC").stopUpload();
+		    });
+	
+		    $("#cancelAllC").on('click', function(){
+		    	$("#fileuploaderC").cancelAll();
+		    });
+	    }
+	});
+	</script>
+	
+	<div id="fileuploaderC" class="Fileupload" data-selectType="advance" ></div>
+	<div class="Float-right Margin-top-5">
+		<button id="startUploadC" class="Button Confirm">업로드</button>
+		<button id="stopUploadC" class="Button Danger">업로드 중지</button>
+		<button id="cancelAllC" class="Button Warning">전체 취소</button>
+	</div>
+"""

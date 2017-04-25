@@ -1,0 +1,157 @@
+﻿'.text.html.basic,.text.html.jsp,.text.html.php':
+  'Basic' :
+    'prefix': 'Tree(Basic)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '기본 Tree 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Basic_기본트리'
+    'body': """
+<ul class="Tree">
+    <li>
+        <span class="Arrow"></span>
+        <a> Tree Memu 1</a>
+        <ul>
+            <li><span class="Arrow"></span>
+                <a>Tree Memu 1-1</a>
+                <ul>
+                    <li>
+                        <span class="Arrow"></span>
+                        <a>Tree Memu 1-1-1</a>
+                    </li>
+                    <li>
+                        <span class="Arrow"></span>
+                        <a>Tree Memu 1-1-2</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+"""
+
+  'Image' :
+    'prefix': 'Tree(Image)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '이미지 아이콘이 추가된 Tree의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Basic_이미지아이콘트리'
+    'body': """
+<ul class="Tree">
+    <li>
+        <span class="Arrow"></span>
+        <a>
+            <img src="tree/icon/windows/folder.png">Icons
+        </a>
+        <ul>
+            <li><span class="Arrow"></span>
+                <a>
+                    <img src="tree/icon/windows/folder.png">Image
+                </a>
+                <ul>
+                    <li><span class="Arrow"></span>
+                        <a>
+                            <img src="tree/icon/windows/jpeg.png">jpg
+                        </a>
+                    </li>
+                    <li><span class="Arrow"></span>
+                        <a>
+                            <img src="tree/icon/windows/bmp.png">bmp
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+"""
+
+  'Checkbox' :
+    'prefix': 'Tree(Checkbox)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': 'Checkbox가 추가된 Tree 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getCheckedNodesoptions'
+    'body': """
+<ul class="Tree" data-checkbox="visible">
+    <li>
+        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+            <img src="tree/icon/windows/folder.png">
+            Icons
+        </a>
+        <ul>
+            <li>
+                <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                    <img src="tree/icon/windows/folder.png">
+                    Image
+                </a>
+                <ul>
+                    <li>
+                        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                            <img src="tree/icon/windows/jpeg.png">
+                            jpeg
+                        </a>
+                    </li>
+                    <li>
+                        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                            <img src="tree/icon/windows/bmp.png">
+                            bmp
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                    <img src="tree/icon/windows/folder.png">
+                    Text
+                </a>
+                <ul>
+                    <li>
+                        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                            <img src="tree/icon/windows/pdf.png">
+                            pdf
+                        </a>
+                    </li>
+                    <li>
+                        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                            <img src="tree/icon/windows/txt.png">
+                            txt
+                        </a>
+                    </li>
+                    <li>
+                        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                            <img src="tree/icon/windows/word59.png">
+                            word
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                    <img src="tree/icon/windows/folder.png">
+                    etc
+                </a>
+                <ul>
+                    <li>
+                        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                            <img src="tree/icon/windows/config.png">
+                            config
+                        </a>
+                    </li>
+                    <li>
+                        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                            <img src="tree/icon/windows/file.png">
+                            unknown
+                        </a>
+                    </li>
+                    <li>
+                        <span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
+                            <img src="tree/icon/windows/zip.png">
+                            Archieve
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+"""

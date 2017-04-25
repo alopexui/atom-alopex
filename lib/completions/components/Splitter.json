@@ -1,0 +1,26 @@
+{
+  "data-position": {
+    "snippet": "data-position=\"$1\"",
+    "description": "[Alopex] Splitter 컴포넌트의 분할 비율을 %단위로 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=splitter#Attribute_datapositionstring"
+  },
+  "data-orientation": {
+    "snippet": "data-orientation=\"$1\"",
+    "description": "[Alopex] Splitter 컴포넌트의 분할 방향 옵션을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=splitter#Attribute_dataorientationstring",
+    "values" : [
+      {
+        "text" : "horizontal",
+        "snippet": "horizontal",
+        "description":  "[Alopex] Splitter 분할을 가로 방향 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "vertical",
+        "snippet": "vertical",
+        "description":  "[Alopex] Splitter 분할을 세로 방향 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  }
+}

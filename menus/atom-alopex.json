@@ -1,0 +1,136 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Alopex ComponentSet Template",
+        "submenu":[
+          {
+            "label":"Search",
+            "submenu" : [
+             {
+               "label" : "Single Search",
+               "command" : "atom-alopex:Search-Single"
+             },
+             {
+               "label" : "Single Form Search",
+               "command" : "atom-alopex:Search-SingleForm"
+             },
+             {
+               "label" : "Multi Form Search(Outside Button)",
+               "command" : "atom-alopex:Search-MultiForm-OutsideButton"
+             },
+             {
+               "label" : "Multi Form Search(Inside Button)",
+               "command" : "atom-alopex:Search-MultiForm-InsideButton"
+             },
+             {
+               "label" : "Step By Step Select Search",
+               "command" : "atom-alopex:Search-Stepbystep-Select"
+             }
+
+            ]
+          },
+          {
+            "label":"Tree",
+            "submenu" : [
+             {
+               "label" : "View Edit Data",
+               "command" : "atom-alopex:Tree-View-Edit"
+             },
+             {
+               "label" : "Checkbox Control",
+               "command" : "atom-alopex:Tree-Checkbox-Control"
+             }
+            ]
+          },
+          {
+            "label":"Tab",
+            "submenu" : [
+             {
+               "label" : "Add / Remove Tab",
+               "command" : "atom-alopex:Tab-Add-Remove"
+             },
+             {
+               "label" : "2Depth Tab",
+               "command" : "atom-alopex:Tab-2Depth"
+             }
+            ]
+          },
+          {
+            "label":"FileUpload",
+            "submenu" : [
+             {
+               "label" : "Advanced Mode",
+               "command" : "atom-alopex:Fileupload-Advanced"
+             }
+            ]
+          },
+          {
+            "label":"Dialog",
+            "submenu" : [
+             {
+               "label" : "Blank Type",
+               "command" : "atom-alopex:Dialog-Blank"
+             },
+             {
+               "label" : "Close Type",
+               "command" : "atom-alopex:Dialog-Close"
+             },
+             {
+               "label" : "Confirm Type",
+               "command" : "atom-alopex:Dialog-Confirm"
+             },
+             {
+               "label" : "OK/Cancel Type",
+               "command" : "atom-alopex:Dialog-OKCancel"
+             }
+            ]
+          },
+          {
+            "label":"Board",
+            "submenu" : [
+             {
+               "label" : "Board Registration",
+               "command" : "atom-alopex:Board-Registration"
+             }
+            ]
+          }
+        ]
+      }
+    ],
+    ".tree-view .selected.directory": [
+      {
+        "label": "Create files from Alopex Template",
+        "submenu":[
+          {
+            "label":"Alopex UI/UX Standard",
+            "command" : "atom-alopex:createAlopexUIUXStandard"
+          },
+          {
+            "label":"Alopex UI Template A (Full-Size)",
+            "command" : "atom-alopex:createAlopexTemplateA"
+          },
+          {
+            "label":"Alopex UI Template B (Fix Left Menu)",
+            "command" : "atom-alopex:createAlopexTemplateB"
+          },
+          {
+            "label":"Alopex UI Template C (Fix Width)",
+            "command" : "atom-alopex:createAlopexTemplateC"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Alopex",
+      "submenu": [
+        {
+          "label": "Alopex Welcome Guide",
+          "command": "atom-alopex:welcomeGuide"
+        }
+      ]
+    }
+  ]
+}

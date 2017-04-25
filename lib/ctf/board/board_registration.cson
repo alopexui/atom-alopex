@@ -1,0 +1,150 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	$('#webeditor01').webeditor('code','');
+	    	
+	    	$("#button01").on('click', function(e){
+	    		$('#form01').validator({ option : {
+	    		    onsubmit : true,
+	    		    submitHandler : function(event) {
+	    		        if($(this).validate()) {
+	    		            return true;
+	    		        } else {
+	    		            //submit 진행을 억제
+	    		            event.preventDefault();
+	    		            return false;
+	    		        }
+	    		    }
+	    		}});
+	    		
+	    		if($('#webeditor01').webeditor('code') == ''){
+	    			$("#spanWebeditor01").text('반드시 입력해야 하는 항목입니다.');
+	    		}
+	    		else{
+	    			$("#spanWebeditor01").text('');
+	    		}
+	    	});
+	    	
+	    	var uploadObj4 = $("#fileuploaderC").setOptions({
+	            url : '/upload',
+	            fileName : 'uploadFiles',
+	            maxFileSize : 1000000,
+	            deleteCallback: function (fileInfo, pd) {
+	                $a.request('/delete', {
+	                    data : {"fileName":fileInfo.name},
+	                    success : function(res) {
+	                    	pd.statusbar.hide();
+	                    	alert(res.fileName +"이 삭제되었습니다.");
+	                    }
+	                });
+	            },
+	            onError : function(files,status,errMsg,pd){
+	                var errorInfo = files+" / "+status+" / "+errMsg;
+	                alert(errorInfo);
+	            }
+	 		});    
+	    	
+		    $("#startUploadC").on('click', function(){
+		    	$("#fileuploaderC").startUpload();
+		    });
+	
+		    $("#stopUploadC").on('click', function(){
+		    	$("#fileuploaderC").stopUpload();
+		    });
+	
+		    $("#cancelAllC").on('click', function(){
+		    	$("#fileuploaderC").cancelAll();
+		    });
+	    	
+	    }
+	});
+	</script>
+	
+	<div class="Grid-wrapper">
+		<h3 class="Header-4 Padding-bottom-10" style="border-bottom: 1px solid #d8d8d8">
+		게시물 등록
+		</h3>
+		<div class="Grid-sm-12">
+			<form id="form01">
+	    	<div class="Table-wrapper">
+		        <table class="Table Form-type">
+		            <colgroup>
+		                <col style="width:100px"/>
+		                <col />
+		                <col style="width:100px"/>
+		                <col />
+		            </colgroup>
+		            <tbody>
+		                <tr>
+		                    <th><span class="Color-danger Padding-right-5">*</span>작성자</th>
+		                    <td>
+		                    	<input class="Textinput Margin-right-5" id="input01" data-bind="value: input01" data-validation-rule="{required:true}">
+		                    	<span data-for="input01" style="color: red;"></span>
+		                   	</td>
+		                    <th>등록화면</th>
+		                	<td>
+		                		<select id="select01" class="Select" data-bind="selectedOptions: selected01">
+								    <option value="Main">Main</option>
+								    <option value="Sub1">Sub1</option>
+								    <option value="Sub2">Sub2</option>
+								    <option value="Sub3">Sub3</option>
+								</select>
+		                	</td>
+		                </tr>
+		                <tr>
+		                    <th>게시기간</th>
+		                    <td>
+		                    	<div class="Daterange" data-default-date="false" >
+								    <div class="Startdate Dateinput">
+								        <input id="daterange01" data-bind="value: daterange01">
+								    </div>
+								    ~
+								    <div class="Enddate Dateinput">
+								        <input id="daterange02" data-bind="value: daterange02">
+								    </div>
+								</div>
+		                    </td>
+		                    <th>공개여부</th>
+		                	<td>
+		                		<label>
+								    <input class="Radio" type="radio" name="radio2" value="value1" checked="checked">공개
+								</label>
+								<label>
+								    <input class="Radio" type="radio" name="radio2" value="value2">비공개
+								</label>
+		                	</td>
+		                </tr>
+		                <tr>
+		                    <th><span class="Color-danger Padding-right-5">*</span>제목</th>
+		                    <td colspan="3">
+		                    	<input class="Textinput Margin-right-5 Width-50" id="input02" data-bind="value: input02" data-validation-rule="{required:true}">
+		                    	<span data-for="input02" style="color: red;"></span>
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <th><span class="Color-danger Padding-right-5">*</span>본문</th>
+		                    <td colspan="3">
+		                    	<div class="Webeditor" id="webeditor01" data-validation-rule="{required:true}"></div>
+		                    	<span id="spanWebeditor01" style="color: red;"></span>
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <th>파일첨부</th>
+		                    <td colspan="3">
+		                    	<div id="fileuploaderC" class="Fileupload" data-selectType="advance" ></div>
+								<div class="Float-right Margin-top-5">
+									<button id="startUploadC" class="Button Confirm">업로드</button>
+									<button id="stopUploadC" class="Button Danger">업로드 중지</button>
+									<button id="cancelAllC" class="Button Warning">전체 취소</button>
+								</div>
+		                    </td>
+		                </tr>
+		            </tbody>
+		        </table>
+			</div>
+			<div class="Float-right Margin-bottom-10"><button class="Button Warning Margin-right-5" id="button01" type="submit">저장</button></div>
+			</form>
+		</div>
+	</div>
+"""

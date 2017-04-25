@@ -1,0 +1,25 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	$("#button01").on("click", function(e){
+	    		$('#dialogId').open({
+	    		      title:"Confirm",
+	    		      left:50,
+	    		      top:50,
+	    		      width: 270,
+	    		      height: 270
+    		    });
+	    		$('#dialogId').confirm(function() {
+	    		    alert("CONFIRM pressed!");
+	    		});
+	    	});
+	    }
+	});
+	</script>
+	
+	<div id="dialogId" class="Dialog" data-dialog-type="confirm">
+    	<div class="Dialog-contents">컨텐츠 영역 입니다.</div>
+	</div>
+	<button class="Button" id="button01">열기</button>
+"""

@@ -1,0 +1,54 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	// 새로운 1Depth탭 추가
+	    	$("#tabs01").addTab("Tab1", "#depth0", [{"title":"sub1", "url":"tabs/sub1.html"}, {"title":"sub2", "url":"tabs/sub2.html"}]);        
+	    	$("#tabs01").addTab("Tab2", "#depth1", [{"title":"sub1", "url":"tabs/sub1.html"}, {"title":"sub2", "url":"tabs/sub2.html"}]);        
+	    	
+	    	var num = 0;
+	    	$('#button01').click(function() {
+	    	    var contentId = "addTab"+num;
+	    	    var content = '<div id="'+contentId+'" ><strong>addTab'+num+'</strong><p>addTab'+num+' Content</p></div>';
+	    	    $('#tabs01').append(content);
+	    	    var title = "addTab"+num;
+	    	    contentId = "#"+contentId;
+	    	    $('#tabs01').addTab(title,contentId);
+	    	    num++;
+	    	});
+	    	
+	    	$("#button02").on("click", function(e){
+	    		$('#tabs01').removeTab($('#tabs01').getCurrentTabIndex());
+	    	});
+	    	
+	    	var num2 = 3;
+	    	$("#button03").on("click", function(e){
+	    	   	var title = "newTitle";
+	    	    $("#tabs01").addTab( title, $('#tabs01').getCurrentTabContent(), [{"title":"sub"+num2, "url":"tabs/sub3.html"}]);
+	    	    num2++;
+	    	});
+	    	
+	    	$("#button04").on("click", function(e){
+	    		var currentTabIndex = $('#tabs01').getCurrentTabIndex();
+	    		var selectSubTabIndex = $($('#tabs01').getCurrentTabContent()).find('li.Selected').index();
+	    		
+	    		$('#tabs01').removeTab(currentTabIndex,selectSubTabIndex);
+	    	});
+	    }
+	});
+	</script>
+	
+	<div class="Grid-wrapper">
+		<button id="button01" class="Button Margin-bottom-15">추가</button>
+		<button id="button02" class="Button Margin-bottom-15 Margin-left-5">삭제</button>
+		<button id="button03" class="Button Margin-bottom-15 Margin-left-5">SubTab 추가</button>
+		<button id="button04" class="Button Margin-bottom-15 Margin-left-5">SubTab 삭제</button>
+		
+		<div id="tabs01" class="Tabs Fixed" data-depth2-position="left" data-remove-button="true">
+	        <div class="Scroller">
+	            <ul>
+	            </ul>
+	        </div>
+		</div>
+	</div>
+"""

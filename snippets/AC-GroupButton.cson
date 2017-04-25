@@ -1,0 +1,76 @@
+﻿'.text.html.basic,.text.html.jsp,.text.html.php':
+  'Basic' :
+    'prefix': 'GroupButton(Basic)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '기본 GroupButton 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=groupbutton#Basic'
+    'body': """
+<div class="Groupbutton">
+    <button class="Button">btn1</button>
+    <button class="Button">btn2</button>
+    <button class="Button">btn3</button>
+    <button class="Button">btn4</button>
+</div>
+"""
+
+  'Align' :
+    'prefix': 'GroupButton(Align)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '세로 방향의 GroupButton 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=groupbutton#Basic_Align'
+    'body': """
+<div class="Groupbutton Vertical">
+    <button class="Button">btn1</button>
+    <button class="Button">btn2</button>
+    <button class="Button">btn3</button>
+    <button class="Button">btn4</button>
+</div>
+"""
+
+  'Radio Buttons' :
+    'prefix': 'GroupButton(Radio Buttons)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': 'Radio GroupButton의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=groupbutton#Basic_RadioButtons'
+    'body': """
+<div class="Groupbutton">
+    <label class="Button">
+        <input class="Radio" name="radio1" value="value1">Radio1
+    </label>
+    <label class="Button">
+        <input class="Radio" name="radio1" value="value2">Radio2
+    </label>
+    <label class="Button">
+        <input class="Radio" name="radio1" value="value3">Radio3
+    </label>
+    <label class="Button">
+        <input class="Radio" name="radio1" value="value4">Radio4
+    </label>
+</div>
+"""
+
+  'Checkbox Buttons' :
+    'prefix': 'GroupButton(Checkbox Buttons)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': 'Checkbox GroupButton의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=groupbutton#Basic_CheckboxButtons'
+    'body': """
+<div class="Groupbutton">
+    <label class="Button">
+        <input class="Checkbox" name="radio1" value="value1">checkbox1
+    </label>
+    <label class="Button">
+        <input class="Checkbox" name="radio1" value="value2">checkbox2
+    </label>
+    <label class="Button">
+        <input class="Checkbox" name="radio1" value="value3">checkbox3
+    </label>
+    <label class="Button">
+        <input class="Checkbox" name="radio1" value="value4">checkbox4
+    </label>
+</div>
+"""

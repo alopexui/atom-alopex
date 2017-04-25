@@ -1,0 +1,56 @@
+{
+  "data-keyfilter-rule": {
+    "snippet": "data-keyfilter-rule=\"$1\"",
+    "description": "[Alopex] MaskedInput API 의 Keyfilter Rule을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=maskedinput#MaskedInputKeyFilter",
+    "values":[
+      {
+        "text" : "digits",
+        "snippet": "digits",
+        "description":  "[Alopex] Keyfilter Rule 을 숫자만 입력 허용으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "decimal",
+        "snippet": "decimal",
+        "description":  "[Alopex] Keyfilter Rule 을 십진수 입력 허용으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "lowercase",
+        "snippet": "lowercase",
+        "description":  "[Alopex] Keyfilter Rule 을 소문자만 입력 허용으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "uppercase",
+        "snippet": "uppercase",
+        "description":  "[Alopex] Keyfilter Rule 을 대문자만 입력 허용으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "english",
+        "snippet": "english",
+        "description":  "[Alopex] Keyfilter Rule 을 영어만 입력 허용으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "korean",
+        "snippet": "korean",
+        "description":  "[Alopex] Keyfilter Rule 을 한글만 입력 허용으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "singlespace",
+        "snippet": "singlespace",
+        "description":  "[Alopex] Keyfilter Rule 을 빈칸 입력 허용으로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-keyfilter": {
+    "snippet": "data-keyfilter=\"$1\"",
+    "description": "[Alopex] MaskedInput API 의 Custom Keyfilter Rule을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=maskedinput#MaskedInputKeyFilter_datakeyfilterrule"
+  }
+}

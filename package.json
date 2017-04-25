@@ -1,0 +1,33 @@
+{
+  "name": "atom-alopex",
+  "main": "./lib/atom-alopex",
+  "version": "0.0.0",
+  "description": "Alopex UI support in Atom",
+  "keywords": [],
+  "repository": "https://github.com/alopexui/atom-alopex",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "latest",
+    "etch": "^0.6.0",
+    "fuzzaldrin": "^2.1.0",
+    "require-dir": "^0.3.1",
+    "season": "2.0.0",
+    "wget" : "latest",
+    "extract-zip" : "1.6.0"
+  },
+  "package-deps": [
+    "minimap",
+    "highlight-selected",
+    "open-in-browsers"
+  ],
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}

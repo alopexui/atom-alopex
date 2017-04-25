@@ -1,0 +1,41 @@
+{
+  "setData":{
+    "arguments":[
+      { "name" : "data", "required" : true }
+    ],
+    "description": "[Alopex] setData 함수는 data-bind 속성이 있는 HTML엘리먼트에 데이터를 바인딩합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=databind#Functions_setDatadata",
+    "rightLabelHTML" : "DataBinding"
+  },
+  "getData":{
+    "description": "[Alopex] getData 함수는 data-bind 속성이 있는 HTML엘리먼트의 데이터를 가져옵니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=databind#Functions_getDataJSONoption",
+    "leftLabelHTML" : "JSON Object",
+    "rightLabelHTML" : "DataBinding"
+  },
+  "overlay":{
+    "description": "[Alopex] overlay 함수는 선택된 영역과 같은 크기의 오버레이를 영역 바로 위에 생성합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=overlay#Functions_overlayoption",
+    "rightLabelHTML" : "Progress"
+  },
+  "validator":{
+    "description": "[Alopex] validator 함수는 valdation 설정하고, 설정을 저장하고 있는 Validation Object를 리턴합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=validator#Functions_validatorObjectconfig",
+    "leftLabelHTML": "Object",
+    "rightLabelHTML" : "Validator"
+  },
+  "validate":{
+    "description": "[Alopex] validate 함수는 Validator 검증 결과 값을 리턴합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=validator#Functions_validateObjectconfig",
+    "leftLabelHTML": "Boolean",
+    "rightLabelHTML" : "Validator"
+  },
+  "convert":{
+    "arguments":[
+      { "name" : "element", "required" : true }
+    ],
+    "description": "[Alopex] convert 함수는 동적으로 삽입된 엘리먼트를 AlopexUI 객체로 변환합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=convert#Functions_convertelement",
+    "rightLabelHTML" : "Convert"
+  }
+}

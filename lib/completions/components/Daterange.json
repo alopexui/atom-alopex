@@ -1,0 +1,21 @@
+{
+  "data-pickertype": {
+    "snippet": "data-pickertype=\"true\"",
+    "description": "[Alopex] DateRange 컴포넌트의 날짜 선택 단위를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dateinput#Attributes_datapickertype",
+    "values" : [
+      {
+        "text" : "daily",
+        "snippet": "daily",
+        "description": "[Alopex] 날짜 선택 단위를 '일'단위로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "monthly",
+        "snippet": "monthly",
+        "description": "[Alopex] 날짜 선택 단위를 '월'단위로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  }
+}

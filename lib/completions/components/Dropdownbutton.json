@@ -1,0 +1,71 @@
+{
+  "data-open-trigger": {
+    "snippet": "data-open-trigger=\"$1\"",
+    "description": "[Alopex] DropdownButton 컴포넌트의 메뉴를 여는 트리거를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dropdownbutton#Attributes_dataopentrigger",
+    "values": [
+      {
+        "text" : "click",
+        "snippet": "click",
+        "description": "[Alopex] 메뉴를 여는 트리거를 'click'으로 지정합니다",
+        "leftLabelHTML" : "Event Name"
+      },
+      {
+        "text" : "mouseover",
+        "snippet": "mouseover",
+        "description": "[Alopex] 메뉴를 여는 트리거를 'mouseover'으로 지정합니다",
+        "leftLabelHTML" : "Event Name"
+      }
+    ]
+  },
+  "data-close-trigger": {
+    "snippet": "data-close-trigger=\"$1\"",
+    "description": "[Alopex] Dropdown 컴포넌트의 메뉴를 닫는 트리거를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dropdownbutton#Attributes_dataclosetrigger",
+    "values": [
+      {
+        "text" : "click",
+        "snippet": "click",
+        "description": "[Alopex] 메뉴를 닫는 트리거를 'click'으로 지정합니다",
+        "leftLabelHTML" : "Event Name"
+      },
+      {
+        "text" : "mouseleave",
+        "snippet": "mouseleave",
+        "description": "[Alopex] 메뉴를 닫는 트리거를 'mouseleave'으로 지정합니다",
+        "leftLabelHTML" : "Event Name"
+      }
+    ]
+  },
+  "data-position": {
+    "snippet": "data-position=\"$1\"",
+    "description": "[Alopex] Dropdown 컴포넌트의 위치를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dropdownbutton#Attributes_dataposition",
+    "values" : [
+      {
+        "text" : "left",
+        "snippet": "left",
+        "description":  "[Alopex] Dropdown 위치를 base 엘리먼트의 왼쪽 맞춤으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "right",
+        "snippet": "right",
+        "description":  "[Alopex] Dropdown 위치를 base 엘리먼트의 오른쪽 맞춤으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "top",
+        "snippet": "top",
+        "description": "[Alopex] Dropdown 위치를 base 엘리먼트의 위쪽 맞춤으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "bottom",
+        "snippet": "bottom",
+        "description": "[Alopex] Dropdown 위치를 base 엘리먼트의 아래쪽 맞춤으로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  }
+}

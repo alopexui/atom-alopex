@@ -1,0 +1,40 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	var num = 0;
+	    	$('#button01').click(function() {
+	    	    var contentId = "addTab"+num;
+	    	    var content = '<div id="'+contentId+'" ><strong>addTab'+num+'</strong><p>addTab'+num+' Content</p></div>';
+	    	    $('#tabs01').append(content);
+	    	    var title = "addTab"+num;
+	    	    contentId = "#"+contentId;
+	    	    $('#tabs01').addTab(title,contentId);
+	    	    num++;
+	    	});
+	    	
+	    	$("#button02").on("click", function(e){
+	    		$('#tabs01').removeTab($('#tabs01').getCurrentTabIndex());
+	    	});
+	    }
+	});
+	</script>
+	
+	<div class="Grid-wrapper">
+		<button id="button01" class="Button Margin-bottom-15">추가</button>
+		<button id="button02" class="Button Margin-bottom-15 Margin-left-5">삭제</button>
+		
+		<div class="Tabs" id="tabs01" data-remove-button="true">
+		    <ul>
+		        <li data-content="#tab1">Tab1</li>
+		        <li data-content="#tab2">Tab2</li>
+		    </ul>
+		    <div id="tab1">
+		        <strong>콘텐츠1</strong>
+		    </div>
+		    <div id="tab2">
+		        <strong>콘텐츠2</strong>
+		    </div>
+		</div>
+	</div>
+"""

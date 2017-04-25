@@ -1,0 +1,21 @@
+{
+  "data-select-type": {
+    "snippet": "data-select-type=\"$1\"",
+    "description": "[Alopex] FileUpload 컴포넌트의 타입을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Attributes_dataselecttypestringOptional",
+    "values" : [
+      {
+        "text" : "basic",
+        "snippet": "basic",
+        "description": "[Alopex] FileUpload 타입을 싱글 파일 업로드를 위한 기본 모드로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "advance",
+        "snippet": "advance",
+        "description": "[Alopex] FileUpload 타입을 멀티 파일 업로드를 위한 고급 모드로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  }
+}

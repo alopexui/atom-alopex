@@ -1,0 +1,132 @@
+{
+  "data-url": {
+    "snippet": "data-url=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 ajax 통신 URL을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_dataurlOptional"
+  },
+  "data-method": {
+    "snippet": "data-method=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 ajax 통신 메소드를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datamethodOptional",
+    "values" : [
+        {
+        "text" : "GET",
+        "snippet": "GET",
+        "description": "[Alopex] ajax 통신 메소드를 GET으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "POST",
+        "snippet": "POST",
+        "description": "[Alopex] ajax 통신 메소드를 POST 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-paramname": {
+    "snippet": "data-paramname=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 ajax 통신 파라미터 이름을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_dataparamnameOptional"
+  },
+  "data-datatype": {
+    "snippet": "data-datatype=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 ajax 통신 데이터 형식을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datadatatypeOptional",
+    "values" : [
+        {
+        "text" : "json",
+        "snippet": "json",
+        "description": "[Alopex] ajax 통신 데이터 형식를 json으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "jsonp",
+        "snippet": "jsonp",
+        "description": "[Alopex] ajax 통신 데이터 형식를 jsonp으로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-source": {
+    "snippet": "data-source=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 데이터를 직접 넣어줄 때 사용합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datasourceOptional"
+  },
+  "data-reset-button": {
+    "snippet": "data-reset-button=\"true\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 삭제 버튼 사용 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_dataresetbuttonOptional"
+  },
+  "data-minlength": {
+    "snippet": "data-minlength=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 자동 완성 동작의 최소 글자 수를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_dataminlengthOptional"
+  },
+  "data-noresultstr": {
+    "snippet": "data-noresultstr=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 결과 없을 경우의 텍스트를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datanoresultstrOptional"
+  },
+  "data-maxresult": {
+    "snippet": "data-noresultstr=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 자동 완성 결과의 최대 갯수를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datamaxresultOptional"
+  },
+  "data-fitwidth": {
+    "snippet": "data-fitwidth=\"false\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 Dropdown 너비 맞춤 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datafitwidthOptional"
+  },
+  "data-maxheight": {
+    "text" : "data-maxheight",
+    "snippet": "data-maxheight=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 Dropdown의 최대 높이 값(px)를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datamaxheightOptional"
+  },
+  "data-open-button": {
+    "snippet": "data-open-button=\"true\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 열림 버튼 사용 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_dataopenbuttonOptional"
+  },
+  "data-filter": {
+    "snippet": "data-filter=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 자동 완성 필터링 옵션를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datafilterOptional",
+    "values": [
+      {
+        "text" : "prefix",
+        "snippet": "prefix",
+        "description": "[Alopex] 자동 완성 필터링 옵션을 \"접두사 일치\"로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "suffix",
+        "snippet": "suffix",
+        "description": "[Alopex] 자동 완성 필터링 옵션을 \"접미사 일치\"로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "caseSensitive",
+        "snippet": "caseSensitive",
+        "description": "[Alopex] 자동 완성 필터링 옵션을 \"대소문자 구분\"로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "ignoreWhitespace",
+        "snippet": "ignoreWhitespace",
+        "description": "[Alopex] 자동 완성 필터링 옵션을 \"공백 무시\"로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-dynamic-dropdown": {
+    "snippet": "data-dynamic-dropdown=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 Dropdown의 동적 생성 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_datadynamicdropdownOptional"
+  },
+  "data-enter-selectfirst": {
+    "snippet": "data-enter-selectfirst=\"true\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 엔터키 입력 시 첫 항목 선택 기능 사용 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Attributes_dataenterselectfirstOptional"
+  }
+}

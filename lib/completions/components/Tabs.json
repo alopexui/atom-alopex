@@ -1,0 +1,78 @@
+{
+  "data-remove-button":{
+    "snippet": "data-remove-button=\"$1\"",
+    "description": "[Alopex] Tabs 컴포넌트의 탭 삭제 버튼 사용 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Attributes_dataremovebutton",
+    "values" : [
+      {
+        "text" : "true",
+        "snippet": "true",
+        "description": "[Alopex] 탭 삭제 버튼 사용 여부를 사용으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      },
+      {
+        "text" : "false",
+        "snippet": "false",
+        "description": "[Alopex] 탭 삭제 버튼 사용 여부를 사용안함으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      }
+    ]
+  },
+  "data-tabs-trigger":{
+    "snippet": "data-tabs-trigger=\"$1\"",
+    "description": "[Alopex] Tabs 컴포넌트의 탭 변경 트리거를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Attributes_datatabstrigger",
+    "values" : [
+      {
+        "text" : "click",
+        "snippet": "click",
+        "description": "[Alopex] 탭 변경 트리거를 'click'으로 지정합니다",
+        "leftLabelHTML" : "Event Name"
+      },
+      {
+        "text" : "hover",
+        "snippet": "hover",
+        "description": "[Alopex] 탭 변경 트리거를 'hover'으로 지정합니다",
+        "leftLabelHTML" : "Event Name"
+      }
+    ]
+  },
+  "data-refresh-button":{
+    "snippet": "data-refresh-button=\"$1\"",
+    "description": "[Alopex] Tabs 컴포넌트의 탭 새로고침 버튼 사용 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Attributes_datarefreshbutton",
+    "values" : [
+      {
+        "text" : "true",
+        "snippet": "true",
+        "description": "[Alopex] 탭 새로고침 버튼 사용 여부를 사용으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      },
+      {
+        "text" : "false",
+        "snippet": "false",
+        "description": "[Alopex] 탭 새로고침 버튼 사용 여부를 사용안함으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      }
+    ]
+  },
+  "data-draggable":{
+    "snippet": "data-draggable=\"$1\"",
+    "description": "[Alopex] Tabs 컴포넌트의 Drag & Drop 기능 사용 여부를 지정합니다 (IE 10 이상)",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Attributes_datarefreshbutton",
+    "values" : [
+      {
+        "text" : "true",
+        "snippet": "true",
+        "description": "[Alopex] Drag & Drop 기능 사용 여부를 사용으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      },
+      {
+        "text" : "false",
+        "snippet": "false",
+        "description": "[Alopex] Drag & Drop 기능 사용 여부를 사용안함으로 지정합니다",
+        "leftLabelHTML" : "Boolean"
+      }
+    ]
+  }
+}

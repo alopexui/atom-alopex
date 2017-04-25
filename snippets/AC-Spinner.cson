@@ -1,0 +1,48 @@
+﻿'.text.html.basic,.text.html.jsp,.text.html.php':
+  'Basic' :
+    'prefix': 'Spinner(Basic)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '기본 Spinner 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#Basic'
+    'body': """
+<div class="Spinner">
+    <input value="0">
+    <a class="Up"></a>
+    <a class="Down"></a>
+</div>
+"""
+
+  'Time EN' :
+    'prefix': 'Spinner(Time EN)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '영문 시간이 적용된 Spinner 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#TimeSpinnner_datahour'
+    'body': """
+<div class="Spinner Time" data-locale="en">
+    <input data-hour>
+    <span data-seperator>:</span>
+    <input data-minute>
+    <input data-ampm>
+    <a class="Up"></a>
+    <a class="Down"></a>
+</div>
+"""
+
+  'Time KO' :
+    'prefix': 'Spinner(Time KO)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '한글 시간이 적용된 Spinner 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#TimeSpinnner_datahour'
+    'body': """
+<div class="Spinner Time" data-locale="ko">
+    <input data-hour>
+    <span data-seperator>:</span>
+    <input data-minute>
+    <input data-ampm>
+    <a class="Up"></a>
+    <a class="Down"></a>
+</div>
+"""

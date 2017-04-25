@@ -1,0 +1,79 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	
+	    	var data = [ {
+                id : '1',
+                text : '사장실',
+                items : [ {
+                    id : '1-1',
+                    text : '경영지원본부',
+                    items : [ {
+                        id : '1-1-1',
+                        text : '인력팀'
+                    }, {
+                        id : '1-1-2',
+                        text : '재무팀'
+                    }, {
+                        id : '1-1-3',
+                        text : 'Staff'
+                    }]
+                },{
+                    id : '1-2',
+                    text : '영업본부',
+                    items : [ {
+                        id : '1-2-1',
+                        text : '영업팀1'
+                    }, {
+                        id : '1-2-2',
+                        text : '영업팀2'
+                    }]
+                },{
+                    id : '1-3',
+                    text : 'R&D 연구소',
+                    items : [ {
+                        id : '1-3-1',
+                        text : '신규개발팀'
+                    }, {
+                        id : '1-3-2',
+                        text : '개발팀1'
+                    }, {
+                        id : '1-3-3',
+                        text : '개발팀2'
+                    }]
+                } ]
+            }];
+	    	
+	    	
+	    	$("#tree01").setDataSource(data);
+	    	
+	    	$("#button01").on("click", function(e){
+	    		$("#tree01").expandAll();
+	    	});
+	    	
+	    	$("#button02").on("click", function(e){
+	    		$("#tree01").collapseAll();
+	    	});
+	    	
+	    	$("#button03").on("click", function(e){
+	    		var selectedNodes = $('#tree01').getCheckedNodes();
+	    	    for(var i=0; i<selectedNodes.length; i++) {
+	    	      $('#tree01').deleteNode(selectedNodes[i]);
+	    	    }
+	    	});
+	    }
+	});
+	</script>
+	
+	<div class="Grid-wrapper">
+		<button class="Button Typeb" data-type="button" type="button" id="button01">전체 열기</button>
+		<button class="Button Typeb" data-type="button" type="button" id="button02">전체 닫기</button>
+		<button class="Button Typeb" data-type="button" type="button" id="button03">삭제</button>
+    	<div class="Grid-sm-12" id="Component">
+    		<div class="Grid-sm-3">
+		    	<ul id="tree01" class="Tree" data-checkbox="visible"></ul>
+	    	</div>
+    	</div>
+	</div>
+"""

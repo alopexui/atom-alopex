@@ -1,0 +1,312 @@
+{
+  "class": {
+    "snippet": "class=\"$1\"",
+    "description": "Use Alopex Component Attribute",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/document/document.html?target=using#컴포넌트사용",
+    "values": [
+      {
+      "text" : "Accordion",
+      "snippet": "Accordion",
+      "description": "[Alopex] Accordion 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=accordion",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Autocomplete",
+      "snippet": "Autocomplete",
+      "description": "[Alopex] AutoComplete 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Button",
+      "snippet": "Button",
+      "description": "[Alopex] Button 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=button#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Carousel",
+      "snippet": "Carousel",
+      "description": "[Alopex] Carousel 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Checkbox",
+      "snippet": "Checkbox",
+      "description": "[Alopex] CheckBox 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=checkbox#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Dateinput",
+      "snippet": "Dateinput",
+      "description": "[Alopex] DateInput 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dateinput#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Datepicker",
+      "snippet": "Datepicker",
+      "description": "[Alopex] DatePicker 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=datepicker#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Daterange",
+      "snippet": "Daterange",
+      "description": "[Alopex] DateRange 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=daterange#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Dialog",
+      "snippet": "Dialog",
+      "description": "[Alopex] Dialog 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Dropdown",
+      "snippet": "Dropdown",
+      "description": "[Alopex] Dropdown 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Dropdownbutton",
+      "snippet": "Dropdownbutton",
+      "description": "[Alopex] DropdownButton 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dropdownbutton#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Fileupload",
+      "snippet": "Fileupload",
+      "description": "[Alopex] FileUpload 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Groupbutton",
+      "snippet": "Groupbutton",
+      "description": "[Alopex] GroupButton 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=groupbutton#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Icon",
+      "snippet": "Icon",
+      "description": "[Alopex] Icon 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=icon#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "List",
+      "snippet": "List",
+      "description": "[Alopex] List 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=list#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Multiselect",
+      "snippet": "Multiselect",
+      "description": "[Alopex] MultiSelect 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=multiselect#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Navmenu",
+      "snippet": "Navmenu",
+      "description": "[Alopex] NavigationMenu 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=navmenu#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Paging",
+      "snippet": "Paging",
+      "description": "[Alopex] Paging 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Panel",
+      "snippet": "Panel",
+      "description": "[Alopex] Panel 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=panel#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Progressbar",
+      "snippet": "Progressbar",
+      "description": "[Alopex] ProgressBar 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=progressbar#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Radio",
+      "snippet": "Radio",
+      "description": "[Alopex] Radio 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=radio#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Select",
+      "snippet": "Select",
+      "description": "[Alopex] Select 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=select#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Spinner",
+      "snippet": "Spinner",
+      "description": "[Alopex] Spinner 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Splitter",
+      "snippet": "Splitter",
+      "description": "[Alopex] Splitter 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=splitter#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Table",
+      "snippet": "Table",
+      "description": "[Alopex] Table 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=table#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Tabs",
+      "snippet": "Tabs",
+      "description": "[Alopex] Tabs 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Textinput",
+      "snippet": "Textinput",
+      "description": "[Alopex] TextInput 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=textinput#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Textarea",
+      "snippet": "Textarea",
+      "description": "[Alopex] TextArea 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=textarea#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Tooltip",
+      "snippet": "Tooltip",
+      "description": "[Alopex] ToolTip 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tooltip#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Tree",
+      "snippet": "Tree",
+      "description": "[Alopex] Tree 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=tree#basic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Webeditor",
+      "snippet": "Webeditor",
+      "description": "[Alopex] WebEditor 컴포넌트 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=webeditor#basic",
+      "leftLabelHTML" : "String"
+    }
+    ],
+    "data-disabled" : [{
+      "text" : "true",
+      "snippet": "true",
+      "description": "Use Alopex Component Disabled true",
+      "descriptionMoreURL": "",
+      "leftLabelHTML" : "Boolean"
+    },
+    {
+      "text" : "false",
+      "snippet": "false",
+      "description": "Use Alopex Component Disabled false",
+      "descriptionMoreURL": "",
+      "leftLabelHTML" : "Boolean"
+    }]
+  },
+  "data-bind": {
+    "snippet": "data-bind=\"$1\"",
+    "description": "Use Alopex data-Bind Attribute",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=databind#basic",
+    "values": [
+      {
+        "text": "html",
+        "snippet": "html:data_key",
+        "description": "[Alopex] 데이터를 html 컨트롤로 바인딩합니다",
+        "leftLabelHTML" : "Databind Control"
+      },
+      {
+        "text": "text",
+        "snippet": "text:data_key",
+        "description": "[Alopex] 데이터를 text 컨트롤로 바인딩합니다",
+        "leftLabelHTML" : "Databind Control"
+      },
+      {
+        "text": "value",
+        "snippet": "value:data_key",
+        "description": "[Alopex] 데이터를 value 컨트롤로 바인딩합니다",
+        "leftLabelHTML" : "Databind Control"
+      },
+      {
+        "text": "checked",
+        "snippet": "checked:\"$1\"",
+        "description": "[Alopex] 데이터를 checked 컨트롤로 바인딩합니다",
+        "leftLabelHTML" : "Databind Control"
+      },
+      {
+        "text": "options",
+        "snippet": "options: selectOptions_key, selectedOptions: selected_key",
+        "description": "[Alopex] 데이터를 options 컨트롤로 바인딩합니다",
+        "leftLabelHTML" : "Databind Control"
+      },
+      {
+        "text": "attr",
+        "snippet": "attr: {attr_name: data_key}",
+        "description": "[Alopex] 데이터를 attr 컨트롤로 바인딩합니다",
+        "leftLabelHTML" : "Databind Control"
+      },
+      {
+        "text": "css",
+        "snippet": "css: { css_property: data_key}",
+        "description": "[Alopex] 데이터를 css 컨트롤로 바인딩합니다",
+        "leftLabelHTML" : "Databind Control"
+      },
+      {
+        "text": "foreach",
+        "snippet": "foreach: data_key",
+        "description": "[Alopex] 데이터를 foreach 컨트롤로 바인딩합니다",
+        "leftLabelHTML" : "Databind Control"
+      }
+    ]
+  },
+  "data-disabled": {
+    "snippet": "data-disabled=\"$1\"",
+    "description": "[Alopex] disabled 속성을 지정합니다",
+    "descriptionMoreURL": "",
+    "values": [{
+      "text" : "true",
+      "snippet": "true",
+      "description": "[Alopex] disabled 속성을 \"true\"로 지정합니다",
+      "leftLabelHTML" : "Boolean"
+    },
+    {
+      "text" : "false",
+      "snippet": "false",
+      "description": "[Alopex] disabled 속성을 \"false\"로 지정합니다",
+      "leftLabelHTML" : "Boolean"
+    }]
+  }
+}

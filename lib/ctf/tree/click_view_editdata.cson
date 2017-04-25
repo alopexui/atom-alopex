@@ -1,0 +1,207 @@
+'body': """
+	<script type="text/javascript">
+	$a.page(function() {
+	    this.init = function(id, param) {
+	    	
+	    	var data = [ {
+                id : '1',
+                text : '사장실',
+                num: '1',
+                job: 'CEO',
+                phone: '000-0000',
+                fax: '111-1111',
+                items : [ {
+                    id : '1-1',
+                    text : '경영지원본부',
+                    num: '100',
+	                job: '업무지원총괄',
+	                phone: '100-0000',
+	                fax: '222-2222',
+                    items : [ {
+                        id : '1-1-1',
+                        text : '인력팀',
+                        num: '30',
+		                job: 'HR담당',
+		                phone: '110-0000',
+		                fax: '333-3333'
+                    }, {
+                        id : '1-1-2',
+                        text : '재무팀',
+                        num: '20',
+		                job: '재무담당',
+		                phone: '120-0000',
+		                fax: '444-4444'
+                    }, {
+                        id : '1-1-3',
+                        text : 'Staff',
+                        num: '50',
+		                job: '시설 및 기타 업무지원',
+		                phone: '130-0000',
+		                fax: '555-5555'
+                    }]
+                },{
+                    id : '1-2',
+                    text : '영업본부',
+                    num: '75',
+	                job: '대내외영업총괄',
+	                phone: '140-0000',
+	                fax: '666-6666',
+                    items : [ {
+                        id : '1-2-1',
+                        text : '영업팀1',
+                        num: '35',
+		                job: '국내영업',
+		                phone: '150-0000',
+		                fax: '777-7777'
+                    }, {
+                        id : '1-2-2',
+                        text : '영업팀2',
+                        num: '30',
+		                job: '국외영업',
+		                phone: '160-0000',
+		                fax: '888-8888'
+                    }]
+                },{
+                    id : '1-3',
+                    text : 'R&D 연구소',
+                    num: '57',
+	                job: '기술개발총괄',
+	                phone: '170-0000',
+	                fax: '999-9999',
+                    items : [ {
+                        id : '1-3-1',
+                        text : '신규개발팀',
+                        num: '17',
+		                job: '신규솔루션개발',
+		                phone: '180-0000',
+		                fax: '111-2222'
+                    }, {
+                        id : '1-3-2',
+                        text : '개발팀1',
+                        num: '20',
+		                job: '전략솔루션개발',
+		                phone: '190-0000',
+		                fax: '222-3333'
+                    }, {
+                        id : '1-3-3',
+                        text : '개발팀2',
+                        num: '20',
+		                job: '시존솔루션안정화',
+		                phone: '200-0000',
+		                fax: '444-5555'
+                    }]
+                } ]
+            }];
+	    	
+	    	
+	    	$("#tree01").setDataSource(data);
+	    	
+	    	$("#button01").on("click", function(e){
+	    		$("#tree01").expandAll();
+	    	});
+	    	
+	    	$("#button02").on("click", function(e){
+	    		$("#tree01").collapseAll();
+	    	});
+	    	
+	    	$("#button03").on("click", function(e){
+	    		$("#button05").hide();
+	    		$("#form01").setData({id:"",text:"",num:"", job:"",phone:"",fax:""});
+	    		$("#form01").find('input').setEnabled(true);
+	    	});
+	    	
+	    	$("#button04").on("click", function(e){
+	    		var data = $("#form01").getData();
+	    		
+	    		if(data.id === undefined || data.id === ""){
+	    			alert("id를 입력하세요.");
+	    			return;
+	    		}
+	    		if(data.text === undefined || data.text === ""){
+	    			alert("조직명을 입력하세요.");
+	    			return;
+	    		}
+	    		
+	    		var node = $('#tree01').getNode(data.id,"id");
+	    		
+	    		if(node.id == data.id){
+	    			$("#tree01").editNode(node, data);
+	    		}
+	    		else{
+	    			$("#tree01").createNode("", data);
+	    		}
+	    		
+	    	});
+	    	
+	    	$("#button05").on("click", function(e){
+	    	});
+	    	
+	    	$("#tree01").on("select", function(e){
+	    		$("#form01").find('input').setEnabled(false);
+	    		var node = $('#tree01').getSelectedNode();
+	    		$("#form01").setData(node.data);
+	    		$("#button05").show();
+	    	});
+	    }
+	});
+	</script>
+	
+	<div class="Grid-wrapper">
+		<button class="Button Typeb" data-type="button" type="button" id="button01">전체 열기</button>
+		<button class="Button Typeb" data-type="button" type="button" id="button02">전체 닫기</button>
+		<div class="Grid-sm-12" id="Component">
+			<div class="Grid-sm-3">
+		    	<ul id="tree01" class="Tree"></ul>
+	    	</div>
+			<div class="Grid-sm-9">
+		    	<div class="Table-wrapper">
+		    		<form id="form01">
+			        <table class="Table Form-type">
+			            <colgroup>
+			                <col style="width:100px"/>
+			                <col />
+			            </colgroup>
+			            <tbody>
+			                <tr>
+			                    <th>조직ID</th>
+			                    <td><input class="Textinput Margin-right-5" id="id" data-bind="value: id"></td>
+			                </tr>
+			                <tr>
+			                    <th>조직명</th>
+			                    <td><input class="Textinput Margin-right-5" id="text" data-bind="value: text"></td>
+			                </tr>
+			                <tr>
+			                    <th>인원</th>
+			                    <td>
+			                    	<div class="Spinner">
+									    <input class="Textinput" data-bind="value: num">
+									    <a class="Up"></a>
+									    <a class="Down"></a>
+									</div>
+								</td>
+			                </tr>
+			                <tr>
+			                    <th>주요업무</th>
+			                    <td><input class="Textinput Margin-right-5" id="job" data-bind="value: job"></td>
+			                </tr>
+			                <tr>
+			                    <th>대표전화</th>
+			                    <td><input class="Textinput Margin-right-5" id="phone" data-bind="value: phone"></td>
+			                </tr>
+			                <tr>
+			                    <th>Fax:</th>
+			                    <td><input class="Textinput Margin-right-5" id="fax" data-bind="value: fax"></td>
+			                </tr>
+			            </tbody>
+			        </table>
+			        </form>
+				</div>
+	    	</div>
+	    	<div class="Float-right Margin-top-10">
+	    		<button class="Button Typeb" data-type="button" type="button" id="button03">추가</button>
+	    		<button class="Button Typeb" data-type="button" type="button" id="button04">저장</button>
+	    		<button class="Button Typeb" data-type="button" type="button" id="button05" style="display: none;">삭제</button>
+	    	</div>
+		</div>
+	</div>
+"""
