@@ -2,7 +2,7 @@
 	<script type="text/javascript">
 	$a.page(function() {
 	    this.init = function(id, param) {
-	    	
+
 	    	var data = [ {
                 id : '1',
                 text : '사장실',
@@ -86,33 +86,37 @@
                         id : '1-3-3',
                         text : '개발팀2',
                         num: '20',
-		                job: '시존솔루션안정화',
+		                job: '기존솔루션안정화',
 		                phone: '200-0000',
 		                fax: '444-5555'
                     }]
                 } ]
             }];
-	    	
-	    	
+
+	    	$("#button03").hide();
+
 	    	$("#tree01").setDataSource(data);
-	    	
+
 	    	$("#button01").on("click", function(e){
 	    		$("#tree01").expandAll();
 	    	});
-	    	
+
 	    	$("#button02").on("click", function(e){
 	    		$("#tree01").collapseAll();
 	    	});
-	    	
+
 	    	$("#button03").on("click", function(e){
+	    		$("#button03").hide();
 	    		$("#button05").hide();
 	    		$("#form01").setData({id:"",text:"",num:"", job:"",phone:"",fax:""});
+
+	    		var node = $('#tree01').getSelectedNode();
 	    		$("#form01").find('input').setEnabled(true);
 	    	});
-	    	
+
 	    	$("#button04").on("click", function(e){
 	    		var data = $("#form01").getData();
-	    		
+
 	    		if(data.id === undefined || data.id === ""){
 	    			alert("id를 입력하세요.");
 	    			return;
@@ -121,23 +125,25 @@
 	    			alert("조직명을 입력하세요.");
 	    			return;
 	    		}
-	    		
+
 	    		var node = $('#tree01').getNode(data.id,"id");
-	    		
+
 	    		if(node.id == data.id){
 	    			$("#tree01").editNode(node, data);
 	    		}
 	    		else{
-	    			$("#tree01").createNode("", data);
+	    			var el = $("#tree01").getSelectedNode();
+
+	    			$("#tree01").createNode(el, data);
 	    		}
-	    		
+
 	    	});
-	    	
+
 	    	$("#button05").on("click", function(e){
 	    	});
-	    	
+
 	    	$("#tree01").on("select", function(e){
-	    		$("#form01").find('input').setEnabled(false);
+	    		$("#button03").show();
 	    		var node = $('#tree01').getSelectedNode();
 	    		$("#form01").setData(node.data);
 	    		$("#button05").show();
@@ -145,7 +151,7 @@
 	    }
 	});
 	</script>
-	
+
 	<div class="Grid-wrapper">
 		<button class="Button Typeb" data-type="button" type="button" id="button01">전체 열기</button>
 		<button class="Button Typeb" data-type="button" type="button" id="button02">전체 닫기</button>
