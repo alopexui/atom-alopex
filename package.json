@@ -1,7 +1,7 @@
 {
   "name": "atom-alopex",
   "main": "./lib/atom-alopex",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Alopex UI support in Atom",
   "keywords": [],
   "repository": "https://github.com/alopexui/atom-alopex",
