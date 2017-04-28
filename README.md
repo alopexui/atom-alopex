@@ -1,4 +1,4 @@
-# Atom-Alopex Package
+# Atom-Alopex Package (Beta)
 
 [Alopex UI](http://ui.alopex.io) support in Atom.
 
