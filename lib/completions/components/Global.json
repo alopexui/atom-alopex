@@ -1,7 +1,7 @@
 {
   "class": {
     "snippet": "class=\"$1\"",
-    "description": "Use Alopex Component Attribute",
+    "description": "[Alopex] Alopex 컴포넌트를 사용합니다",
     "descriptionMoreURL": "http://ui.alopex.io/2.3/document/document.html?target=using#컴포넌트사용",
     "values": [
       {
@@ -221,25 +221,11 @@
       "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=webeditor#basic",
       "leftLabelHTML" : "String"
     }
-    ],
-    "data-disabled" : [{
-      "text" : "true",
-      "snippet": "true",
-      "description": "Use Alopex Component Disabled true",
-      "descriptionMoreURL": "",
-      "leftLabelHTML" : "Boolean"
-    },
-    {
-      "text" : "false",
-      "snippet": "false",
-      "description": "Use Alopex Component Disabled false",
-      "descriptionMoreURL": "",
-      "leftLabelHTML" : "Boolean"
-    }]
+    ]
   },
   "data-bind": {
     "snippet": "data-bind=\"$1\"",
-    "description": "Use Alopex data-Bind Attribute",
+    "description": "[Alopex] 데이터 바인딩 기능을 사용합니다 ",
     "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=databind#basic",
     "values": [
       {
