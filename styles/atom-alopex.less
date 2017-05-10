@@ -10,3 +10,14 @@
 .alopex-logo {
   text-align: center;
 }
+
+autocomplete-suggestion-list {
+  // remove fixed width
+  &.select-list.popover-list {
+    max-width: none;
+    width: auto !important;
+  }
+
+  // set width for each column
+  .word { max-width: 300px !important; text-overflow: ellipsis;} // 500px by default
+}
