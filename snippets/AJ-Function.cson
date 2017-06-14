@@ -24,7 +24,7 @@ getData
   'description':'[Progress] [Alopex] overlay 함수는 선택된 영역과 같은 크기의 오버레이를 영역 바로 위에 생성합니다'
   'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=overlay#Functions_overlayoption'
   'body': """
-overlay
+overlay()
 """
  'validator' :
   'prefix': 'validator'

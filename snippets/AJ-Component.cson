@@ -1,4 +1,4 @@
-.source.js':
+'.source.js':
  'expand(index)' :
   'prefix': 'expand(index)'
   'leftLabelHTML':'void'
@@ -777,10 +777,10 @@ getTitleByIndex(${1:index1}, ${2:index2})
   'prefix': 'cancelThisTabChange'
   'leftLabelHTML':'String'
   'rightLabelHTML':'AlopexUI'
-  'description':'[Tab] cancelThisTabChange 함수는 'beforetabchange' 이벤트에서 탭 변경을 제한합니다'
+  'description':'[Tab] cancelThisTabChange 함수는 beforetabchange 이벤트에서 탭 변경을 제한합니다'
   'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_cancelThisTabChange'
   'body': """
-cancelThisTabChange
+cancelThisTabChange()
 """
  'isEnabled(index1)' :
   'prefix': 'isEnabled(index1)'
