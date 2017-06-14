@@ -1,0 +1,19 @@
+'.source.js':
+ 'Validator.addMethod' :
+  'prefix': 'Validator.addMethod'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Validator] Validator.addMethod 함수는 Custom Method를 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=validator#Functions_ValidatoraddMethodStringnamefunctionhandler'
+  'body': """
+Validator.addMethod
+"""
+ 'Validator.setMessage' :
+  'prefix': 'Validator.setMessage'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Validator] Validator.setMessage 함수는 Validation Method 커스텀 메시지를 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=validator#Functions_ValidatorsetMessageStringmethodString|functionmessage'
+  'body': """
+Validator.setMessage
+"""

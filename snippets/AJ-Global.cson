@@ -1,0 +1,190 @@
+'.source.js':
+ '$a.data.control(data, control)' :
+  'prefix': '$a.data.control(data, control)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[DataBinding] $a.page 함수는 새로운 컨트롤을 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=page#Functions'
+  'body': """
+$a.data.control(${1:data}, ${2:control})
+"""
+ '$a.keyfilter.addKeyUpRegexpRule(name, regexp)' :
+  'prefix': '$a.keyfilter.addKeyUpRegexpRule(name, regexp)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[MaskedInput] $a.keyfilter.addKeyUpRegexpRule 함수는 새로운 룰을 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=maskedinput#MaskedInputKeyFilter_akeyfilteraddKeyUpRegexpRulenameregexp'
+  'body': """
+$a.keyfilter.addKeyUpRegexpRule(${1:name}, ${2:regexp})
+"""
+ '$a.navigate(url)' :
+  'prefix': '$a.navigate(url)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Navigation] $a.navigate 함수는 특정 화면(url)으로 이동하며, 파라미터 데이터(param)를 전달합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=navigate#Functions_anavigateurlparam'
+  'body': """
+$a.navigate(${1:url})
+"""
+ '$a.navigate(url, param)' :
+  'prefix': '$a.navigate(url, param)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Navigation] $a.navigate 함수는 특정 화면(url)으로 이동하며, 파라미터 데이터(param)를 전달합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=navigate#Functions_anavigateurlparam'
+  'body': """
+$a.navigate(${1:url}, ${2:param})
+"""
+ '$a.back()' :
+  'prefix': '$a.back()'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Navigation] $a.back 함수는 히스토리 스택 상 이전 화면으로 이동하며, results 데이터를 전달합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=navigate#Functions_abackresults'
+  'body': """
+$a.back()
+"""
+ '$a.back(results)' :
+  'prefix': '$a.back(results)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Navigation] $a.back 함수는 히스토리 스택 상 이전 화면으로 이동하며, results 데이터를 전달합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=navigate#Functions_abackresults'
+  'body': """
+$a.back(${1:results})
+"""
+ '$a.navigate.setup(option)' :
+  'prefix': '$a.navigate.setup(option)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Navigation] $a.navigate.setup 함수는 url 파라미터를 동적으로 변경하는 함수를 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=navigate#Functions_anavigatesetupoption'
+  'body': """
+$a.navigate.setup(${1:option})
+"""
+ '$a.page' :
+  'prefix': '$a.page'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Page] $a.page 함수는 화면의 로직을 함수 내에 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=page#Functions'
+  'body': """
+$a.page
+"""
+ '$a.popup(url, option)' :
+  'prefix': '$a.popup(url, option)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Popup] $a.back 함수는 히스토리 스택 상 이전 화면으로 이동하며, results 데이터를 전달합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=navigate#Functions_abackresults'
+  'body': """
+$a.popup(url, option)
+"""
+ '$a.popup.setup(option)' :
+  'prefix': '$a.popup.setup(option)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Popup] $a.back 함수는 히스토리 스택 상 이전 화면으로 이동하며, results 데이터를 전달합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=navigate#Functions_abackresults'
+  'body': """
+$a.popup.setup(${1:option})
+"""
+ '$a.request(serviceId, options)' :
+  'prefix': '$a.request(serviceId, options)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Request] $a.request 함수는 통신을 요청합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=request#Functions_arequestserviceIdoptions'
+  'body': """
+$a.request(${1:serviceId}, ${2:options})
+"""
+ '$a.request.setup(platformName, options)' :
+  'prefix': '$a.request.setup(platformName, options)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Request] $a.request.setup 함수는 request 디폴트 옵션을 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=request#Functions_arequestsetupplatform_nameoptions'
+  'body': """
+$a.request.setup(${1:platformName}, ${2:options})
+"""
+ '$a.setup(componentName, options)' :
+  'prefix': '$a.setup(componentName, options)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Setup] $a.setup 함수는 공통 옵션을 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=setup#Functions_asetupoptions'
+  'body': """
+$a.setup(${1:componentName}, ${2:options})
+"""
+ '$a.session(key)' :
+  'prefix': '$a.session(key)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Storage] $a.session 함수는 세션 영역의 데이터를 저장 혹은 읽어옵니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=storage#Functions_asession'
+  'body': """
+$a.session(${1:key})
+"""
+ '$a.session(key, value)' :
+  'prefix': '$a.session(key, value)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Storage] $a.session 함수는 세션 영역의 데이터를 저장 혹은 읽어옵니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=storage#Functions_asession'
+  'body': """
+$a.session(${1:key}, ${2:value})
+"""
+ '$a.session.clear()' :
+  'prefix': '$a.session.clear()'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Storage] $a.session.clear 함수는 세션 영역에 저장된 데이터를 삭제합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=storage#Functions_asession'
+  'body': """
+$a.session.clear()
+"""
+ '$a.session.clear(key)' :
+  'prefix': '$a.session.clear(key)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Storage] $a.session.clear 함수는 세션 영역에 저장된 데이터를 삭제합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=storage#Functions_asession'
+  'body': """
+$a.session.clear(${1:key})
+"""
+ '$a.cookie(key)' :
+  'prefix': '$a.cookie(key)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Storage] $a.cookie 함수는 쿠키 영역에 데이터를 저장 혹은 읽어옵니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=storage#Functions_acookie'
+  'body': """
+$a.cookie(${1:key})
+"""
+ '$a.cookie(key, value)' :
+  'prefix': '$a.cookie(key, value)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Storage] $a.cookie 함수는 쿠키 영역에 데이터를 저장 혹은 읽어옵니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=storage#Functions_acookie'
+  'body': """
+$a.cookie(${1:key}, ${2:value})
+"""
+ '$a.validator.setup(config)' :
+  'prefix': '$a.validator.setup(config)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Validator] $a.validator.setup 함수는 공통으로 사용할 수 있는 디폴트 값을 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=validator#Functions_ValidatorsetMessageStringmethodString|functionmessage'
+  'body': """
+$a.validator.setup(${1:config})
+"""
+ '$a.convert(element)' :
+  'prefix': '$a.convert(element)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Convert] $a.convert 함수는 전달받은 element를 Alopex UI 객체로 변환합니다.'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=convert#Functions_convertelement'
+  'body': """
+$a.convert(${1:element})
+"""

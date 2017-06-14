@@ -1,0 +1,982 @@
+.source.js':
+ 'expand(index)' :
+  'prefix': 'expand(index)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Accordion] [Alopex] expand 함수는 해당 항목의 하위 내용을 보여줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=accordion#Functions_expand'
+  'body': """
+expand(${1:index})
+"""
+ 'collapse(index)' :
+  'prefix': 'collapse(index)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Accordion] [Alopex] collapse 함수는 해당 항목의 하위 내용을 감춥니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=accordion#Functions_collapse'
+  'body': """
+collapse(${1:index})
+"""
+ 'expandAll' :
+  'prefix': 'expandAll'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] expandAll 함수는 모든 항목의 하위 내용을 보여줍니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+expandAll
+"""
+ 'collapseAll' :
+  'prefix': 'collapseAll'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] collapseAll 함수는 모든 항목의 하위 내용을 감춥니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+collapseAll
+"""
+ 'expandByMenuId(menuId)' :
+  'prefix': 'expandByMenuId(menuId)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Accordion] [Alopex] expandByMenuId 함수는 특정 메뉴를 열어줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=accordion#Functions_expandAll'
+  'body': """
+expandByMenuId(${1:menuId})
+"""
+ 'collapseByMenuId(menuId)' :
+  'prefix': 'collapseByMenuId(menuId)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Accordion] [Alopex] collapseByMenuId 함수는 특정 메뉴를 닫아줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=accordion#Functions_collapseAll'
+  'body': """
+collapseByMenuId(${1:menuId})
+"""
+ 'setOptions(options)' :
+  'prefix': 'setOptions(options)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Autocomplete] [Alopex] setOptions 함수는 컴포넌트 옵션을 동적으로 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Functions_setOptionsJSONoption'
+  'body': """
+setOptions(${1:options})
+"""
+ 'getSelectedData' :
+  'prefix': 'getSelectedData'
+  'leftLabelHTML':'JSON Object'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Autocomplete] [Alopex] getSelectedData 함수는 선택된 항목의 JSON 데이터를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Functions_getSelectedData'
+  'body': """
+getSelectedData
+"""
+ 'select(target)' :
+  'prefix': 'select(target)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dropdown] [Alopex] select 함수는 드랍다운 메뉴를 동적 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Functions_selecttarget'
+  'body': """
+select(${1:target})
+"""
+ 'setEnabled(isEnabled)' :
+  'prefix': 'setEnabled(isEnabled)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] setEnabled 함수는 컴포넌트의 활성화 여부를 설정합니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+setEnabled(${1:isEnabled})
+"""
+ 'setCustomFilter(function)' :
+  'prefix': 'setCustomFilter(function)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Autocomplete] [Alopex] setCustomFilter 함수는 자동 완성 필터링을 위한 커스텀 함수를 등록합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Functions_setCustomFilterfunction'
+  'body': """
+setCustomFilter(${1:function})
+"""
+ 'clear' :
+  'prefix': 'clear'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] clear 함수는 컴포넌트의 값을 초기화합니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+clear
+"""
+ 'setChecked(isChecked)' :
+  'prefix': 'setChecked(isChecked)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] setChecked 함수는 체크 상태를 동적으로 변경합니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+setChecked(${1:isChecked})
+"""
+ 'toggleChecked ' :
+  'prefix': 'toggleChecked '
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Button] [Alopex] toggleChecked 함수는 체크 상태를 동적으로 변경합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Functions_toggleChecked'
+  'body': """
+toggleChecked
+"""
+ 'isChecked' :
+  'prefix': 'isChecked'
+  'leftLabelHTML':'Boolean'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Button] [Alopex] isChecked 함수는 체크 여부를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Functions_toggleChecked'
+  'body': """
+isChecked
+"""
+ 'prevSlide' :
+  'prefix': 'prevSlide'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Carousel] [Alopex] prevSlide 함수는 이전 Carousel 페이지로 이동합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Functions_prevSlide'
+  'body': """
+prevSlide
+"""
+ 'nextSlide' :
+  'prefix': 'nextSlide'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Carousel] [Alopex] nextSlide 함수는 다음 Carousel 페이지로 이동합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Functions_nextSlide'
+  'body': """
+nextSlide
+"""
+ 'setIndex(index)' :
+  'prefix': 'setIndex(index)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Carousel] [Alopex] setIndex 함수는 index 로 Carousel 페이지를 동적으로 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Functions_setIndexindex'
+  'body': """
+setIndex(${1:index})
+"""
+ 'stopAutoSlide' :
+  'prefix': 'stopAutoSlide'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Carousel] [Alopex] stopAutoSlide 함수는 동작하고 있는 autoSlide기능을 중지합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Functions_stopAutoSlide'
+  'body': """
+stopAutoSlide
+"""
+ 'startAutoSlide' :
+  'prefix': 'startAutoSlide'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Carousel] [Alopex] startAutoSlide 함수는 autoSlide기능을 동작합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Functions_stopAutoSlide'
+  'body': """
+startAutoSlide
+"""
+ 'setAutoSlideDuration(duration)' :
+  'prefix': 'setAutoSlideDuration(duration)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Carousel] [Alopex] setAutoSlideDuration 함수는 autoSlide 동작 시간을 ms(millisecond)단위로 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Functions_setAutoSlideDurationduration'
+  'body': """
+setAutoSlideDuration(${1:duration})
+"""
+ 'setSwipe(isSwipe)' :
+  'prefix': 'setSwipe(isSwipe)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Carousel] [Alopex] setSwipe 함수는 Carousel 컴포넌트의 swipe 기능의 사용 여부를 설정 합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Functions_setSwipeisSwipe'
+  'body': """
+setSwipe(${1:isSwipe})
+"""
+ 'setCheckedAll(isChecked)' :
+  'prefix': 'setCheckedAll(isChecked)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[CheckBox] [Alopex] setCheckedAll 함수는 체크 상태를 동적으로 변경합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=checkbox#Functions_clear'
+  'body': """
+setCheckedAll(${1:isChecked})
+"""
+ 'setValues(values)' :
+  'prefix': 'setValues(values)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] setValues 함수는 엘리먼트의 값을 설정합니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+setValues(${1:values})
+"""
+ 'toggle' :
+  'prefix': 'toggle'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] toggle 함수는 컴포넌트를 toggle합니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+toggle
+"""
+ 'getValues' :
+  'prefix': 'getValues'
+  'leftLabelHTML':'Array'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[CheckBox] [Alopex] toggle 함수는 선택된 체크박스의 value 값을 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=checkbox#Functions_getValues'
+  'body': """
+getValues
+"""
+ 'getTexts' :
+  'prefix': 'getTexts'
+  'leftLabelHTML':'Array'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[CheckBox] [Alopex] getTexts 함수는 선택된  텍스트 값을 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=checkbox#Functions_getTexts'
+  'body': """
+getTexts
+"""
+ 'update(options)' :
+  'prefix': 'update(options)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[DatePicker] [Alopex] update 함수는 DatePicker 컴포넌트의 옵션을 동적으로 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Functions_updateJSONoption'
+  'body': """
+update(${1:options})
+"""
+ 'showDatePicker(callback)' :
+  'prefix': 'showDatePicker(callback)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[DatePicker] [Alopex] showDatePicker 함수는 DatePicker 컴포넌트의 열어줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=datepicker#Functions_showDatePickerfunctioncallbackJSONoption'
+  'body': """
+showDatePicker(${1:callback})
+"""
+ 'showDatePicker(callback, option)' :
+  'prefix': 'showDatePicker(callback, option)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[DatePicker] [Alopex] showDatePicker 함수는 DatePicker 컴포넌트의 열어줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=datepicker#Functions_showDatePickerfunctioncallbackJSONoption'
+  'body': """
+showDatePicker(${1:callback}, ${2:option})
+"""
+ 'closeDatePicker' :
+  'prefix': 'closeDatePicker'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[DatePicker] [Alopex] closeDatePicker 함수는 DatePicker 컴포넌트를 동적으로 닫아줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=datepicker#Functions_closeDatePicker'
+  'body': """
+closeDatePicker
+"""
+ 'open()' :
+  'prefix': 'open()'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dialog] [Alopex] open 함수는 컴포넌트를 열어줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Functions_openoption'
+  'body': """
+open()
+"""
+ 'open(option)' :
+  'prefix': 'open(option)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dialog] [Alopex] open 함수는 컴포넌트를 열어줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Functions_openoption'
+  'body': """
+open(${1:option})
+"""
+ 'closed(callback)' :
+  'prefix': 'closed(callback)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dialog] [Alopex] close 함수는 다이얼로그를 닫을 때의 callback을 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Functions_closedcallback'
+  'body': """
+closed(${1:callback})
+"""
+ 'ok(callback)' :
+  'prefix': 'ok(callback)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dialog] [Alopex] ok 함수는 OK 버튼을 눌렀을 때의 callback을 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Functions_okcallback'
+  'body': """
+ok(${1:callback})
+"""
+ 'cancel (callback)' :
+  'prefix': 'cancel (callback)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dialog] [Alopex] cancel 함수는 Cancel 버튼을 눌렀을 때의 callback을 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Functions_cancelcallback'
+  'body': """
+cancel (${1:callback})
+"""
+ 'confirm(callback)' :
+  'prefix': 'confirm(callback)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dialog] [Alopex] confirm 함수는 Confirm 버튼을 눌렀을 때의 callback을 정의합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Functions_confirmcallback'
+  'body': """
+confirm(${1:callback})
+"""
+ 'close()' :
+  'prefix': 'close()'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] close 함수는 컴포넌트를 닫아줍니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+close()
+"""
+ 'close(callback)' :
+  'prefix': 'close(callback)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] close 함수는 컴포넌트를 닫아줍니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+close(${1:callback})
+"""
+ 'addHandler(callback)' :
+  'prefix': 'addHandler(callback)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dropdown] [Alopex] addHandler 함수는 드랍다운 메뉴의 옵션이 선택될 때의 콜백함수를 등록합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Functions_addHandlercallback'
+  'body': """
+addHandler(${1:callback})
+"""
+ 'setDataSource(data)' :
+  'prefix': 'setDataSource(data)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dropdown] [Alopex] setDataSource 함수는 컴포넌트의 데이터를 지정합니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+setDataSource(${1:data})
+"""
+ 'getDataSource' :
+  'prefix': 'getDataSource'
+  'leftLabelHTML':'JSON Object'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Dropdown] [Alopex] getDataSource 함수는 setDataSource API를 통해 데이터를 지정한 경우에 대하여, 해당 데이터를 가져옵니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Functions_getDataSource'
+  'body': """
+getDataSource
+"""
+ 'setText(text)' :
+  'prefix': 'setText(text)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[DropdownButton] [Alopex] setText 함수는 드랍다운버튼의 텍스트를 동적으로 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Functions_setTexttext'
+  'body': """
+setText(${1:text})
+"""
+ 'getText' :
+  'prefix': 'getText'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] setText 함수는선택된 텍스트를 동적으로 가져옵니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+getText
+"""
+ 'startUpload' :
+  'prefix': 'startUpload'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[FileUpload] [Alopex] startUpload 함수는 파일 업로드를 시작합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Functions_startUpload'
+  'body': """
+startUpload
+"""
+ 'stopUpload' :
+  'prefix': 'stopUpload'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[FileUpload] [Alopex] stopUpload 함수는 파일 업로드를 중단합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Functions_stopUpload'
+  'body': """
+stopUpload
+"""
+ 'cancelAll' :
+  'prefix': 'cancelAll'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[FileUpload] [Alopex] cancelAll 함수는 파일 업로드를 업로드할 파일 목록을 전부 취소(삭제)합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Functions_cancelAll'
+  'body': """
+cancelAll
+"""
+ 'getFileCount' :
+  'prefix': 'getFileCount'
+  'leftLabelHTML':'Number'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[FileUpload] [Alopex] getFileCount 함수는 업로드 할 파일의 목록의 수를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Functions_getFileCount'
+  'body': """
+getFileCount
+"""
+ 'removeElement' :
+  'prefix': 'removeElement'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[FileUpload] [Alopex] removeElement 함수는 업로드 컴포넌트를 삭제합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Functions_removeElement'
+  'body': """
+removeElement
+"""
+ 'getResponses' :
+  'prefix': 'getResponses'
+  'leftLabelHTML':'Object'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[FileUpload] [Alopex] getResponses 함수는 서버로부터 받은 응답데이터를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Functions_getResponses'
+  'body': """
+getResponses
+"""
+ 'setOrient(orient)' :
+  'prefix': 'setOrient(orient)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[GroupButton] [Alopex] setOrient 함수는 서버로부터 받은 응답데이터를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=groupbutton#Functions_setOrientstring'
+  'body': """
+setOrient(${1:orient})
+"""
+ 'refresh' :
+  'prefix': 'refresh'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[] [Alopex] refresh 함수는 동적으로 데이터를 변경한 후 컴포넌트를 갱신합니다'
+  'descriptionMoreURL':'undefined'
+  'body': """
+refresh
+"""
+ 'multiselect' :
+  'prefix': 'multiselect'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[MultiSelect] [Alopex] multiselect 함수는 MultiSelect 컴포넌트의 이벤트 핸들러를 등록합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=multiselect#Functions_multiselectcallback'
+  'body': """
+multiselect
+"""
+ 'setSelectedPage(number)' :
+  'prefix': 'setSelectedPage(number)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Paging] [Alopex] setTotalPage 함수는 페이지를 동적으로 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Functions_setSelectedPagenumber'
+  'body': """
+setSelectedPage(${1:number})
+"""
+ 'setTotalPage(number)' :
+  'prefix': 'setTotalPage(number)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Paging] [Alopex] setTotalPage 함수는 전체 페이지 수를 동적으로 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Functions_setTotalPagenumber'
+  'body': """
+setTotalPage(${1:number})
+"""
+ 'setMaxPage(number)' :
+  'prefix': 'setMaxPage(number)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Paging] [Alopex] setMaxPage 함수는 화면에 보여지는 페이지 수를 동적으로 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Functions_setMaxPagenumber'
+  'body': """
+setMaxPage(${1:number})
+"""
+ 'getSelectedPage(number)' :
+  'prefix': 'getSelectedPage(number)'
+  'leftLabelHTML':'Number'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Paging] [Alopex] getSelectedPage 함수는 선택된 페이지를 가져옵니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Functions_getSelectedPage'
+  'body': """
+getSelectedPage(${1:number})
+"""
+ 'getValue' :
+  'prefix': 'getValue'
+  'leftLabelHTML':'Number'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[ProgressBar] [Alopex] getValue 함수는 진행된 프로그래스바의 백분율 값을 가져옵니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Functions_getSelectedPage'
+  'body': """
+getValue
+"""
+ 'setSelected' :
+  'prefix': 'setSelected'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Radio] setSelected 함수는 셀렉트 상태를 제어합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=radio#Functions_setSelected'
+  'body': """
+setSelected
+"""
+ 'setSelectSize(size)' :
+  'prefix': 'setSelectSize(size)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Select] setSelectSize 함수는 Select 컴포넌트의 보여지는 옵션 갯수를 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=select#Functions_setSelectSize'
+  'body': """
+setSelectSize(${1:size})
+"""
+ 'selectionInitialization' :
+  'prefix': 'selectionInitialization'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Select] selectionInitialization 함수는 Select 컴포넌트의 기본 옵션을 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=select#Functions_selectionInitialization'
+  'body': """
+selectionInitialization
+"""
+ 'split()' :
+  'prefix': 'split()'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Splitter] selectionInitialization 함수는 Select 컴포넌트의 기본 옵션을 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=splitter#Functions_splitJSONoption'
+  'body': """
+split()
+"""
+ 'split(options)' :
+  'prefix': 'split(options)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Splitter] selectionInitialization 함수는 Select 컴포넌트의 기본 옵션을 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=splitter#Functions_splitJSONoption'
+  'body': """
+split(${1:options})
+"""
+ 'hideColumn(index)' :
+  'prefix': 'hideColumn(index)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Table] hideColumn 함수는 index를 이용해 해당 컬럼을 숨깁니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=table#Functions_hideColumnindex'
+  'body': """
+hideColumn(${1:index})
+"""
+ 'showColumn(index)' :
+  'prefix': 'showColumn(index)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Table] hideColumn 함수는 index를 이용해 숨겨져있던 컬럼을 보여줍니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=table#Functions_showColumnindex'
+  'body': """
+showColumn(${1:index})
+"""
+ 'sortTable(header, orderBy)' :
+  'prefix': 'sortTable(header, orderBy)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Table] sortTable 함수는 header를 기준으로 옵션에 따라 정렬합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=table#Functions_sortTableheaderorderBy'
+  'body': """
+sortTable(${1:header}, ${2:orderBy})
+"""
+ 'addTab(title, contentKey)' :
+  'prefix': 'addTab(title, contentKey)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] addTab 함수는 컨텐츠를 통해서 탭을 추가합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_addTabtitlecontentKey'
+  'body': """
+addTab(title, contentKey)
+"""
+ 'addTab(html)' :
+  'prefix': 'addTab(html)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] addTab 함수는 html 태그를 이용하여 탭을 추가합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_addTabhtml'
+  'body': """
+addTab(html)
+"""
+ 'removeTab(index1)' :
+  'prefix': 'removeTab(index1)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] removeTab 함수는 해당 인덱스의 탭을 제거합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_removeTabindexindex2'
+  'body': """
+removeTab(${1:index1})
+"""
+ 'removeTab(index1, index2)' :
+  'prefix': 'removeTab(index1, index2)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] removeTab 함수는 해당 인덱스의 탭을 제거합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_removeTabindexindex2'
+  'body': """
+removeTab(${1:index1}, ${2:index2})
+"""
+ 'setTabIndex(index)' :
+  'prefix': 'setTabIndex(index)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] setTabIndex 함수는 해당 인덱스의 탭을 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_setTabIndexindexsetFocus'
+  'body': """
+setTabIndex(${1:index})
+"""
+ 'setTabIndex(index, setFocus)' :
+  'prefix': 'setTabIndex(index, setFocus)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] setTabIndex 함수는 해당 인덱스의 탭을 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_setTabIndexindexsetFocus'
+  'body': """
+setTabIndex(${1:index}, ${2:setFocus})
+"""
+ 'reload(index)' :
+  'prefix': 'reload(index)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] reload 함수는 해당 인덱스의 탭 컨텐츠가 iframe 일 경우, ifrmae 을 새로고침 합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_reloadindex'
+  'body': """
+reload(${1:index})
+"""
+ 'setTabWidth(width)' :
+  'prefix': 'setTabWidth(width)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] setTabWidth 함수는 Fixed 탭의 탭 버튼 고정 너비를 동적 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_setTabWidthwidth'
+  'body': """
+setTabWidth(${1:width})
+"""
+ 'setDraggable(isDraggable)' :
+  'prefix': 'setDraggable(isDraggable)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] setDraggable 함수는 탭을 Drag & Drop 할 수 있도록 설정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_setDraggableboolean'
+  'body': """
+setDraggable(${1:isDraggable})
+"""
+ 'setBeforeunload(index, handler)' :
+  'prefix': 'setBeforeunload(index, handler)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] setBeforeunload 함수는 다른 탭으로 이동되기 이전에 호출되는 함수를 등록합니다. false로 리턴하면 다른 탭으로의 이동을 막을 수 있습니다.'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_setBeforeunloadindexhandler'
+  'body': """
+setBeforeunload(${1:index}, ${2:handler})
+"""
+ 'setTabByContent(content)' :
+  'prefix': 'setTabByContent(content)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] setTabByContent 함수는 data-content 의 값을 가진 탭을 선택합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_setTabByContentcontent'
+  'body': """
+setTabByContent(${1:content})
+"""
+ 'setEnabled(flag, index)' :
+  'prefix': 'setEnabled(flag, index)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] setEnabled 함수는 tabs 버튼을 활성화 / 비활성화합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_setEnabledflagindex'
+  'body': """
+setEnabled(flag, index)
+"""
+ 'getCurrentTab' :
+  'prefix': 'getCurrentTab'
+  'leftLabelHTML':'Number'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] getCurrentTab 함수는 현재 선택된 탭의 인덱스 값을 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_getCurrentTabIndex'
+  'body': """
+getCurrentTab
+"""
+ 'getTabContentByIndex(index1)' :
+  'prefix': 'getTabContentByIndex(index1)'
+  'leftLabelHTML':'Element'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] getTabContentByIndex 함수는 인덱스에 해당하는 탭의 컨텐츠 element를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_getTabContentByIndexindex1index2'
+  'body': """
+getTabContentByIndex(${1:index1})
+"""
+ 'getTabContentByIndex(index1, index2)' :
+  'prefix': 'getTabContentByIndex(index1, index2)'
+  'leftLabelHTML':'Element'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] getTabContentByIndex 함수는 인덱스에 해당하는 탭의 컨텐츠 element를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_getTabContentByIndexindex1index2'
+  'body': """
+getTabContentByIndex(${1:index1}, ${2:index2})
+"""
+ 'getCurrentTabContent(index1)' :
+  'prefix': 'getCurrentTabContent(index1)'
+  'leftLabelHTML':'String'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] getCurrentTabContent 함수는 현재 선택된 탭의 data-content 값을 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_getCurrentTabContent'
+  'body': """
+getCurrentTabContent(${1:index1})
+"""
+ 'getCurrentTabContent(index1, index2)' :
+  'prefix': 'getCurrentTabContent(index1, index2)'
+  'leftLabelHTML':'String'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] getCurrentTabContent 함수는 현재 선택된 탭의 data-content 값을 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_getCurrentTabContent'
+  'body': """
+getCurrentTabContent(${1:index1}, ${2:index2})
+"""
+ 'getLength' :
+  'prefix': 'getLength'
+  'leftLabelHTML':'Number'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] getLength 함수는 현재 탭의 length 값을 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_getLength'
+  'body': """
+getLength
+"""
+ 'getTitleByIndex(index1)' :
+  'prefix': 'getTitleByIndex(index1)'
+  'leftLabelHTML':'String'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] getTitleByIndex 함수는 탭 인덱스 정보를 통해 탭 제목을 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_getTitleByIndexindex1index2'
+  'body': """
+getTitleByIndex(${1:index1})
+"""
+ 'getTitleByIndex(index1, index2)' :
+  'prefix': 'getTitleByIndex(index1, index2)'
+  'leftLabelHTML':'String'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] getTitleByIndex 함수는 탭 인덱스 정보를 통해 탭 제목을 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_getTitleByIndexindex1index2'
+  'body': """
+getTitleByIndex(${1:index1}, ${2:index2})
+"""
+ 'cancelThisTabChange' :
+  'prefix': 'cancelThisTabChange'
+  'leftLabelHTML':'String'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] cancelThisTabChange 함수는 'beforetabchange' 이벤트에서 탭 변경을 제한합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_cancelThisTabChange'
+  'body': """
+cancelThisTabChange
+"""
+ 'isEnabled(index1)' :
+  'prefix': 'isEnabled(index1)'
+  'leftLabelHTML':'Booelan'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] isEnabled 함수는 해당 인덱스 탭의 활성화 여부를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_isEnabledindex1index2'
+  'body': """
+isEnabled(${1:index1})
+"""
+ 'isEnabled(index1, index2)' :
+  'prefix': 'isEnabled(index1, index2)'
+  'leftLabelHTML':'Booelan'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tab] isEnabled 함수는 해당 인덱스 탭의 활성화 여부를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Functions_isEnabledindex1index2'
+  'body': """
+isEnabled(${1:index1}, ${2:index2})
+"""
+ 'getNode(text, type)' :
+  'prefix': 'getNode(text, type)'
+  'leftLabelHTML':'Node Object'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] getNode 함수는 Tree 컴포넌트의 Node Object를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getNodetexttype'
+  'body': """
+getNode(${1:text}, ${2:type})
+"""
+ 'getObject(text, type)' :
+  'prefix': 'getObject(text, type)'
+  'leftLabelHTML':'Element'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] getNode 함수는 Tree 컴포넌트의 li 엘리먼트를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getObjecttexttype'
+  'body': """
+getObject(${1:text}, ${2:type})
+"""
+ 'getSelectedNode' :
+  'prefix': 'getSelectedNode'
+  'leftLabelHTML':'Node Object'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] getSelectedNode 함수는 Tree 컴포넌트의 현재 선택된 Node Object를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getSelectedNode'
+  'body': """
+getSelectedNode
+"""
+ 'expand(nodeObj)' :
+  'prefix': 'expand(nodeObj)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] expand 함수는 선택된 트리 노드가 자식 노드를 가지고 있을 경우 expand 합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_expandnodeObj'
+  'body': """
+expand(nodeObj)
+"""
+ 'collapse(nodeObj)' :
+  'prefix': 'collapse(nodeObj)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] collapse 함수는 선택된 트리 노드가 자식을 가지고 있을 경우 collapse 합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_toggleExpandnodeObj'
+  'body': """
+collapse(nodeObj)
+"""
+ 'toggleExpand(nodeObj)' :
+  'prefix': 'toggleExpand(nodeObj)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] toggleExpand 함수는 선택된 노드가 자식을 가지고 있는 경우 collapse/expand를 toggle 합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_toggleExpandnodeObj'
+  'body': """
+toggleExpand(nodeObj)
+"""
+ 'createNode(parent, data)' :
+  'prefix': 'createNode(parent, data)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] createNode 함수는 Tree 컴포넌트 내 새로운 노드를 생성합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_createNodeparentdata'
+  'body': """
+createNode(${1:parent}, ${2:data})
+"""
+ 'editNode(node, data)' :
+  'prefix': 'editNode(node, data)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] editNode 함수는 주어진 트리 노드의 정보를 수정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_editNodenodedata'
+  'body': """
+editNode(${1:node}, ${2:data})
+"""
+ 'deleteNode(node)' :
+  'prefix': 'deleteNode(node)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] deleteNode 함수는 주어진 트리 노드의 정보를 수정합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_deleteNodenode'
+  'body': """
+deleteNode(${1:node})
+"""
+ 'showCheckbox(node)' :
+  'prefix': 'showCheckbox(node)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] showCheckbox 함수는 트리의 체크박스를 활성화합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_showCheckbox'
+  'body': """
+showCheckbox(${1:node})
+"""
+ 'hideCheckbox(node)' :
+  'prefix': 'hideCheckbox(node)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] hideCheckbox 함수는 트리의 체크박스를 비활성화합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_hideCheckbox'
+  'body': """
+hideCheckbox(${1:node})
+"""
+ 'toggleCheckbox(node)' :
+  'prefix': 'toggleCheckbox(node)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] toggleCheckbox 함수는 트리의 체크박스 show/hide 상태를 Toggle합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_toggleCheckbox'
+  'body': """
+toggleCheckbox(${1:node})
+"""
+ 'getCheckedNodes()' :
+  'prefix': 'getCheckedNodes()'
+  'leftLabelHTML':'Node Object'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] getCheckedNodes 함수는 Tree 컴포넌트의 체크된 노드를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getCheckedNodesoptions'
+  'body': """
+getCheckedNodes()
+"""
+ 'getCheckedNodes(options)' :
+  'prefix': 'getCheckedNodes(options)'
+  'leftLabelHTML':'Node Object'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] getCheckedNodes 함수는 Tree 컴포넌트의 체크된 노드를 리턴합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getCheckedNodesoptions'
+  'body': """
+getCheckedNodes(${1:options})
+"""
+ 'traverseUpCheck(element)' :
+  'prefix': 'traverseUpCheck(element)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[Tree] toggleCheckbox 함수는 동적으로 checked 처리된 경우, 상위 체크박스의 checked 및 indeterminate를 처리합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_traverseUpCheckelement'
+  'body': """
+traverseUpCheck(${1:element})
+"""
+ 'webeditor()' :
+  'prefix': 'webeditor()'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[WebEditor] webeditor 함수는 WebEditor 컴포넌트의 설정을 변경합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=webeditor#Functions_webeditoroption'
+  'body': """
+webeditor()
+"""
+ 'webeditor(option)' :
+  'prefix': 'webeditor(option)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[WebEditor] webeditor 함수는 WebEditor 컴포넌트의 설정을 변경합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=webeditor#Functions_webeditoroption'
+  'body': """
+webeditor(${1:option})
+"""
+ 'webeditor("insertNode", node)' :
+  'prefix': 'webeditor("insertNode", node)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[WebEditor] webeditor 의 insertNode API는 에디터에 tag node를 생성합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=webeditor#Functions_insertNode'
+  'body': """
+webeditor("insertNode", node)
+"""
+ 'webeditor("createLink", element)' :
+  'prefix': 'webeditor("createLink", element)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[WebEditor] webeditor 의 createLink API는 에디터에 link를 추가합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=webeditor#Functions_insertLink'
+  'body': """
+webeditor("createLink", element)
+"""
+ 'webeditor("insertImage", element)' :
+  'prefix': 'webeditor("insertImage", element)'
+  'leftLabelHTML':'void'
+  'rightLabelHTML':'AlopexUI'
+  'description':'[WebEditor] webeditor 의 insertImage API는 에디터에 이미지를 추가합니다'
+  'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=webeditor#Functions_insertImage'
+  'body': """
+webeditor("insertImage", element)
+"""
