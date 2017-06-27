@@ -1011,7 +1011,7 @@
   'Option.width' :
     'prefix': 'width'
     'rightLabelHTML' : 'AlopexGrid'
-    'leftLabelHTML' : 'Boolean'
+    'leftLabelHTML' : 'Number|String'
     'description': '[Option] 그리드의 너비를 설정하는 옵션입니다.'
     'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Options_width'
     'body': "width: ${1:300},$2"
