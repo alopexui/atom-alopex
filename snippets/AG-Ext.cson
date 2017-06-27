@@ -1,0 +1,112 @@
+'.source.js':
+  'Excel.ExcelWorker' :
+    'prefix': 'ExcelWorker'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Object'
+    'description': '[Excel] 엑셀 내보내기를 사용하기 위해서는 먼저 worker를 정의 해야 합니다. worker는 그리드 인스턴스와 내보낼 엑셀 파일명, palette 등을 등록합니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#ExcelExport_ExcelWorker'
+    'body': """
+  var worker = new ExcelWorker({
+  	excelFileName: '$1', // 로컬에 저장할 엑셀 파일명을 설정합니다.
+  	defaultPalette: {}, // 내보내진 엑셀의 그리드 영역 전체 셀에 적용할 글씨 관련 스타일 정보를 설정합니다.
+  	palette: [ // 웹페이지에서 보이는 그리드의 셀스타일, 헤더 스타일정보(배경색, 폰트색상)를 내보낼 떄 사용하는 palette 정보 설정합니다.
+  		className: '$2',
+  		backgroundcolor: '',
+  		color: '',
+  		font: '',
+  		fontsize: ,
+  		fontbold: false,
+  		align: ''
+  	],
+  	sheetList: [{
+  		sheetName: '$3', // 엑셀 파일의 개별 시트명을 설정합니다.
+  		$grid: "$4", // 데이터를 내보낼 그리드 인스턴스를 입력합니다.
+  		placement: '${5:horizontal}' // $$grid를 array로 입력했을 경우 여러 개의 그리드의 배치를 설정합니다.
+  	}]
+});
+    """
+
+  'Excel.export' :
+    'prefix': 'export'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[Excel] 설정한 worker를 이용해 실제로 그리드 데이터를 엑셀 파일로 내보내는 API입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#ExcelExport_exportAPI'
+    'body': """
+  worker.export({
+  	merge : ${1:true}, //병합 해제된 채로 그리드를 내보냅니다.
+  	exportHidden: ${2:false}, //hidden 컬럼은 내보내지 않습니다.
+  	exportNumberingColumn: ${3:false}, //numbering 컬럼을 내보내지 않습니다.
+  	useGridColumnWidth: ${4:false}, //그리드의 컬럼 너비가 엑셀에 반영됩니다.
+  	border: ${5:false}, //엑셀의 셀 테두리를 그립니다.
+    $6
+  });
+    """
+
+  'Excel.import' :
+    'prefix': 'import'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[Excel] 가져온 엑셀파일의 데이터를 처리하는 API입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#ExcelImport_importAPI'
+    'body': """
+  worker.import($grid, files, function(dataList){
+  \t$1
+  });
+    """
+
+  'alopexGrid' :
+    'prefix': 'alopexGrid'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Initialization '
+    'description': '[Initialization ] AlopexGrid 기본 옵션이 설정된 스크립트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/index.html#getstarted'
+    'body': """
+$('${1:#grid}').alopexGrid({
+	autoColumnIndex: true,
+	defaultColumnMapping : {
+		align : '${2:center}',
+		resizing : ${3:true},
+		sorting : ${4:true}
+	},
+	columnMapping:[
+		{
+			width : '30px',
+			selectorColumn : true,
+			resizing: false
+		}, {
+			width:'50px',
+			numberingColumn:true,
+			resizing: false
+		}, {
+			key : '${5:column1}',
+			title : '${5:column1}',
+			width : '100px'
+		}, {
+			key : '${6:column2}',
+			title : '${6:column2}',
+			width : '100px'
+		}, {
+			key : '${7:column3}',
+			title : '${7:column3}',
+			width : '100px'
+		}, {
+			key : '${8:column4}',
+			title : '${8:column4}',
+			width : '100px'
+		}, {
+			key : '${9:column5}',
+			title : '${9:column5}',
+			width : '100px'
+		}, {
+			key : '${10:column6}',
+			title : '${10:column6}',
+			width : '100px'
+		}, {
+			key : '${11:column7}',
+			title : '${11:column7}',
+			width : '100px'
+		}
+	]
+});
+    """

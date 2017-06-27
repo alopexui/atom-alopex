@@ -1,0 +1,1083 @@
+'.source.js':
+  'Event.cellEdit' :
+    'prefix': 'cellEditE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 셀이 편집모드로 들어간 이후에 편집모드에서 빠져나오게 되면서 수정중이었던 값을 원 데이터 오브젝트로 저장하기 직전에 호출되는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellEdit'
+    'body': """
+      $("#${1:grid}").on("cellEdit", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+      	var value = evObj.value;
+      	var prevValue = evObj.prevValue;
+        \n\t$2
+      });$3
+    """
+  'Event.cellEditEnd' :
+    'prefix': 'cellEditEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 셀이 편집모드로 들어간 이후에 편집모드에서 빠져나오게 되면 호출되는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellEditEnd'
+    'body': """
+      $("#${1:grid}").on("cellEditEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+      	var value = evObj.value;
+      	var prevValue = evObj.prevValue;
+        \n\t$2
+      });$3
+    """
+  'Event.cellEditInvalid' :
+    'prefix': 'cellEditInvalid'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] validFilter나 columnMapping.valid 옵션에 의해 유효성 체크에서 어긋난 데이터가 있을 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellEditInvalid'
+    'body': """
+      $("#${1:grid}").on("cellEditInvalid", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+      	var value = evObj.value;
+        \n\t$2
+      });$3
+    """
+  'Event.cellFocus' :
+    'prefix': 'cellFocus'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] cellSelectable=true일 때 마우스 또는 키보드로 셀에 포커스를 주게 되면 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellFocus'
+    'body': """
+      $("#${1:grid}").on("cellFocus", function(e) {
+        var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+      	var cell = evObj.cell;
+      	var $cell = evObj.$cell;
+        \n\t$2
+      });$3
+    """
+  'Event.cellInlineEditEnd' :
+    'prefix': 'cellInlineEditEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] cellInlineEdit=true 일 때 해당 기능에 의해 편집이 종료된 셀에 대해 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellInlineEditEnd'
+    'body': """
+      $("#${1:grid}").on("cellInlineEditEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+        \n\t$2
+      });$3
+    """
+  'Event.cellInlineEditStart' :
+    'prefix': 'cellInlineEditStart'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] cellInlineEdit=true 일 때 해당 기능에 의해 편집이 시작된 셀에 대해 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellInlineEditStart'
+    'body': """
+      $("#${1:grid}").on("cellInlineEditStart", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+        \n\t$2
+      });$3
+    """
+  'Event.cellRendered' :
+    'prefix': 'cellRendered'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 셀이 그려졌을 때 매 셀마다 호출되는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellRendered'
+    'body': """
+      $("#${1:grid}").on("cellRendered", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+      	var value = evObj.value;
+      	var editing = evObj.editing;
+      	var cell = evObj.cell;
+      	var $cell = evObj.$cell;
+        \n\t$2
+      });$3
+    """
+  'Event.cellSelectionChange' :
+    'prefix': 'cellSelectionChange'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] cellSelectable=true 일 때 마우스로 처음 셀을 클릭한 후 마우스 드래그로 선택된 셀이 변경 혹은 선택 영역이 확대될 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellSelectionChange'
+    'body': """
+      $("#${1:grid}").on("cellSelectionChange", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var selectionValueList = evObj.selectionValueList;
+      	var fromSelectionRow = evObj.fromSelectionRow;
+      	var toSelectionRow = evObj.toSelectionRow;
+      	var fromSelectionColumn = evObj.fromSelectionColumn;
+      	var toSelectionColumn = evObj.toSelectionColumn;
+        \n\t$2
+      });$3
+    """
+  'Event.cellSelectionEmpty' :
+    'prefix': 'cellSelectionEmpty'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 셀 선택 영역이 없을 경우 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellSelectionEmpty'
+    'body': """
+      $("#${1:grid}").on("cellSelectionEmpty", function(e) {
+        \n\t$2
+      });$3
+    """
+  'Event.cellSelectionEnd' :
+    'prefix': 'cellSelectionEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] cellSelectable=true일 때 마우스로 셀 선택이 완료되어 마우스 버튼을 떼면 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellSelectionEnd'
+    'body': """
+      $("#${1:grid}").on("cellSelectionEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var selectionValueList = evObj.selectionValueList;
+      	var fromSelectionRow = evObj.fromSelectionRow;
+      	var toSelectionRow = evObj.toSelectionRow;
+      	var fromSelectionColumn = evObj.fromSelectionColumn;
+      	var toSelectionColumn = evObj.toSelectionColumn;
+        \n\t$2
+      });$3
+    """
+  'Event.cellSelectionStart' :
+    'prefix': 'cellSelectionStart'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] cellSelectable=true일 때 마우스로 처음 셀을 클릭했을 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellSelectionStart'
+    'body': """
+      $("#${1:grid}").on("cellSelectionStart", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var selectionValueList = evObj.selectionValueList;
+      	var fromSelectionRow = evObj.fromSelectionRow;
+      	var toSelectionRow = evObj.toSelectionRow;
+      	var fromSelectionColumn = evObj.fromSelectionColumn;
+      	var toSelectionColumn = evObj.toSelectionColumn;
+        \n\t$2
+      });$3
+    """
+  'Event.cellValueChanged' :
+    'prefix': 'cellValueChanged'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] cellEditEnd 이벤트와 유사하나, 값이 변경되어 수정된 경우에만 호출되는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellValueChanged'
+    'body': """
+      $("#${1:grid}").on("cellValueChanged", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+      	var value = evObj.value;
+      	var prevValue = evObj.prevValue;
+        \n\t$2
+      });$3
+    """
+  'Event.cellValueEditing' :
+    'prefix': 'cellValueEditing'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] columnMapping.editable 옵션에 의해 편집가능한 셀에서 편집을 하고 있을 때 사용자의 클릭 또는 키보드 입력에 의해 값이 바뀌게 되면 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_cellValueEditing'
+    'body': """
+      $("#${1:grid}").on("cellValueEditing", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+      	var value = evObj.value;
+      	var prevValue = evObj.prevValue;
+        \n\t$2
+      });$3
+    """
+  'Event.columnFolding' :
+    'prefix': 'columnFolding'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] columnMapping.columnFoldingColumn 옵션에 의해 컬럼이 접힐 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_columnFolding'
+    'body': """
+      $("#${1:grid}").on("columnFolding", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var mapping = evObj.mapping;
+      	var columnFolded = evObj.columnFolded;
+      	var fromIndex = evObj.fromIndex;
+      	var toIndex = evObj.toIndex;
+      	var exceptionColList = evObj.exceptionColList;
+        \n\t$2
+      });$3
+    """
+  'Event.dataAdd' :
+    'prefix': 'dataAddE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드에 한건 또는 여러건의 새로운 데이터가 입력될 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataAdd'
+    'body': """
+      $("#${1:grid}").on("dataAdd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+        var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataAddEnd' :
+    'prefix': 'dataAddEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드에 데이터 입력이 종료되었을 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataAddEnd'
+    'body': """
+      $("#${1:grid}").on("dataAddEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var type = evObj.type;
+      	var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataChanged' :
+    'prefix': 'dataChanged'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드의 입력된 데이터가 편집에 의해 최초의 데이터와 다르게 변경될 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataChanged'
+    'body': """
+      $("#${1:grid}").on("dataChanged", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var type = evObj.type;
+      	var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataCopy' :
+    'prefix': 'dataCopyE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] dataCopy API호출에 의해 그리드의 데이터가 복제될 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataCopy'
+    'body': """
+      $("#${1:grid}").on("dataCopy", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var datalist = evObj.datalist;
+      	var copyoption = evObj.copyoption;
+        \n\t$2
+      });$3
+    """
+  'Event.dataCopyEnd' :
+    'prefix': 'dataCopyEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] dataCopy API호출에 의해 그리드의 데이터가 복제 동작이 완료된 후 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataCopyEnd'
+    'body': """
+      $("#${1:grid}").on("dataCopyEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+        var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataDelete' :
+    'prefix': 'dataDeleteE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] dataDelete API 호출에 의해 그리드의 데이터가 삭제 될 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataDelete'
+    'body': """
+      $("#${1:grid}").on("dataDelete", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+        var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataDeleteEnd' :
+    'prefix': 'dataDeleteEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] dataDeleted API 호출에 의해 그리드의 데이터가 삭제 완료 된 후 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataDeleteEnd'
+    'body': """
+      $("#${1:grid}").on("dataDeleteEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+        var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataEdit' :
+    'prefix': 'dataEditE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드의 데이터가 dataEdit API 호출에 의해 편집될 때 발생합니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataEdit'
+    'body': """
+      $("#${1:grid}").on("dataEdit", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataEditEnd' :
+    'prefix': 'dataEditEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드의 데이터가 dataEdit API 호출에 의해 수정이 완료되었을 떄 호출됩니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataEditEnd'
+    'body': """
+      $("#${1:grid}").on("dataEditEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+        var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataEmpty' :
+    'prefix': 'dataEmptyE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드를 초기화하여 추가되거나 설정된 데이터 값이 모두 사라지질 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataEmpty'
+    'body': """
+      $("#${1:grid}").on("dataEmpty", function(e) {
+        \n\t$2
+      });$3
+    """
+  'Event.dataSelect' :
+    'prefix': 'dataSelectE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드의 데이터가 선택될 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataSelect'
+    'body': """
+      $("#${1:grid}").on("dataSelect", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var datalist = evObj.datalist;
+      	var select = evObj.select;
+        \n\t$2
+      });$3
+    """
+  'Event.dataSelectEnd' :
+    'prefix': 'dataSelectEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] dataSelect 이벤트에 설명된 상황에 의해 데이터가 선택된 후 선택 동작이 완전히 끝난 뒤 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataSelectEnd'
+    'body': """
+      $("#${1:grid}").on("dataSelectEnd", function(e) {
+        \n\t$2
+      });$3
+    """
+  'Event.dataSet' :
+    'prefix': 'dataSetE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드의 데이터를 초기화하고, 새로운 데이터를 입력될때 발생하는 이벤트 입니다. dataSet API 호출에 의해 발생합니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataSet'
+    'body': """
+      $("#${1:grid}").on("dataSet", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+        var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataSetEnd' :
+    'prefix': 'dataSetEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드의 데이터 초기화와 데이터 입력이 완료된 후 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataSetEnd'
+    'body': """
+      $("#${1:grid}").on("dataSetEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+        var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataUndelete' :
+    'prefix': 'dataUndeleteE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드 데이터 삭제를 취소하여 데이터를 복구가 시작될 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataUndelete'
+    'body': """
+      $("#${1:grid}").on("dataUndelete", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+        var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.dataUndeleteEnd' :
+    'prefix': 'dataUndeleteEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드 데이터 삭제를 취소하여 데이터를 복구가 완료된 후 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_dataUndeleteEnd'
+    'body': """
+      $("#${1:grid}").on("dataUndeleteEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var datalist = evObj.datalist;
+        \n\t$2
+      });$3
+    """
+  'Event.filterChangeEnd' :
+    'prefix': 'filterChangeEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 필터의 조건이나 상태가 변경되어서 그리드에 반영이 완료되었을 떄 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_filterChangeEnd'
+    'body': """
+      $("#${1:grid}").on("filterChangeEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var filterMap = evObj.filterMap;
+      	var filterColumnMappingList = evObj.filterColumnMappingList;
+      	var changeType = evObj.changeType;
+      	var targetColumnMapping = evObj.targetColumnMapping;
+      	var targetColumnFilterOption = evObj.targetColumnFilterOption;
+      	var targetFilterMap = evObj.targetFilterMap;
+        \n\t$2
+      });$3
+    """
+  'Event.filterChangeStart' :
+    'prefix': 'filterChangeStart'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 필터의 조건이나 상태가 변경되어서 그리드에 반영되기 직전에 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_filterChangeStart'
+    'body': """
+      $("#${1:grid}").on("filterChangeStart", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var filterMap = evObj.filterMap;
+      	var filterColumnMappingList = evObj.filterColumnMappingList;
+      	var changeType = evObj.changeType;
+      	var targetColumnMapping = evObj.targetColumnMapping;
+      	var targetColumnFilterOption = evObj.targetColumnFilterOption;
+      	var targetFilterMap = evObj.targetFilterMap;
+        \n\t$2
+      });$3
+    """
+  'Event.filterClear' :
+    'prefix': 'filterClear'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 필터를 해제할 때 할생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_filterClear'
+    'body': """
+      $("#${1:grid}").on("filterClear", function(e) {
+        \n\t$2
+      });$3
+    """
+  'Event.filterDelete' :
+    'prefix': 'filterDelete'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 설정된 사용자 필터 조건을 삭제할 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_filterDelete'
+    'body': """
+      $("#${1:grid}").on("filterDelete", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var filterMap = evObj.filterMap;
+      	var filterName = evObj.filterName;
+      	var filter = evObj.filter;
+        \n\t$2
+      });$3
+    """
+  'Event.filterSet' :
+    'prefix': 'filterSet'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 필터가 새로 설정될 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_filterSet'
+    'body': """
+      $("#${1:grid}").on("filterSet", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var filterMap = evObj.filterMap;
+      	var filterName = evObj.filterName;
+      	var filter = evObj.filter;
+        \n\t$2
+      });$3
+    """
+  'Event.gridInit' :
+    'prefix': 'gridInit'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드 최초 생성 시작 시 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_gridInit'
+    'body': """
+      $("#${1:grid}").on("gridInit", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var element = evObj.element;
+      	var option = evObj.option;
+        \n\t$2
+      });$3
+    """
+  'Event.gridInitEnd' :
+    'prefix': 'gridInitEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드 최소 생성 완료 후 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_gridInitEnd'
+    'body': """
+      $("#${1:grid}").on("gridInitEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var element = evObj.element;
+      	var option = evObj.option;
+        \n\t$2
+      });$3
+    """
+  'Event.gridRefresh' :
+    'prefix': 'gridRefresh'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 그리드의 상태가 바뀌어 새로 그려졌을 경우 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_gridRefresh'
+    'body': """
+      $("#${1:grid}").on("gridRefresh", function(e) {
+        \n\t$2
+      });$3
+    """
+  'Event.gridScroll' :
+    'prefix': 'gridScroll'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 가로, 세로 스크롤이 움직일 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_gridScroll'
+    'body': """
+      $("#${1:grid}").on("gridScroll", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var row = evObj.row;
+      	var column = evObj.column;
+      	var rowScrollEnd = evObj.rowScrollEnd;
+      	var columnScrollEnd = evObj.columnScrollEnd;
+        \n\t$2
+      });$3
+    """
+  'Event.headerDragDrop' :
+    'prefix': 'headerDragDrop'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 컬럼을 드롭한 직후 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_headerDragDrop'
+    'body': """
+      $("#${1:grid}").on("headerDragDrop", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var dropColumn = evObj.dropColumn;
+      	var dropColumnMapping = evObj.dropColumnMapping;
+      	var leftColumn = evObj.leftColumn;
+      	var leftColumnMapping = evObj.leftColumnMapping;
+      	var rightColumnMapping = evObj.rightColumnMapping;
+      	var toHiddenColumnArea = evObj.toHiddenColumnArea;
+        \n\t$2
+      });$3
+    """
+  'Event.headerDragDropEnd' :
+    'prefix': 'headerDragDropEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 컬럼을 드래그 앤 드롭이 완료된 후 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_headerDragDropEnd'
+    'body': """
+      $("#${1:grid}").on("headerDragDropEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var dropColumn = evObj.dropColumn;
+      	var dropColumnMapping = evObj.dropColumnMapping;
+      	var leftColumn = evObj.leftColumn;
+      	var leftColumnMapping = evObj.leftColumnMapping;
+      	var rightColumnMapping = evObj.rightColumnMapping;
+      	var toHiddenColumnArea = evObj.toHiddenColumnArea;
+        \n\t$2
+      });$3
+    """
+  'Event.headerDragOver' :
+    'prefix': 'headerDragOver'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 컬럼이 드래그 앤 드롭 가능한 상태일때 컬럼 드래그 중 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_headerDragOver'
+    'body': """
+      $("#${1:grid}").on("headerDragOver", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var dropColumn = evObj.dropColumn;
+      	var dropColumnMapping = evObj.dropColumnMapping;
+      	var leftColumn = evObj.leftColumn;
+      	var leftColumnMapping = evObj.leftColumnMapping;
+      	var rightColumnMapping = evObj.rightColumnMapping;
+      	var toHiddenColumnArea = evObj.toHiddenColumnArea;
+      	var targetHiddenColumn = evObj.targetHiddenColumn;
+      	var targetHiddenColumnMapping = evObj.targetHiddenColumnMapping;
+        \n\t$2
+      });$3
+    """
+  'Event.hiddenHeaderDragDrop' :
+    'prefix': 'hiddenHeaderDragDrop'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] hiddenColumnArea에 있는 컬럼을 드롭한 직후 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_hiddenHeaderDragDrop'
+    'body': """
+      $("#${1:grid}").on("hiddenHeaderDragDrop", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var dropColumn = evObj.dropColumn;
+      	var dropColumnMapping = evObj.dropColumnMapping;
+      	var leftColumn = evObj.leftColumn;
+      	var leftColumnMapping = evObj.leftColumnMapping;
+      	var rightColumnMapping = evObj.rightColumnMapping;
+      	var toHiddenColumnArea = evObj.toHiddenColumnArea;
+        \n\t$2
+      });$3
+    """
+  'Event.hiddenHeaderDragDropEnd' :
+    'prefix': 'hiddenHeaderDragDropEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 컬럼을 드래그 앤 드롭이 완료된 후 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_hiddenHeaderDragDropEnd'
+    'body': """
+      $("#${1:grid}").on("hiddenHeaderDragDropEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var dropColumn = evObj.dropColumn;
+      	var dropColumnMapping = evObj.dropColumnMapping;
+      	var leftColumn = evObj.leftColumn;
+      	var leftColumnMapping = evObj.leftColumnMapping;
+      	var rightColumnMapping = evObj.rightColumnMapping;
+      	var toHiddenColumnArea = evObj.toHiddenColumnArea;
+        \n\t$2
+      });$3
+    """
+  'Event.hiddenHeaderDragOver' :
+    'prefix': 'hiddenHeaderDragOver'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 컬럼이 드래그 앤 드롭이 가능한 상태일때 컬럼 드래그 중 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_hiddenHeaderDragOver'
+    'body': """
+      $("#${1:grid}").on("hiddenHeaderDragOver", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var dropColumn = evObj.dropColumn;
+      	var dropColumnMapping = evObj.dropColumnMapping;
+      	var leftColumn = evObj.leftColumn;
+      	var leftColumnMapping = evObj.leftColumnMapping;
+      	var rightColumnMapping = evObj.rightColumnMapping;
+      	var toHiddenColumnArea = evObj.toHiddenColumnArea;
+      	var targetHiddenColumn = evObj.targetHiddenColumn;
+      	var targetHiddenColumnMapping = evObj.targetHiddenColumnMapping;
+        \n\t$2
+      });$3
+    """
+  'Event.pageSet' :
+    'prefix': 'pageSetE'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 페이징 기능이 활성화 되어 있을 때 사용자가 페이지 버튼을 눌러 페이지 위치를 옮기거나 pageSet API를 호출 할 떄 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_pageSet'
+    'body': """
+      $("#${1:grid}").on("pageSet", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var page = evObj.page;
+      	var pageinfo = evObj.pageinfo;
+        \n\t$2
+      });$3
+    """
+  'Event.pageSetEnd' :
+    'prefix': 'pageSetEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 페이지 선택 후 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_pageSetEnd'
+    'body': """
+      $("#${1:grid}").on("pageSetEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var page = evObj.page;
+      	var pageinfo = evObj.pageinfo;
+        \n\t$2
+      });$3
+    """
+  'Event.perPageChange' :
+    'prefix': 'perPageChange'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 한 페이지당 그리는 데이터 개수가 바뀔 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_perPageChange'
+    'body': """
+      $("#${1:grid}").on("perPageChange", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var page = evObj.page;
+      	var pageinfo = evObj.pageinfo;
+        \n\t$2
+      });$3
+    """
+  'Event.perPageChangeEnd' :
+    'prefix': 'perPageChangeEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 페이지당 데이터 개수를 선택하고 난 후 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_perPageChangeEnd'
+    'body': """
+      $("#${1:grid}").on("perPageChangeEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var page = evObj.page;
+      	var pageinfo = evObj.pageinfo;
+        \n\t$2
+      });$3
+    """
+  'Event.rowDragDrop' :
+    'prefix': 'rowDragDrop'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] columnMapping.dragdropColumn 을 이용한 행 드래그가 완료되어 포인터가 행을 놓았을 때 발생하는 이벤트 입니다. return false; 를 하여 드래그드랍을 허용하지 않을 수 있습니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_rowDragDrop'
+    'body': """
+      $("#${1:grid}").on("rowDragDrop", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var dragDataList = evObj.dragDataList;
+      	var data = evObj.data;
+      	var aboveData = evObj.aboveData;
+      	var belowData = evObj.belowData;
+      	var insertAbove = evObj.insertAbove;
+      	var insertBelow = evObj.insertBelow;
+      	var childOf = evObj.childOf;
+      	var barVisible = evObj.barVisible;
+      	var $grid = evObj.$grid;
+      	var toAnotherGrid = evObj.toAnotherGrid;
+      	var cancelled = evObj.cancelled;
+        \n\t$2
+      });$3
+    """
+  'Event.rowDragDropEnd' :
+    'prefix': 'rowDragDropEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] columnMapping.dragdropColumn 을 이용한 행 드래그가 완료되어 데이터가 지정된 위치에 들어간 이후에 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_rowDragDropEnd'
+    'body': """
+      $("#${1:grid}").on("rowDragDropEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+      	var mapping = evObj.mapping;
+      	var value = evObj.value;
+      	var prevValue = evObj.prevValue;
+        \n\t$2
+      });$3
+    """
+  'Event.rowDragOver' :
+    'prefix': 'rowDragOver'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] columnMapping.dragdropColumn 을 이용한 행 드래그 중 발생하는 이벤트 입니다. return false; 를 하여 드래그드랍을 허용하지 않을 수 있습니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_rowDragOver'
+    'body': """
+      $("#${1:grid}").on("rowDragOver", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var dragDataList = evObj.dragDataList;
+      	var data = evObj.data;
+      	var aboveData = evObj.aboveData;
+      	var belowData = evObj.belowData;
+      	var insertAbove = evObj.insertAbove;
+      	var insertBelow = evObj.insertBelow;
+      	var childOf = evObj.childOf;
+      	var barVisible = evObj.barVisible;
+      	var $grid = evObj.$grid;
+      	var toAnotherGrid = evObj.toAnotherGrid;
+      	var cancelled = evObj.cancelled;
+        \n\t$2
+      });$3
+    """
+  'Event.rowInlineEditEnd' :
+    'prefix': 'rowInlineEditEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] rowInlineEdit=true 일 때 해당 기능에 의해 편집이 종료된 행에 대해 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_rowInlineEditEnd'
+    'body': """
+      $("#${1:grid}").on("rowInlineEditEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+        \n\t$2
+      });$3
+    """
+  'Event.rowInlineEditStart' :
+    'prefix': 'rowInlineEditStart'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] rowInlineEdit=true 일 때 해당 기능에 의해 편집이 시작된 행에 대해 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_rowInlineEditStart'
+    'body': """
+      $("#${1:grid}").on("rowInlineEditStart", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var data = evObj.data;
+        \n\t$2
+      });$3
+    """
+  'Event.scrollBottom' :
+    'prefix': 'scrollBottom'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 세로 스크롤이 맨 아래쪽에 닿으면 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_scrollBottom'
+    'body': """
+      $("#${1:grid}").on("scrollBottom", function(e) {
+        \n\t$2
+      });$3
+    """
+  'Event.searchEnd' :
+    'prefix': 'searchEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] endSearch API 호출에 의해 검색이 종료되었을 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_searchEnd'
+    'body': """
+      $("#${1:grid}").on("searchEnd", function(e) {
+        \n\t$2
+      });$3
+    """
+  'Event.searchHighlighted' :
+    'prefix': 'searchHighlighted'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] searchNext, searchPrevious API 호출에 의해 다음/이전 검색결과로 하이라이트가 이동할 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_searchHighlighted'
+    'body': """
+      $("#${1:grid}").on("searchHighlighted", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var keyword = evObj.keyword;
+      	var matchCount = evObj.matchCount;
+      	var highlightPointer = evObj.highlightPointer;
+      	var matchDataList = evObj.matchDataList;
+      	var matchMappingList = evObj.matchMappingList;
+      	var highlightAtMatchDataList = evObj.highlightAtMatchDataList;
+      	var highlightAtMatchMappingList = evObj.highlightAtMatchMappingList;
+      	var highlightedData = evObj.highlightedData;
+      	var highlightedMappingList = evObj.highlightedMappingList;
+      	var byColumn = evObj.byColumn;
+      	var useRegex = evObj.useRegex;
+      	var caseSensitive = evObj.caseSensitive;
+      	var ignoreWhiteSpace = evObj.ignoreWhiteSpace;
+      	var timeStamp = evObj.timeStamp;
+        \n\t$2
+      });$3
+    """
+  'Event.searchNext' :
+    'prefix': 'searchNext'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] searchNext API 호출에 의해 다음 검색결과로 하이라이트가 이동할 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_searchNext'
+    'body': """
+      $("#${1:grid}").on("searchNext", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var keyword = evObj.keyword;
+      	var matchCount = evObj.matchCount;
+      	var highlightPointer = evObj.highlightPointer;
+      	var matchDataList = evObj.matchDataList;
+      	var matchMappingList = evObj.matchMappingList;
+      	var highlightAtMatchDataList = evObj.highlightAtMatchDataList;
+      	var highlightAtMatchMappingList = evObj.highlightAtMatchMappingList;
+      	var highlightedData = evObj.highlightedData;
+      	var highlightedMappingList = evObj.highlightedMappingList;
+      	var byColumn = evObj.byColumn;
+      	var useRegex = evObj.useRegex;
+      	var caseSensitive = evObj.caseSensitive;
+      	var ignoreWhiteSpace = evObj.ignoreWhiteSpace;
+      	var timeStamp = evObj.timeStamp;
+        \n\t$2
+      });$3
+    """
+  'Event.searchPrevious' :
+    'prefix': 'searchPrevious'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] searchPrevious API 호출에 의해 이전 검색결과로 하이라이트가 이동할 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_searchPrevious'
+    'body': """
+      $("#${1:grid}").on("searchPrevious", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var keyword = evObj.keyword;
+      	var matchCount = evObj.matchCount;
+      	var highlightPointer = evObj.highlightPointer;
+      	var matchDataList = evObj.matchDataList;
+      	var matchMappingList = evObj.matchMappingList;
+      	var highlightAtMatchDataList = evObj.highlightAtMatchDataList;
+      	var highlightAtMatchMappingList = evObj.highlightAtMatchMappingList;
+      	var highlightedData = evObj.highlightedData;
+      	var highlightedMappingList = evObj.highlightedMappingList;
+      	var byColumn = evObj.byColumn;
+      	var useRegex = evObj.useRegex;
+      	var caseSensitive = evObj.caseSensitive;
+      	var ignoreWhiteSpace = evObj.ignoreWhiteSpace;
+      	var timeStamp = evObj.timeStamp;
+        \n\t$2
+      });$3
+    """
+  'Event.searchStart' :
+    'prefix': 'searchStart'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] searchStart API 호출에 의해 검색이 시작되었을 떄 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_searchStart'
+    'body': """
+      $("#${1:grid}").on("searchStart", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var keyword = evObj.keyword;
+      	var matchCount = evObj.matchCount;
+      	var highlightPointer = evObj.highlightPointer;
+      	var matchDataList = evObj.matchDataList;
+      	var matchMappingList = evObj.matchMappingList;
+      	var highlightAtMatchDataList = evObj.highlightAtMatchDataList;
+      	var highlightAtMatchMappingList = evObj.highlightAtMatchMappingList;
+      	var highlightedData = evObj.highlightedData;
+      	var highlightedMappingList = evObj.highlightedMappingList;
+      	var byColumn = evObj.byColumn;
+      	var useRegex = evObj.useRegex;
+      	var caseSensitive = evObj.caseSensitive;
+      	var ignoreWhiteSpace = evObj.ignoreWhiteSpace;
+      	var timeStamp = evObj.timeStamp;
+        \n\t$2
+      });$3
+    """
+  'Event.sortClear' :
+    'prefix': 'sortClear'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] columnMapping.sorting=true 옵션이 설정되어 있을 때 sortClear API 호출에 의해 정렬 상태가 해지되는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_sortClear'
+    'body': """
+      $("#${1:grid}").on("sortClear", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var pageinfo = evObj.pageinfo;
+        \n\t$2
+      });$3
+    """
+  'Event.sortToggle' :
+    'prefix': 'sortToggle'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] columnMapping.sorting=true 옵션이 설정되어 있을 때 사용자가 column header의 정렬 버튼을 클릭하여 정렬상태를 오름차순과 내림차순으로 서로 toggle될 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_sortToggle'
+    'body': """
+      $("#${1:grid}").on("sortToggle", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var sortingKey = evObj.sortingKey;
+      	var sortingColumn = evObj.sortingColumn;
+      	var sortingDirection = evObj.sortingDirection;
+      	var mapping = evObj.mapping;
+      	var pageinfo = evObj.pageinfo;
+        \n\t$2
+      });$3
+    """
+  'Event.sortToggleEnd' :
+    'prefix': 'sortToggleEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] sortToggle 동작이 완료되면 호출됩니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_sortToggleEnd'
+    'body': """
+      $("#${1:grid}").on("sortToggleEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var sortingKey = evObj.sortingKey;
+      	var sortingColumn = evObj.sortingColumn;
+      	var sortingDirection = evObj.sortingDirection;
+      	var mapping = evObj.mapping;
+      	var pageinfo = evObj.pageinfo;
+        \n\t$2
+      });$3
+    """
+  'Event.UIColumnResizeEnd' :
+    'prefix': 'UIColumnResizeEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 리사이징 기능이 활성화 된 헤더에서 마우스 드래그로 컬럼의 크기를 바꾸었을 때 발생하는 이벤트 입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_UIColumnResizeEnd'
+    'body': """
+      $("#${1:grid}").on("UIColumnResizeEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var mapping = evObj.mapping;
+      	var width = evObj.width;
+      	var fitWidth = evObj.fitWidth;
+        \n\t$2
+      });$3
+    """
+  'Event.UIColumnResizeStart' :
+    'prefix': 'UIColumnResizeStart'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] 리사이징 기능이 활성화 된 헤더에서 마우스 드래그로 컬럼의 크기를 바꾸기 시작했을 때, 즉 리사이징 핸들을 마우스로 잡았을 떄 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_UIColumnResizeStart'
+    'body': """
+      $("#${1:grid}").on("UIColumnResizeStart", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var mapping = evObj.mapping;
+      	var width = evObj.width;
+      	var fitWidth = evObj.fitWidth;
+        \n\t$2
+      });$3
+    """
+  'Event.UIRowResizeEnd' :
+    'prefix': 'UIRowResizeEnd'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] rowIndexColumn, rowResizing 기능이 활성화되어있는 경우 마우스 드래그로 행 높이를 바꾼 후 마우스를 놓았을 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_UIRowResizeEnd'
+    'body': """
+      $("#${1:grid}").on("UIRowResizeEnd", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var row = evObj.row;
+      	var height = evObj.height;
+        \n\t$2
+      });$3
+    """
+  'Event.UIRowResizeStart' :
+    'prefix': 'UIRowResizeStart'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] rowIndexColumn, rowResizing 기능이 활성화되어있는 경우 마우스 드래그로 행 높이를 바꾼 후 마우스를 놓았을 때 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_UIRowResizeStart'
+    'body': """
+      $("#${1:grid}").on("UIRowResizeStart", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var row = evObj.row;
+      	var height = evObj.height;
+        \n\t$2
+      });$3
+    """
+  'Event.UISortToggle' :
+    'prefix': 'UISortToggle'
+    'rightLabelHTML' : 'AlopexGrid'
+    'leftLabelHTML' : 'Void'
+    'description': '[EVENT] columnMappin sorting option이 존재할 때, 헤더 옆에 나타나는 정렬 버튼을 클릭할 때 마다 발생하는 이벤트입니다.'
+    'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_UISortToggle'
+    'body': """
+      $("#${1:grid}").on("UISortToggle", function(e) {
+      	var evObj = AlopexGrid.parseEvent(e);
+      	var sortingKey = evObj.sortingKey;
+      	var sortingColumn = evObj.sortingColumn;
+      	var sortingDirection = evObj.sortingDirection;
+      	var mapping = evObj.mapping;
+      	var pageinfo = evObj.pageinfo;
+        \n\t$2
+      });$3
+    """
+
+  # 'Event.temp' :
+  #   'prefix': 'temp'
+  #   'rightLabelHTML' : 'AlopexGrid'
+  #   'leftLabelHTML' : 'Void'
+  #   'description': 'des'
+  #   'descriptionMoreURL': 'http'
+  #   'body': """
+  #     $("#${1:grid}").on("cellEdit", function(e) {
+  #     	var evObj = AlopexGrid.parseEvent(e);
+  #     	var data = evObj.data;
+  #     	var mapping = evObj.mapping;
+  #     	var value = evObj.value;
+  #     	var prevValue = evObj.prevValue;
+  #       \n\t$2
+  #     });$3
+  #   """
