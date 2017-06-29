@@ -10,7 +10,7 @@
 """
 
   'Data-source' :
-    'prefix': 'Autocomplete(Data-source)'
+    'prefix': 'Autocomplete(data-source)'
     'rightLabelHTML' : 'Alopex'
     'leftLabelHTML' : 'Markup'
     'description': 'data-source 방식 Autocomplete 의 HTML Markup 을 구성합니다.'

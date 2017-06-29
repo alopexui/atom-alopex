@@ -3,13 +3,17 @@
     'prefix': 'Fileupload(Basic)'
     'rightLabelHTML' : 'Alopex'
     'leftLabelHTML' : 'Markup'
-    'description': '기본 Fileupload 의 HTML Markup 을 구성합니다.'
+    'description': '기본 Single Fileupload 의 HTML Markup 을 구성합니다.'
     'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Basic'
     'body': """
-<div class="Margin-bottom-10">
-  <div id="fileuploader" class="Fileupload" data-selectType="basic" ></div>
-</div>
-<div class="Float-left Margin-top-5">
-	<button class="Button">upload</button>
-</div>
+<div id="fileuploader" class="Fileupload" data-selectType="basic" ></div>
+"""
+  'Advance' :
+    'prefix': 'Fileupload(Advance)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': 'Multiple Fileupload 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Attributes_dataselecttypestringOptional'
+    'body': """
+<div id="fileuploader" class="Fileupload" data-selectType="advance" ></div>
 """

@@ -10,9 +10,8 @@
     <input>
 </div>
 """
-
   'inDiv' :
-    'prefix': 'DateInput(inDiv)'
+    'prefix': 'DateInput(icon)'
     'rightLabelHTML' : 'Alopex'
     'leftLabelHTML' : 'Markup'
     'description': 'Calendar icon image를 click 할 때 달력 컴포넌트가 활성화 되는 HTML Markup 을 구성합니다.'

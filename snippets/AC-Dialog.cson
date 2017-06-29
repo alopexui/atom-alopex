@@ -10,3 +10,36 @@
     <div class="Dialog-contents">contents</div>
 </div>
 """
+  'close' :
+    'prefix': 'Dialog(close)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': 'close 버튼이 있는 Dialog 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Attributes_datadialogtype'
+    'body': """
+<div class="Dialog" data-dialog-type="close">
+    <div class="Dialog-contents">contents</div>
+</div>
+"""
+  'confirm' :
+    'prefix': 'Dialog(confirm)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': 'confirm 버튼이 있는 Dialog 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Attributes_datadialogtype'
+    'body': """
+<div class="Dialog" data-dialog-type="confirm">
+    <div class="Dialog-contents">contents</div>
+</div>
+"""
+  'okcancel' :
+    'prefix': 'Dialog(okcancel)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': 'ok,cancel 버튼이 있는 Dialog 의 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dialog#Attributes_datadialogtype'
+    'body': """
+<div class="Dialog" data-dialog-type="okcancel">
+    <div class="Dialog-contents">contents</div>
+</div>
+"""

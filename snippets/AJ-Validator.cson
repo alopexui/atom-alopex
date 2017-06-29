@@ -1,19 +1,26 @@
 '.source.js':
- 'Validator.addMethod' :
-  'prefix': 'Validator.addMethod'
+ 'Validator.addMethod(String name, function handler)' :
+  'prefix': 'Validator.addMethod(String name, function handler)'
   'leftLabelHTML':'void'
   'rightLabelHTML':'AlopexUI'
-  'description':'[Validator] Validator.addMethod 함수는 Custom Method를 정의합니다'
+  'description':'[Validator] Validator의 Custom Method를 정의합니다.'
   'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=validator#Functions_ValidatoraddMethodStringnamefunctionhandler'
   'body': """
-Validator.addMethod
+Validator.addMethod(${1:'methodName'}, function(element, value, param) {
+    //무조건 rule 파라미터로 넘어온 값과 일치해야 검증을 통과시키는 로직.
+    if (value === param) {
+        return true;
+    } else {
+        return false;
+    }
+)
 """
- 'Validator.setMessage' :
-  'prefix': 'Validator.setMessage'
+ 'Validator.setMessage(String method, String|function message)' :
+  'prefix': 'Validator.setMessage(String method, String|function message)'
   'leftLabelHTML':'void'
   'rightLabelHTML':'AlopexUI'
-  'description':'[Validator] Validator.setMessage 함수는 Validation Method 커스텀 메시지를 설정합니다'
+  'description':'[Validator] Validation Method 커스텀 메시지를 설정합니다.'
   'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-js/javascript.html?target=validator#Functions_ValidatorsetMessageStringmethodString|functionmessage'
   'body': """
-Validator.setMessage
+Validator.setMessage(${1:'methodName'}, ${2:'message'});
 """

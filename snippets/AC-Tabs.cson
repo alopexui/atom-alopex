@@ -67,7 +67,6 @@
     </div>
 </div>
 """
-
   'Fixed' :
     'prefix': 'Tabs(Fixed)'
     'rightLabelHTML' : 'Alopex'
@@ -116,5 +115,19 @@
     <div id="tab9_Fixed">
         <strong>tab9</strong>
     </div>
+</div>
+"""
+  '2depth' :
+    'prefix': 'Tabs(2Depth)'
+    'rightLabelHTML' : 'Alopex'
+    'leftLabelHTML' : 'Markup'
+    'description': '2 Depth Tab을 구성하기 위한 HTML Markup 을 구성합니다.'
+    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_2Depth탭Left'
+    'body': """
+<div id="tabDepth2" class="Tabs Fixed" data-depth2-position="left">
+        <div class="Scroller">
+            <ul>
+            </ul>
+        </div>
 </div>
 """
