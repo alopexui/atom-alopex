@@ -33,7 +33,7 @@ HTML markup 작성 시 class 속성에 사용 가능한 AlopexUI 컴포넌트 �
 <img  src="http://ui.alopex.io/2.3/images/atom/compAuto.gif" style="width:700px;height:503px">
 
 #### JavaScript API snippets
-AlopexUI 의 JavaScript API 목록과 필요한 매개 변수 요소를 제시합니다. <br>
+AlopexUI/Grid 의 JavaScript API 목록과 필요한 매개 변수 요소를 제시합니다. <br>
 단, JavaScript 파일 또는 HTML markup의 script 요소 안에서 사용 가능합니다.<p>
 <img  src="http://ui.alopex.io/2.3/images/atom/jsSnippet1.gif" style="width:700px;height:351px">
 <p>
