@@ -1,6 +1,7 @@
 # Atom Alopex Package
 AlopexUI 사용자의 개발 편의성을 위하여 Atom Editor 용 Package를 제공합니다.<br>
 [Alopex UI](http://ui.alopex.io)<br>
+[Alopex GRID](http://grid.alopex.io)<br>
 [Atom Editor](https://atom.io/)<br>
 [Atom Alopex Package](https://atom.io/packages/atom-alopex)<br>
 <P>
