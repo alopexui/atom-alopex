@@ -180,7 +180,7 @@
 		},$4
 		"""
 	'Option.ColumnMapping.filter' :
-		'prefix': 'filter'
+		'prefix': 'filterC'
 		'rightLabelHTML' : 'AlopexGrid'
 		'leftLabelHTML' : 'Obejct|Boolean'
 		'description': '[Option.ColumnMapping] 컬럼 그리드 정의/필터링 기능의 사용유무를 설정할 수 있습니다.'

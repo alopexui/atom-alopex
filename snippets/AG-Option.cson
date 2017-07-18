@@ -420,21 +420,25 @@
 		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Options_filter'
 		'body': """
 		filter: {
-			minHeight: ${1:200},
-			minWidth: ${2:275},
-			closeOuterClick: ${3:true},
-			filterGridColumnOption: {$4},
-			filterGridOption: {$5},
-			movable: ${6:false},
-			saveFilterSize: ${7:false},
-			textFilterDelay: ${8:450},
-			title: ${9:false},
-			typeList: ['${10:equal}','notequal','contain','notcontain','lt','lte','gt','gte'],
-			scrollResetAfterFilter: ${11:true},
-			filterGridOption: {$12},
-			textFilterDelay: ${13:450},
-			sorting: ${14:false},
-			removeFilterOptionByHidden: ${15:false}
+			closeOuterClick: ${1:true},
+			dynamicDataFilter: ${2:false},
+			filterGridColumnOption: {$3},
+			filterGridOption: {$4},
+			minHeight: ${5:200},
+			minWidth: ${6:275},
+			movable: ${7:false},
+			removeFilterOptionByHidden: ${8:false}
+			saveFilterSize: ${9:false},
+			scrollResetAfterFilter: ${10:true},
+			sorting: ${11:false},
+			textFilterDelay: ${12:450},
+			title: ${13:false},
+			typeList: ['${14:equal}','notequal','contain','notcontain','lt','lte','gt','gte'],
+			typeListDefault: {
+				top: ${15:''},
+				bottom: '',
+				radio: 'and'
+			}
 		},$16
 		"""
 	'Option.filteringHeader' :
