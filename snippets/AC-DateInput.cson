@@ -1,24 +1,24 @@
 '.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'DateInput(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 DateInput 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dateinput#Basic'
-    'body': """
+	'Basic' :
+		'prefix': 'DateInput(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 DateInput 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dateinput#Basic'
+		'body': """
 <div class="Dateinput">
-    <input>
+	<input>
 </div>
 """
-  'inDiv' :
-    'prefix': 'DateInput(icon)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Calendar icon image를 click 할 때 달력 컴포넌트가 활성화 되는 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dateinput#Basic'
-    'body': """
+	'inDiv' :
+		'prefix': 'DateInput(icon)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Calendar icon image를 click 할 때 달력 컴포넌트가 활성화 되는 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dateinput#Basic'
+		'body': """
 <div class="Dateinput">
-    <input>
-    <div class="Calendar"></div>
+	<input>
+	<div class="Calendar"></div>
 </div>
 """

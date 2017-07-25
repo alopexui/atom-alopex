@@ -1,10 +1,10 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'TextArea(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 TextArea 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=textarea#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'TextArea(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 TextArea 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=textarea#basic'
+		'body': """
 <textarea class="Textarea" rows="6" cols="40"></textarea>
 """

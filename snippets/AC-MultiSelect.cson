@@ -1,11 +1,11 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Multiselect(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Multiselect 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=multiselect#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Multiselect(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Multiselect 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=multiselect#basic'
+		'body': """
 <select class="Multiselect">
 	<option value="korea">Korea</option>
 	<option value="usa">USA</option>

@@ -1,13 +1,13 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Panel(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Panel 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=panel#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Panel(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Panel 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=panel#basic'
+		'body': """
 <div class="Panel">
-    <div class="Panel-header">Panel-header</div>
-    <div class="Panel-content">content</div>
+	<div class="Panel-header">Panel-header</div>
+	<div class="Panel-content">content</div>
 </div>
 """

@@ -1,75 +1,75 @@
 '.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Dropdown(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Dropdown 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Dropdown(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Dropdown 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#basic'
+		'body': """
 <button class="Button">button</button>
 <ul class="Dropdown">
-    <li><a>option 1</a></li>
-    <li><a>option 2</a></li>
-    <li><a>option 3</a></li>
-    <li><a>option 4</a></li>
+	<li><a>option 1</a></li>
+	<li><a>option 2</a></li>
+	<li><a>option 3</a></li>
+	<li><a>option 4</a></li>
 </ul>
 """
 
-  'Textinput' :
-    'prefix': 'Dropdown(Textinput)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Textinput 에 Dropdown을 연동한 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_Textinput'
-    'body': """
+	'Textinput' :
+		'prefix': 'Dropdown(Textinput)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Textinput 에 Dropdown을 연동한 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_Textinput'
+		'body': """
 <input class="Textinput">
 <ul class="Dropdown">
-    <li><a>option 1</a></li>
-    <li><a>option 2</a></li>
-    <li><a>option 3</a></li>
-    <li><a>option 4</a></li>
+	<li><a>option 1</a></li>
+	<li><a>option 2</a></li>
+	<li><a>option 3</a></li>
+	<li><a>option 4</a></li>
 </ul>
 """
 
-  'Grouping Menu' :
-    'prefix': 'Dropdown(Grouping Menu)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Grouping Dropdown의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_GroupingMenu'
-    'body': """
+	'Grouping Menu' :
+		'prefix': 'Dropdown(Grouping Menu)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Grouping Dropdown의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_GroupingMenu'
+		'body': """
 <button class="Button">button</button>
 <ul class="Dropdown">
-    <li class="Header"><a>Group 1</a></li>
-    <li><a>option 1</a></li>
-    <li><a>option 2</a></li>
-    <li class="Divider">
-        <hr>
-    </li>
-    <li class="Header"><a>Group 2</a></li>
-    <li><a>option 3</a></li>
-    <li><a>option 4</a></li>
+	<li class="Header"><a>Group 1</a></li>
+	<li><a>option 1</a></li>
+	<li><a>option 2</a></li>
+	<li class="Divider">
+		<hr>
+	</li>
+	<li class="Header"><a>Group 2</a></li>
+	<li><a>option 3</a></li>
+	<li><a>option 4</a></li>
 </ul>
 """
 
-  'Multi Depth' :
-    'prefix': 'Dropdown(Multi Depth)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Multi Depth인 Dropdown의 HTML Markup을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_MultiDepth'
-    'body': """
+	'Multi Depth' :
+		'prefix': 'Dropdown(Multi Depth)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Multi Depth인 Dropdown의 HTML Markup을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_MultiDepth'
+		'body': """
 <button class="Button">button</button>
 <ul class="Dropdown">
-    <li>
-        <a>option 1</a>
-        <ul>
-            <li><a>option 1-1</a></li>
-            <li><a>option 1-2</a></li>
-        </ul>
-    </li>
-    <li><a>option 2</a></li>
-    <li><a>option 3</a></li>
-    <li><a>option 4</a></li>
+	<li>
+		<a>option 1</a>
+		<ul>
+			<li><a>option 1-1</a></li>
+			<li><a>option 1-2</a></li>
+		</ul>
+	</li>
+	<li><a>option 2</a></li>
+	<li><a>option 3</a></li>
+	<li><a>option 4</a></li>
 </ul>
 """

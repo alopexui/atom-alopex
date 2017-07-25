@@ -1,59 +1,59 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Navmenu(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 NavigationMenu 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=navmenu#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Navmenu(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 NavigationMenu 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=navmenu#basic'
+		'body': """
 <ul class="Navmenu">
-    <li><a href="#0">Parent #1</a>
-        <ul>
-            <li><a href="#0">Child #1</a>
-                <ul>
-                    <li>
-                        <a href="#0">GrandChild #1</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="#0">Child #2</a>
-                <ul >
-                    <li>
-                        <a href="#0">GrandChild #1</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <a href="#0">Parent #2</a>
-        <ul >
-            <li>
-                <a href="#0">Child #1</a>
-                <ul>
-                    <li>
-                        <a href="#0">GrandChild #1</a>
-                        <ul>
-                            <li>
-                                <a href="#0">Great Grand #1</a>
-                            </li>
-                            <li>
-                                <a href="#0">Great Grand #2</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#0">GrandChild #2</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="#0">Child #2</a>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <a href="#0">Parent #3</a>
-    </li>
+	<li><a href="#0">Parent #1</a>
+		<ul>
+			<li><a href="#0">Child #1</a>
+				<ul>
+					<li>
+						<a href="#0">GrandChild #1</a>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#0">Child #2</a>
+				<ul >
+					<li>
+						<a href="#0">GrandChild #1</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#0">Parent #2</a>
+		<ul >
+			<li>
+				<a href="#0">Child #1</a>
+				<ul>
+					<li>
+						<a href="#0">GrandChild #1</a>
+						<ul>
+							<li>
+								<a href="#0">Great Grand #1</a>
+							</li>
+							<li>
+								<a href="#0">Great Grand #2</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#0">GrandChild #2</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#0">Child #2</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<a href="#0">Parent #3</a>
+	</li>
 </ul>
 """

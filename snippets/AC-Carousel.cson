@@ -1,69 +1,69 @@
 '.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Carousel(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Carousel 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Carousel(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Carousel 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#basic'
+		'body': """
 <div class="Carousel">
-    <div class="Scroller">
-        <div class="Page">
-            <img src="img/1.jpg"/>
-        </div>
-        <div class="Page">
-            <img src="img/2.jpg"/>
-        </div>
-        <div class="Page">
-            <img src="img/3.jpg"/>
-        </div>
-        <div class="Page">
-            <img src="img/4.jpg"/>
-        </div>
-    </div>
+	<div class="Scroller">
+		<div class="Page">
+			<img src="img/1.jpg"/>
+		</div>
+		<div class="Page">
+			<img src="img/2.jpg"/>
+		</div>
+		<div class="Page">
+			<img src="img/3.jpg"/>
+		</div>
+		<div class="Page">
+			<img src="img/4.jpg"/>
+		</div>
+	</div>
 </div>
 """
 
-  'Optional Buttons' :
-    'prefix': 'Carousel(Optional Buttons)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Carousel 내부에 좌우 이동 버튼 및 페이지바가 추가된 HTML Markup을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Basic_OptionalButtons'
-    'body': """
+	'Optional Buttons' :
+		'prefix': 'Carousel(Optional Buttons)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Carousel 내부에 좌우 이동 버튼 및 페이지바가 추가된 HTML Markup을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Basic_OptionalButtons'
+		'body': """
 <div class="Carousel">
-    <div class="Scroller">
-        <div class="Page">
-        </div>
-        <div class="Page">
-        </div>
-    </div>
-    <a class="Prev"></a>
-    <a class="Next"></a>
+	<div class="Scroller">
+		<div class="Page">
+		</div>
+		<div class="Page">
+		</div>
+	</div>
+	<a class="Prev"></a>
+	<a class="Next"></a>
 </div>
 """
 
-  'Paging' :
-    'prefix': 'Carousel(Paging)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Carousel 내에 Paging를 추가하여 현재 보여지는 페이지의 정보를 표시합니다. '
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Basic_Paging표시'
-    'body': """
+	'Paging' :
+		'prefix': 'Carousel(Paging)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Carousel 내에 Paging를 추가하여 현재 보여지는 페이지의 정보를 표시합니다. '
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=carousel#Basic_Paging표시'
+		'body': """
 <div class="Carousel">
-    <div class="Scroller">
-        <div class="Page">
-        </div>
-        <div class="Page">
-        </div>
-    </div>
-    <a class="Prev"></a>
-    <a class="Next"></a>
-    <div class="Paging Mobile">
-        <a class="Link">1</a>
-        <a class="Link Selected">2</a>
-        <a class="Link">3</a>
-        <a class="Link">3</a>
-    </div>
+	<div class="Scroller">
+		<div class="Page">
+		</div>
+		<div class="Page">
+		</div>
+	</div>
+	<a class="Prev"></a>
+	<a class="Next"></a>
+	<div class="Paging Mobile">
+		<a class="Link">1</a>
+		<a class="Link Selected">2</a>
+		<a class="Link">3</a>
+		<a class="Link">3</a>
+	</div>
 </div>
 """

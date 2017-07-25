@@ -1,19 +1,19 @@
 '.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'DateRange(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 DateRange 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=daterange#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'DateRange(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 DateRange 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=daterange#basic'
+		'body': """
 <div class="Daterange" data-default-date="false" >
-    From
-    <div class="Startdate Dateinput">
-        <input>
-    </div>
-    ~ To
-    <div class="Enddate Dateinput">
-        <input>
-    </div>
+	From
+	<div class="Startdate Dateinput">
+		<input>
+	</div>
+	~ To
+	<div class="Enddate Dateinput">
+		<input>
+	</div>
 </div>
 """

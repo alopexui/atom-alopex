@@ -1,35 +1,35 @@
 '.text.html.basic,.text.html.jsp':
-  'Basic' :
-    'prefix': 'Accordion(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Accordion 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=accordion#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Accordion(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Accordion 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=accordion#basic'
+		'body': """
 <div>
-    <ul class="Accordion">
-        <li>
-            <a>Another List Content</a>
-            <ul>
-                <li><a>Child #1</a></li>
-                <li><a>Child #2</a></li>
-                <li>
-                    <a>Nested Accordion Example</a>
-                    <ul>
-                        <li><a>G Child #1</a></li>
-                        <li><a>G Child #2</a></li>
-                        <li><a>G Child #3</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a>Div Content</a>
-            <div>
-                <p>Any Content in Dev can be inserted into accordion like this example.</p>
-                <p>Default Style in this area has nothing</p>
-            </div>
-        </li>
-    </ul>
+	<ul class="Accordion">
+		<li>
+			<a>Another List Content</a>
+			<ul>
+				<li><a>Child #1</a></li>
+				<li><a>Child #2</a></li>
+				<li>
+					<a>Nested Accordion Example</a>
+					<ul>
+						<li><a>G Child #1</a></li>
+						<li><a>G Child #2</a></li>
+						<li><a>G Child #3</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<a>Div Content</a>
+			<div>
+				<p>Any Content in Dev can be inserted into accordion like this example.</p>
+				<p>Default Style in this area has nothing</p>
+			</div>
+		</li>
+	</ul>
 </div>
 """

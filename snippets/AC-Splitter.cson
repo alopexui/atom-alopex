@@ -1,17 +1,17 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Splitter(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Splitter 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=splitter#Basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Splitter(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Splitter 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=splitter#Basic'
+		'body': """
 <div class="Splitter" data-position="40%" data-orientation="horizontal" style="height:600px;">
-    <div class="top_panel">
-    	the top contents
-    </div>
-    <div class="bottom_panel">
-         the bottom contents
-    </div>
+	<div class="top_panel">
+		the top contents
+	</div>
+	<div class="bottom_panel">
+		the bottom contents
+	</div>
 </div>
 """

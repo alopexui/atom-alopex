@@ -1,19 +1,19 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Fileupload(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Single Fileupload 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Fileupload(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Single Fileupload 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Basic'
+		'body': """
 <div id="fileuploader" class="Fileupload" data-selectType="basic" ></div>
 """
-  'Advance' :
-    'prefix': 'Fileupload(Advance)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Multiple Fileupload 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Attributes_dataselecttypestringOptional'
-    'body': """
+	'Advance' :
+		'prefix': 'Fileupload(Advance)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Multiple Fileupload 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=fileupload#Attributes_dataselecttypestringOptional'
+		'body': """
 <div id="fileuploader" class="Fileupload" data-selectType="advance" ></div>
 """

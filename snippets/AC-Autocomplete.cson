@@ -1,20 +1,20 @@
 '.text.html.basic,.text.html.jsp,.text.html.php':
-  'Data-url' :
-    'prefix': 'Autocomplete(data-url)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'data-url 방식 Autocomplete 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Basic_dataurl방식'
-    'body': """
+	'Data-url' :
+		'prefix': 'Autocomplete(data-url)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'data-url 방식 Autocomplete 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Basic_dataurl방식'
+		'body': """
 <div class="Autocomplete" data-url="/words" data-paramname="keyword" ></div>
 """
 
-  'Data-source' :
-    'prefix': 'Autocomplete(data-source)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'data-source 방식 Autocomplete 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Basic_datasource방식'
-    'body': """
+	'Data-source' :
+		'prefix': 'Autocomplete(data-source)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'data-source 방식 Autocomplete 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Basic_datasource방식'
+		'body': """
 <div class="Autocomplete" data-source='[{"text":"Idaho"},{"text":"Illinois"},{"text":"Indiana"},{"text":"Iowa"}]'></div>
 """

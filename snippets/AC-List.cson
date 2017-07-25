@@ -1,60 +1,60 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'List(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 List 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=list#Basic_기본리스트'
-    'body': """
+	'Basic' :
+		'prefix': 'List(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 List 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=list#Basic_기본리스트'
+		'body': """
 <ul class="List">
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
+	<li>item 1</li>
+	<li>item 2</li>
+	<li>item 3</li>
 </ul>
 """
 
-  'Link' :
-    'prefix': 'List(Link)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'List row에 특정 링크가 적용된 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=list#Basic_Link'
-    'body': """
+	'Link' :
+		'prefix': 'List(Link)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'List row에 특정 링크가 적용된 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=list#Basic_Link'
+		'body': """
 <ul class="List">
-    <li class="Link"><a href="#0">item 1</a></li>
-    <li class="Link"><a href="#0">item 2</a></li>
-    <li class="Link"><a href="#0">item 3</a></li>
+	<li class="Link"><a href="#0">item 1</a></li>
+	<li class="Link"><a href="#0">item 2</a></li>
+	<li class="Link"><a href="#0">item 3</a></li>
 </ul>
 """
 
-  'Divider' :
-    'prefix': 'List(Divider)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'List간 구분을 해주는 divider가 적용된 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=list#Basic_Divider'
-    'body': """
+	'Divider' :
+		'prefix': 'List(Divider)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'List간 구분을 해주는 divider가 적용된 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=list#Basic_Divider'
+		'body': """
 <ul class="List">
-    <li class="Divider">A</li>
-    <li class="Link"><a>Android</a></li>
-    <li class="Link"><a>Apple</a></li>
-    <li class="Divider">B</li>
-    <li class="Link"><a>BMW</a></li>
-    <li class="Link"><a>Blockbuster</a></li>
+	<li class="Divider">A</li>
+	<li class="Link"><a>Android</a></li>
+	<li class="Link"><a>Apple</a></li>
+	<li class="Divider">B</li>
+	<li class="Link"><a>BMW</a></li>
+	<li class="Link"><a>Blockbuster</a></li>
 </ul>
 """
 
-  'Thumbnail Image' :
-    'prefix': 'List(Thumbnail Image)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'List에 Thumbnail Image가 추가된 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=list#Basic_ThumbnailImage'
-    'body': """
+	'Thumbnail Image' :
+		'prefix': 'List(Thumbnail Image)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'List에 Thumbnail Image가 추가된 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=list#Basic_ThumbnailImage'
+		'body': """
 <ul class="List">
-    <li class="Link"><a><img class="Thumbnail" src="list/image/icon1.png"><span>Crown</span></a></li>
-    <li class="Link"><a><img class="Thumbnail" src="list/image/icon2.png"><span>Camera</span></a></li>
-    <li class="Link"><a><img class="Thumbnail" src="list/image/icon3.png"><span>MP3 Player</span></a></li>
-    <li class="Link"><a><img class="Thumbnail" src="list/image/icon4.png"><span>Mac Mini</span></a></li>
+	<li class="Link"><a><img class="Thumbnail" src="list/image/icon1.png"><span>Crown</span></a></li>
+	<li class="Link"><a><img class="Thumbnail" src="list/image/icon2.png"><span>Camera</span></a></li>
+	<li class="Link"><a><img class="Thumbnail" src="list/image/icon3.png"><span>MP3 Player</span></a></li>
+	<li class="Link"><a><img class="Thumbnail" src="list/image/icon4.png"><span>Mac Mini</span></a></li>
 </ul>
 """

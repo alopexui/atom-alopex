@@ -1,94 +1,94 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Paging(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Paging 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#basic'
-    'body': """
+	'Basic' :
+		'prefix': 'Paging(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Paging 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#basic'
+		'body': """
 <div class="Paging">
-    <a class="Link">1</a>
-    <a class="Link">2</a>
-    <a class="Link">3</a>
+	<a class="Link">1</a>
+	<a class="Link">2</a>
+	<a class="Link">3</a>
 </div>
 """
 
-  'Selected' :
-    'prefix': 'Paging(Selected)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Selected Paging 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_선택인덱스설정'
-    'body': """
+	'Selected' :
+		'prefix': 'Paging(Selected)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Selected Paging 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_선택인덱스설정'
+		'body': """
 <div class="Paging">
-    <a class="Link">1</a>
-    <a class="Link Selected">2</a>
-    <a class="Link">3</a>
+	<a class="Link">1</a>
+	<a class="Link Selected">2</a>
+	<a class="Link">3</a>
 </div>
 """
 
-  'Mobile' :
-    'prefix': 'Paging(Mobile)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Mobile Style Paging 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_모바일스타일'
-    'body': """
+	'Mobile' :
+		'prefix': 'Paging(Mobile)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Mobile Style Paging 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_모바일스타일'
+		'body': """
 <div class="Paging mobile">
-    <a class="Link">1</a>
-    <a class="Link Selected">2</a>
-    <a class="Link">3</a>
+	<a class="Link">1</a>
+	<a class="Link Selected">2</a>
+	<a class="Link">3</a>
 </div>
 """
 
-  'Prev Next' :
-    'prefix': 'Paging(Prev Next)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '이전 다음 버튼이 적용된 Paging의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_마지막페이지지정'
-    'body': """
+	'Prev Next' :
+		'prefix': 'Paging(Prev Next)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '이전 다음 버튼이 적용된 Paging의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_마지막페이지지정'
+		'body': """
 <div class="Paging" data-totalpage="19">
-    <a class="Link Prev">Prev</a>
-    <a class="Link">1</a>
-    <a class="Link ">2</a>
-    <a class="Link Selected">3</a>
-    <a class="Link Next">Next</a>
+	<a class="Link Prev">Prev</a>
+	<a class="Link">1</a>
+	<a class="Link ">2</a>
+	<a class="Link Selected">3</a>
+	<a class="Link Next">Next</a>
 </div>
 """
 
-  'Backward Forward' :
-    'prefix': 'Paging(Backward Forward)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '이전그룹, 이전페이지 버튼이 적용된 Paging 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_이전그룹버튼이전페이지버튼'
-    'body': """
+	'Backward Forward' :
+		'prefix': 'Paging(Backward Forward)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '이전그룹, 이전페이지 버튼이 적용된 Paging 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_이전그룹버튼이전페이지버튼'
+		'body': """
 <div class="Paging" data-totalpage="19">
-    <a class="Link Prev-group"><span class="Icon Backward"></span></a>
-    <a class="Link Prev"><span class="Icon Chevron-left"></span></a>
-    <a class="Link">1</a>
-    <a class="Link Selected">2</a>
-    <a class="Link">3</a>
-    <a class="Link Next"><span class="Icon Chevron-right"></span></a>
-    <a class="Link Next-group"><span class="Icon Forward"></span></a>
+	<a class="Link Prev-group"><span class="Icon Backward"></span></a>
+	<a class="Link Prev"><span class="Icon Chevron-left"></span></a>
+	<a class="Link">1</a>
+	<a class="Link Selected">2</a>
+	<a class="Link">3</a>
+	<a class="Link Next"><span class="Icon Chevron-right"></span></a>
+	<a class="Link Next-group"><span class="Icon Forward"></span></a>
 </div>
 """
 
-  'Step-backward Step-forward' :
-    'prefix': 'Paging(Step-backward Step-forward)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '첫 페이지 버튼, 마지막 페이지 버튼이 적용 된 Paging 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_첫페이지버튼마지막페이지버튼'
-    'body': """
+	'Step-backward Step-forward' :
+		'prefix': 'Paging(Step-backward Step-forward)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '첫 페이지 버튼, 마지막 페이지 버튼이 적용 된 Paging 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Basic_첫페이지버튼마지막페이지버튼'
+		'body': """
 <div class="Paging" data-totalpage="19" data-button-behavior="disable">
-    <a class="Link First"><span class="Icon Step-backward"></span></a>
-    <a class="Link Prev"><span class="Icon Chevron-left"></span></a>
-    <a class="Link">1</a>
-    <a class="Link Selected">2</a>
-    <a class="Link">3</a>
-    <a class="Link Next"><span class="Icon Chevron-right"></span></a>
-    <a class="Link Last"><span class="Icon Step-forward"></span></a>
+	<a class="Link First"><span class="Icon Step-backward"></span></a>
+	<a class="Link Prev"><span class="Icon Chevron-left"></span></a>
+	<a class="Link">1</a>
+	<a class="Link Selected">2</a>
+	<a class="Link">3</a>
+	<a class="Link Next"><span class="Icon Chevron-right"></span></a>
+	<a class="Link Last"><span class="Icon Step-forward"></span></a>
 </div>
 """

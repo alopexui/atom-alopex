@@ -1,133 +1,133 @@
 ﻿'.text.html.basic,.text.html.jsp,.text.html.php':
-  'Basic' :
-    'prefix': 'Tabs(Basic)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '기본 Tabs 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_기본탭'
-    'body': """
+	'Basic' :
+		'prefix': 'Tabs(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 Tabs 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_기본탭'
+		'body': """
 <div class="Tabs">
-    <ul>
-        <li data-content="#tab1">tab1</li>
-        <li data-content="#tab2">tab2</li>
-        <li data-content="#tab3">tab3</li>
-        <li data-content="#tab4">tab4<button class="RemoveButton"></button></li>
-    </ul>
-    <div id="tab1">
-        <strong>tab1</strong>
-        <p>
-        tab1 Contents
-        </p>
-    </div>
-    <div id="tab2">
-        <strong>tab2</strong>
-        <p>
-        tab2 Contents
-        </p>
-    </div>
-    <div id="tab3">
-        <strong>tab3</strong>
-        <p>
-        tab3 Contents
-        </p>
-    </div>
-    <div id="tab4">
-        <strong>tab4</strong>
-        <p>
-        tab4 Contents
-        </p>
-    </div>
+	<ul>
+		<li data-content="#tab1">tab1</li>
+		<li data-content="#tab2">tab2</li>
+		<li data-content="#tab3">tab3</li>
+		<li data-content="#tab4">tab4<button class="RemoveButton"></button></li>
+	</ul>
+	<div id="tab1">
+		<strong>tab1</strong>
+		<p>
+		tab1 Contents
+		</p>
+	</div>
+	<div id="tab2">
+		<strong>tab2</strong>
+		<p>
+		tab2 Contents
+		</p>
+	</div>
+	<div id="tab3">
+		<strong>tab3</strong>
+		<p>
+		tab3 Contents
+		</p>
+	</div>
+	<div id="tab4">
+		<strong>tab4</strong>
+		<p>
+		tab4 Contents
+		</p>
+	</div>
 </div>
 """
 
-  'Image' :
-    'prefix': 'Tabs(Image)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': 'Tab영역에 이미지가 포함된 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_이미지탭'
-    'body': """
+	'Image' :
+		'prefix': 'Tabs(Image)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Tab영역에 이미지가 포함된 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_이미지탭'
+		'body': """
 <div class="Tabs">
-    <ul>
-        <li data-content="#tab1"><img src="tabs/images/button.jpg">Button</li>
-        <li data-content="#tab2"><img src="tabs/images/Song-icon.png">Select</li>
-        <li data-content="#tab3"><img src="tabs/images/checkbox.jpg">Checkbox</li>
-    </ul>
-    <div id="tab1">
-        <strong>tab1</strong>
-        <p>Button Content</p>
-    </div>
-    <div id="tab2">
-        <strong>tab2</strong>
-        <p>Select Content</p>
-    </div>
-    <div id="tab3">
-        <strong>tab3</strong>
-        <p>Checkbox Content</p>
-    </div>
+	<ul>
+		<li data-content="#tab1"><img src="tabs/images/button.jpg">Button</li>
+		<li data-content="#tab2"><img src="tabs/images/Song-icon.png">Select</li>
+		<li data-content="#tab3"><img src="tabs/images/checkbox.jpg">Checkbox</li>
+	</ul>
+	<div id="tab1">
+		<strong>tab1</strong>
+		<p>Button Content</p>
+	</div>
+	<div id="tab2">
+		<strong>tab2</strong>
+		<p>Select Content</p>
+	</div>
+	<div id="tab3">
+		<strong>tab3</strong>
+		<p>Checkbox Content</p>
+	</div>
 </div>
 """
-  'Fixed' :
-    'prefix': 'Tabs(Fixed)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '너비가 고정된 Tabs 의 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_Fixed탭'
-    'body': """
+	'Fixed' :
+		'prefix': 'Tabs(Fixed)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '너비가 고정된 Tabs 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_Fixed탭'
+		'body': """
 <div class="Tabs Fixed" data-tab-width="120px" data-remove-button="true">
-    <div class="Scroller">
-        <ul>
-            <li data-content="#tab1_Fixed">tab1</li>
-            <li data-content="#tab2_Fixed">tab2</li>
-            <li data-content="#tab3_Fixed">tab3</li>
-            <li data-content="#tab4_Fixed">tab4</li>
-            <li data-content="#tab5_Fixed">tab5</li>
-            <li data-content="#tab6_Fixed">tab6</li>
-            <li data-content="#tab7_Fixed">tab7</li>
-            <li data-content="#tab8_Fixed">tab8</li>
-            <li data-content="#tab9_Fixed">tab9</li>
-        </ul>
-    </div>
-    <div id="tab1_Fixed">
-        <strong>tab1</strong>
-    </div>
-    <div id="tab2_Fixed">
-        <strong>tab2</strong>
-    </div>
-    <div id="tab3_Fixed">
-        <strong>tab3</strong>
-    </div>
-    <div id="tab4_Fixed">
-        <strong>tab4</strong>
-    </div>
-    <div id="tab5_Fixed">
-        <strong>tab5</strong>
-    </div>
-    <div id="tab6_Fixed">
-        <strong>tab6</strong>
-    </div>
-    <div id="tab7_Fixed">
-        <strong>tab7</strong>
-    </div>
-    <div id="tab8_Fixed">
-        <strong>tab8</strong>
-    </div>
-    <div id="tab9_Fixed">
-        <strong>tab9</strong>
-    </div>
+	<div class="Scroller">
+		<ul>
+			<li data-content="#tab1_Fixed">tab1</li>
+			<li data-content="#tab2_Fixed">tab2</li>
+			<li data-content="#tab3_Fixed">tab3</li>
+			<li data-content="#tab4_Fixed">tab4</li>
+			<li data-content="#tab5_Fixed">tab5</li>
+			<li data-content="#tab6_Fixed">tab6</li>
+			<li data-content="#tab7_Fixed">tab7</li>
+			<li data-content="#tab8_Fixed">tab8</li>
+			<li data-content="#tab9_Fixed">tab9</li>
+		</ul>
+	</div>
+	<div id="tab1_Fixed">
+		<strong>tab1</strong>
+	</div>
+	<div id="tab2_Fixed">
+		<strong>tab2</strong>
+	</div>
+	<div id="tab3_Fixed">
+		<strong>tab3</strong>
+	</div>
+	<div id="tab4_Fixed">
+		<strong>tab4</strong>
+	</div>
+	<div id="tab5_Fixed">
+		<strong>tab5</strong>
+	</div>
+	<div id="tab6_Fixed">
+		<strong>tab6</strong>
+	</div>
+	<div id="tab7_Fixed">
+		<strong>tab7</strong>
+	</div>
+	<div id="tab8_Fixed">
+		<strong>tab8</strong>
+	</div>
+	<div id="tab9_Fixed">
+		<strong>tab9</strong>
+	</div>
 </div>
 """
-  '2depth' :
-    'prefix': 'Tabs(2Depth)'
-    'rightLabelHTML' : 'Alopex'
-    'leftLabelHTML' : 'Markup'
-    'description': '2 Depth Tab을 구성하기 위한 HTML Markup 을 구성합니다.'
-    'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_2Depth탭Left'
-    'body': """
+	'2depth' :
+		'prefix': 'Tabs(2Depth)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '2 Depth Tab을 구성하기 위한 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tabs#Basic_2Depth탭Left'
+		'body': """
 <div id="tabDepth2" class="Tabs Fixed" data-depth2-position="left">
-        <div class="Scroller">
-            <ul>
-            </ul>
-        </div>
+	<div class="Scroller">
+		<ul>
+		</ul>
+	</div>
 </div>
 """
