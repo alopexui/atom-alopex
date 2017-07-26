@@ -28,7 +28,6 @@
 	</li>
 </ul>
 """
-
 	'Image' :
 		'prefix': 'Tree(Image)'
 		'rightLabelHTML' : 'Alopex'
@@ -64,14 +63,13 @@
 	</li>
 </ul>
 """
-
-  'Checkbox' :
-	'prefix': 'Tree(Checkbox)'
-	'rightLabelHTML' : 'Alopex'
-	'leftLabelHTML' : 'Markup'
-	'description': 'Checkbox가 추가된 Tree 의 HTML Markup 을 구성합니다.'
-	'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getCheckedNodesoptions'
-	'body': """
+	'Checkbox' :
+		'prefix': 'Tree(Checkbox)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Checkbox가 추가된 Tree 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getCheckedNodesoptions'
+		'body': """
 <ul class="Tree" data-checkbox="visible">
 	<li>
 		<span class="Arrow"></span> <input class="Checkbox" type="checkbox"><a>
