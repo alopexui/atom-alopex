@@ -435,7 +435,7 @@
 			title: ${13:false},
 			typeList: ['${14:equal}','notequal','contain','notcontain','lt','lte','gt','gte'],
 			typeListDefault: {
-				selectValue: ${15:''},
+				selectValue: '${15}',
 				expandSelectValue: '',
 				radioValue: 'and'
 			}
