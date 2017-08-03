@@ -112,6 +112,15 @@ setCustomFilter(function(el, source, text){
 	return source;
 })
 """
+ 'refreshFilter()' :
+		'prefix': 'refreshFilter()'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Autocomplete] 동적 입력(Textinput)값으로 목록(Dropdown)을 필터링해주는 함수입니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/2.3/dev-component/component.html?target=autocomplete#Functions_refreshFilter'
+		'body': """
+refreshFilter()
+"""
  'clear()' :
 		'prefix': 'clear()'
 		'leftLabelHTML':'void'
