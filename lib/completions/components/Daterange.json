@@ -2,7 +2,7 @@
   "data-pickertype": {
     "snippet": "data-pickertype=\"true\"",
     "description": "[Alopex] DateRange 컴포넌트의 날짜 선택 단위를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=dateinput#Attributes_datapickertype",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_datapickertype",
     "values" : [
       {
         "text" : "daily",

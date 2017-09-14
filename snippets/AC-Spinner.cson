@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Spinner 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#Basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=spinner#Basic'
 		'body': """
 <div class="Spinner">
 	<input value="0">
@@ -18,7 +18,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '영문 시간이 적용된 Spinner 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#TimeSpinnner_datahour'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=spinner#TimeSpinnner_datahour'
 		'body': """
 <div class="Spinner Time" data-locale="en">
 	<input data-hour>
@@ -35,7 +35,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '한글 시간이 적용된 Spinner 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#TimeSpinnner_datahour'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=spinner#TimeSpinnner_datahour'
 		'body': """
 <div class="Spinner Time" data-locale="ko">
 	<input data-hour>

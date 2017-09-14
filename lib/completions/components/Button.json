@@ -2,11 +2,11 @@
   "data-on": {
     "snippet": "data-on=\"$1\"",
     "description": "[Alopex] Button 컴포넌트의 Toggle on 모드 텍스트를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=button#Attributes_dataondataoff"
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=button#Attributes_dataondataoff"
   },
   "data-off": {
     "snippet": "data-off=\"$1\"",
     "description": "[Alopex] Button 컴포넌트의 Toggle off 모드 텍스트를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=button#Attributes_dataondataoff"
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=button#Attributes_dataondataoff"
   }
 }
