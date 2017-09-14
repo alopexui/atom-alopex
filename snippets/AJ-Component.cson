@@ -53,8 +53,8 @@ expandByMenuId(${1:menuId})
 		'body': """
 collapseByMenuId(${1:menuId})
 """
- 'setOptions(Object options)' :
-		'prefix': 'setOptions(Object options)'
+ 'setOptions(Object acOptions)' :
+		'prefix': 'setOptions(Object acOptions)'
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Autocomplete] Autocomplete 컴포넌트 옵션을 동적으로 설정합니다.'
@@ -452,8 +452,8 @@ setText(${1:text})
 		'body': """
 getText()
 """
- 'setOptions(Object options)' :
-		'prefix': 'setOptions(Object options)'
+ 'setOptions(Object uploadOptions)' :
+		'prefix': 'setOptions(Object uploadOptions)'
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[FileUpload] 컴포넌트 옵션을 동적으로 설정합니다.'
@@ -679,8 +679,8 @@ split({
 	position: '50%' //비율
 })
 """
- 'setOptions(Object options)' :
-		'prefix': 'setOptions(Object options)'
+ 'setOptions(Object splitOptions)' :
+		'prefix': 'setOptions(Object splitOptions)'
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Splitter] Splitter 컴포넌트 옵션을 동적으로 설정합니다.'
