@@ -55,6 +55,13 @@
 		'description': '[API] 그리드를 tree로 사용 할 때 트리의 펼쳐져 있는 child 요소를 접습니다.'
 		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#APIs_collapseTreeNode'
 		'body': '$("#${1:grid}").alopexGrid( "collapseTreeNode", ${2:[query]} );$3'
+	'API.columnDataGet' :
+		'prefix': 'columnDataGet'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Array'
+		'description': '[API] 그리드의 특정 칼럼 인덱스 혹은 키 값을 가지는 칼럼의 데이터를 조회할 수 있습니다.'
+		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#APIs_columnDataGet'
+		'body': '$("#${1:grid}").alopexGrid( "columnDataGet", ${2:columnIndexKey}, ${3:[query]} );$4'
 	'API.columnFix' :
 		'prefix': 'columnFix'
 		'rightLabelHTML' : 'AlopexGrid'
