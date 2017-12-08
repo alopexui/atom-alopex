@@ -801,6 +801,15 @@ addTab(${1:html})
 		'body': """
 addTab(${1:html},${2:true|false})
 """
+ 'moveTab(Integer targetIndex,Integer moveToIndex)' :
+		'prefix': 'moveTab(Integer targetIndex,Integer moveToIndex)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Tab] 해당 인덱스의 탭을 특정 인덱스로 이동합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Functions_moveTabtargetIndexmoveToIndex'
+		'body': """
+moveTab(${1:targetIndex},${2:moveToIndex})
+"""
  'removeTab(Integer index1)' :
 		'prefix': 'removeTab(Integer index1)'
 		'leftLabelHTML':'void'
