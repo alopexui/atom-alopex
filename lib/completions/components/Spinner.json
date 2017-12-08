@@ -2,16 +2,16 @@
   "data-min": {
     "snippet": "data-min=\"$1\"",
     "description": "[Alopex] Spinner 컴포넌트의 value의 최소값을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#Attributes_datamin"
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=spinner#Attributes_datamin"
   },
   "data-max": {
     "snippet": "data-max=\"$1\"",
     "description": "[Alopex] Spinner 컴포넌트의 value의 최대값을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#Attributes_datamax"
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=spinner#Attributes_datamax"
   },
   "data-step": {
     "snippet": "data-step=\"$1\"",
     "description": "[Alopex] Spinner 컴포넌트의 증가/감소하는 양을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=spinner#Attributes_datastep"
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=spinner#Attributes_datastep"
   }
 }

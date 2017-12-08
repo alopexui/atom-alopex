@@ -117,6 +117,10 @@
           {
             "label":"Alopex UI Template C (Fix Width)",
             "command" : "atom-alopex:createAlopexTemplateC"
+          },
+          {
+            "label":"Alopex UI Template D (Responsive Left Menu)",
+            "command" : "atom-alopex:createAlopexTemplateD"
           }
         ]
       }

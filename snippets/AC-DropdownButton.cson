@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 DropdownButton 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdownbutton#Basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=dropdownbutton#Basic'
 		'body': """
 <button class="Dropdownbutton">select</button>
 <ul>

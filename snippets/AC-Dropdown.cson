@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Dropdown 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=dropdown#basic'
 		'body': """
 <button class="Button">button</button>
 <ul class="Dropdown">
@@ -20,7 +20,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Textinput 에 Dropdown을 연동한 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_Textinput'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=dropdown#Basic_Textinput'
 		'body': """
 <input class="Textinput">
 <ul class="Dropdown">
@@ -36,7 +36,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Grouping Dropdown의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_GroupingMenu'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=dropdown#Basic_GroupingMenu'
 		'body': """
 <button class="Button">button</button>
 <ul class="Dropdown">
@@ -57,7 +57,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Multi Depth인 Dropdown의 HTML Markup을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=dropdown#Basic_MultiDepth'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=dropdown#Basic_MultiDepth'
 		'body': """
 <button class="Button">button</button>
 <ul class="Dropdown">

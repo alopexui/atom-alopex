@@ -2,11 +2,11 @@
   "data-totalpage ": {
     "snippet": "data-totalpage=\"$1\"",
     "description": "[Alopex] Paging 컴포넌트의 전체 페이지 갯수를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Attributes_datatotalpagenumber"
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Attributes_datatotalpagenumber"
   },
   "data-maxpage  ": {
     "snippet": "data-maxpage=\"$1\"",
     "description": "[Alopex] Paging 컴포넌트의 한 화면에 보여질 페이지 갯수를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-component/component.html?target=pagination#Attributes_datamaxpagenumber"
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Attributes_datamaxpagenumber"
   }
 }

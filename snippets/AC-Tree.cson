@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Tree 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Basic_기본트리'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=tree#Basic_기본트리'
 		'body': """
 <ul class="Tree">
 	<li>
@@ -33,7 +33,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '이미지 아이콘이 추가된 Tree의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Basic_이미지아이콘트리'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=tree#Basic_이미지아이콘트리'
 		'body': """
 <ul class="Tree">
 	<li>
@@ -68,7 +68,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Checkbox가 추가된 Tree 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=tree#Functions_getCheckedNodesoptions'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=tree#Functions_getCheckedNodesoptions'
 		'body': """
 <ul class="Tree" data-checkbox="visible">
 	<li>

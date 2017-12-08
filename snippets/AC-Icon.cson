@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Icon 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=icon#basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=icon#basic'
 		'body': """
 <span class="Icon Plus-sign"></span>
 """
@@ -14,7 +14,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'IconButton 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/dev-component/component.html?target=icon#Basic_IconButtons'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=icon#Basic_IconButtons'
 		'body': """
 <button class="Button"><span class="Icon Plus-sign" data-position="left"></span>Add</button>
 """
