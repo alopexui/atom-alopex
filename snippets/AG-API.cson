@@ -286,6 +286,13 @@
 		'description': '[API] 그리드를 tree로 사용 할 때 트리의 child 요소를 펼쳐 보이게 합니다.'
 		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#APIs_expandTreeNode'
 		'body': '$("#${1:grid}").alopexGrid( "expandTreeNode", ${2:[query]} );$3'
+	'API.filterInfo' :
+		'prefix': 'filterInfo'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Void'
+		'description': '[API] 그리드에 설정된 모든 필터 정보를 가져옵니다.'
+		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#APIs_filterInfo'
+		'body': '$("#${1:grid}").alopexGrid( "filterInfo" );$2'
 	'API.focusCell' :
 		'prefix': 'focusCell'
 		'rightLabelHTML' : 'AlopexGrid'

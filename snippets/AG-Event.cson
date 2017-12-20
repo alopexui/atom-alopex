@@ -887,6 +887,7 @@
 				var caseSensitive = evObj.caseSensitive;
 				var ignoreWhiteSpace = evObj.ignoreWhiteSpace;
 				var timeStamp = evObj.timeStamp;
+				var targetColumn = evObj.targetColumn;
 				\n\t$2
 			});$3
 		"""
@@ -913,6 +914,7 @@
 				var caseSensitive = evObj.caseSensitive;
 				var ignoreWhiteSpace = evObj.ignoreWhiteSpace;
 				var timeStamp = evObj.timeStamp;
+				var targetColumn = evObj.targetColumn;
 				\n\t$2
 			});$3
 		"""
@@ -939,6 +941,7 @@
 				var caseSensitive = evObj.caseSensitive;
 				var ignoreWhiteSpace = evObj.ignoreWhiteSpace;
 				var timeStamp = evObj.timeStamp;
+				var targetColumn = evObj.targetColumn;
 				\n\t$2
 			});$3
 		"""
@@ -986,6 +989,46 @@
 				var sortingDirection = evObj.sortingDirection;
 				var mapping = evObj.mapping;
 				var pageinfo = evObj.pageinfo;
+				\n\t$2
+			});$3
+		"""
+	'Event.startSearch' :
+		'prefix': 'startSearch'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Void'
+		'description': '[EVENT] searchStart API 호출에 의해 검색관련 로직이 시작되었을 때 발생하는 이벤트 입니다.'
+		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_startSearch'
+		'body': """
+			$("#${1:grid}").on("startSearch", function(e) {
+				var evObj = AlopexGrid.parseEvent(e);
+				\n\t$2
+			});$3
+		"""
+	'Event.startSearchEnd' :
+		'prefix': 'startSearchEnd'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Void'
+		'description': '[EVENT] searchStart API 호출에 의해 검색할 데이터 준비가 완료되었을 때 발생하는 이벤트 입니다.'
+		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Events_startSearchEnd'
+		'body': """
+			$("#${1:grid}").on("startSearchEnd", function(e) {
+				var evObj = AlopexGrid.parseEvent(e);
+				var evObj = AlopexGrid.parseEvent(e);
+				var keyword = evObj.keyword;
+				var matchCount = evObj.matchCount;
+				var highlightPointer = evObj.highlightPointer;
+				var matchDataList = evObj.matchDataList;
+				var matchMappingList = evObj.matchMappingList;
+				var highlightAtMatchDataList = evObj.highlightAtMatchDataList;
+				var highlightAtMatchMappingList = evObj.highlightAtMatchMappingList;
+				var highlightedData = evObj.highlightedData;
+				var highlightedMappingList = evObj.highlightedMappingList;
+				var byColumn = evObj.byColumn;
+				var useRegex = evObj.useRegex;
+				var caseSensitive = evObj.caseSensitive;
+				var ignoreWhiteSpace = evObj.ignoreWhiteSpace;
+				var timeStamp = evObj.timeStamp;
+				var targetColumn = evObj.targetColumn;
 				\n\t$2
 			});$3
 		"""
