@@ -907,12 +907,15 @@
 		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Options_searchOption'
 		'body': """
 		searchOption: {
-			useFilter: ${1:true}, // 검색 사용시 그리드의 필터 기능을 사용할 것인가 여부 //변경
-			useRenderToSearch: ${2:true}, // 셀에 렌더링된 내용을 이용하여 검색할 것인가 여부
-			caseSensitive: ${3:false}, // 대소문자를 구분하여 검색할 것인가 여부
-			ignoreWhiteSpace: ${4:false}, 스페이스, 엔터, 탭 과 같은 공백문자를 무시하고 검색할 것인가 여부
-			useRegex: ${5:false}, // 사용자가 제시한 키워드를 JavaScript의 RegExp 오브젝트로 변환시켜 검색에 사용할 것인가 여부
-			byColumn: ${6:false} // 검색시 하이라이트 전환을 행 단위로 넘기는것이 아닌 셀 단위로 넘길것인가 여부
+			useFilter: ${1:true}, // 검색 사용시 그리드의 필터 기능을 사용할 것인가 여부
+			filterName: ${2:null}, // useFilter 옵션 사용 시 그리드에 추가되는 필터명
+			useRenderToSearch: ${3:true}, // 셀에 렌더링된 내용을 이용하여 검색할 것인가 여부
+			caseSensitive: ${4:false}, // 대소문자를 구분하여 검색할 것인가 여부
+			ignoreWhiteSpace: ${5:false}, 스페이스, 엔터, 탭 과 같은 공백문자를 무시하고 검색할 것인가 여부
+			useRegex: ${6:false}, // 사용자가 제시한 키워드를 JavaScript의 RegExp 오브젝트로 변환시켜 검색에 사용할 것인가 여부
+			byColumn: ${7:false}, // 검색시 하이라이트 전환을 행 단위로 넘기는것이 아닌 셀 단위로 넘길것인가 여부
+			showProgress: ${8:false}, // 검색시 그리드에 프로그래스바를 실행합니다.
+			targetColumn: [] // 검색시 범위를 한정지을 칼럼 리스트
 		},$7
 		"""
 	'Option.setOriginalFromStart' :
