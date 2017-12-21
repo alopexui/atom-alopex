@@ -1013,7 +1013,6 @@
 		'body': """
 			$("#${1:grid}").on("startSearchEnd", function(e) {
 				var evObj = AlopexGrid.parseEvent(e);
-				var evObj = AlopexGrid.parseEvent(e);
 				var keyword = evObj.keyword;
 				var matchCount = evObj.matchCount;
 				var highlightPointer = evObj.highlightPointer;
