@@ -121,6 +121,10 @@
           {
             "label":"Alopex UI Template D (Responsive Left Menu)",
             "command" : "atom-alopex:createAlopexTemplateD"
+          },
+          {
+            "label":"Alopex UI Template E (Responsive Splitter Layout)",
+            "command" : "atom-alopex:createAlopexTemplateE"
           }
         ]
       }
