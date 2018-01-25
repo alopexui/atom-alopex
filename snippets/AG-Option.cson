@@ -182,13 +182,6 @@
 		'description': '[Option] 컨텍스트메뉴를 띄우기 위해 사용하는 이벤트를 바꾸고자 할 때 사용하는 옵션입니다.'
 		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Options_contextMenuEvent'
 		'body': "contextMenuEvent: '${1:click}',$2"
-	'Option.currentPageInCenter' :
-		'prefix': 'currentPageInCenter'
-		'rightLabelHTML' : 'AlopexGrid'
-		'leftLabelHTML' : 'Boolean'
-		'description': '[Option] 페이징 기능 사용 시 현재 페이지를 페이지 목록의 가운데 표시할 것인지 paging 옵션의 pagerCount 만큼 끊어서 페이지 목록 표시 뒤 현재 페이지에 하이라이트를 줄 것인지 설정하는 옵션입니다.'
-		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#Options_currentPageInCenter'
-		'body': "currentPageInCenter: ${1:true},$2"
 	'Option.data' :
 		'prefix': 'data'
 		'rightLabelHTML' : 'AlopexGrid'
