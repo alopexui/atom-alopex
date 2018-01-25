@@ -43,7 +43,7 @@
       "text" : "Calendar",
       "snippet": "Calendar",
       "description": "[Alopex] DateInput 컴포넌트에서 Calendar 아이콘 사용을 선언합니다",
-      "descriptionMoreURL": "http://uistg.alopex.io/2.3/development/component/component.html?target=dateinput#Basic",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Basic",
       "leftLabelHTML" : "String"
     },
     {
@@ -64,7 +64,14 @@
       "text" : "Clear",
       "snippet": "Clear",
       "description": "[Alopex] DateInput 컴포넌트에서 Clear 아이콘 사용을 선언합니다",
-      "descriptionMoreURL": "http://uistg.alopex.io/2.3/development/component/component.html?target=dateinput#WeekDayExample_WeekdayBasic",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#WeekDayExample_WeekdayBasic",
+      "leftLabelHTML" : "String"
+    },
+    {
+      "text" : "Combobox",
+      "snippet": "Combobox",
+      "description": "[Alopex] ComboBox 컴포넌트를 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=combobox#basic",
       "leftLabelHTML" : "String"
     },
     {
@@ -274,7 +281,7 @@
       "text" : "Next(Carousel)",
       "snippet": "Next",
       "description": "[Alopex] Carousel 컴포넌트의 다음 페이지 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://uistg.alopex.io/2.3/development/component/component.html?target=carousel#Basic_OptionalButtons",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#Basic_OptionalButtons",
       "leftLabelHTML" : "String"
     },
     {
@@ -302,7 +309,7 @@
       "text" : "Page",
       "snippet": "Page",
       "description": "[Alopex] Carousel 컴포넌트의 페이지 영역을 선언합니다",
-      "descriptionMoreURL": "http://uistg.alopex.io/2.3/development/component/component.html?target=carousel#Basic_BasicSample",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#Basic_BasicSample",
       "leftLabelHTML" : "String"
     },
     {
@@ -344,7 +351,7 @@
       "text" : "Prev(Carousel)",
       "snippet": "Prev",
       "description": "[Alopex] Carousel 컴포넌트의 이전 페이지 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://uistg.alopex.io/2.3/development/component/component.html?target=carousel#Basic_OptionalButtons",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#Basic_OptionalButtons",
       "leftLabelHTML" : "String"
     },
     {
@@ -400,7 +407,7 @@
       "text" : "Scroller(Carousel)",
       "snippet": "Scroller",
       "description": "[Alopex] Carousel 컴포넌트의 스크롤 기능을 선언합니다",
-      "descriptionMoreURL": "http://uistg.alopex.io/2.3/development/component/component.html?target=carousel#Basic_BasicSample",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#Basic_BasicSample",
       "leftLabelHTML" : "String"
     },
     {
@@ -498,7 +505,7 @@
       "text" : "Toggle",
       "snippet": "Toggle",
       "description": "[Alopex] Button 컴포넌트를 체크박스처럼 토글(Toggle) 가능하도록 선언합니다",
-      "descriptionMoreURL": "http://uistg.alopex.io/2.3/development/component/component.html?target=button#Attributes_toggle",
+      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=button#Attributes_toggle",
       "leftLabelHTML" : "String"
     },
     {

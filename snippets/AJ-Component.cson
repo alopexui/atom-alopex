@@ -265,6 +265,68 @@ getValues()
 		'body': """
 getTexts()
 """
+	'setOptions(Object comboboxOptions)' :
+ 		'prefix': 'setOptions(Object comboboxOptions)'
+ 		'leftLabelHTML':'void'
+ 		'rightLabelHTML':'AlopexUI'
+ 		'description':'[ComboBox] ComboBox 컴포넌트 옵션을 동적으로 설정합니다.'
+ 		'descriptionMoreURL':'http://ui.alopex.io/2.3/development/plugin/plugin.html?target=combobox#Functions_setOptionsoptions'
+ 		'body': """
+ setOptions({
+ 				filter: function(option, text){
+	        // value 값과 일치하도록 필터링 수행
+	        if(text === option.value){
+	            return true;
+	        }
+	        return false;
+    		}
+ })
+ """
+	'getValue()' :
+		'prefix': 'getValue()'
+		'leftLabelHTML':'String'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[ComboBox] 선택된 아이템의 value 값을 리턴합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Functions_getValue'
+		'body': """
+getValue()
+"""
+	'getText()' :
+		'prefix': 'getText()'
+		'leftLabelHTML':'String'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[ComboBox] 선택된 아이템의 텍스트 값을 리턴합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Functions_getText'
+		'body': """
+getText()
+"""
+	'setValue(String value)' :
+ 		'prefix': 'setValue(String value)'
+ 		'leftLabelHTML':'void'
+ 		'rightLabelHTML':'AlopexUI'
+ 		'description':'[ComboBox] value를 통해 항목을 선택합니다.'
+ 		'descriptionMoreURL':'http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Functions_setValuevalue'
+ 		'body': """
+ setValue(${1:value})
+"""
+ 'setText(String text)' :
+	 'prefix': 'setText(String text)'
+	 'leftLabelHTML':'void'
+	 'rightLabelHTML':'AlopexUI'
+	 'description':'[ComboBox] 입력(Input)의 텍스트 값을 동적으로 변경합니다.'
+	 'descriptionMoreURL':'http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Functions_setTexttexte'
+	 'body': """
+setText(${1:text})
+"""
+	'selectionInit()' :
+		'prefix': 'selectionInit()'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[ComboBox] 셀렉트 아이템을 초기값으로 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Functions_selectionInit'
+		'body': """
+selectionInit()
+"""
  'update(Object options)' :
 		'prefix': 'update(Object options)'
 		'leftLabelHTML':'void'

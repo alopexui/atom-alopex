@@ -1,0 +1,37 @@
+{
+  "data-placeholder": {
+    "snippet": "data-placeholder=\"$1\"",
+    "description": "[Alopex] ComboBox 컴포넌트의 placeholder 값을 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Attributes_dataplaceholder"
+  },
+  "data-bind-option": {
+    "snippet": "data-bind-option=\"$1\"",
+    "description": "[Alopex] ComboBox 컴포넌트의 데이터 바인딩 value, text 키명를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Attributes_databind",
+    "values": [
+      {
+      "text" : "value_key:text_key",
+      "snippet": "value_key:text_key",
+      "description": "[Alopex] 데이터 바인딩 value, text 키를 지정합니다",
+      "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-select-first": {
+    "snippet": "data-select-first=\"true\"",
+    "description": "[Alopex] ComboBox 컴포넌트의 멀티셀렉트 사용 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Attributes_dataselectfirst",
+    "values": [{
+      "text" : "true",
+      "snippet": "true",
+      "description": "[Alopex] ComboBox 컴포넌트의 data-select-first 속성을 \"true\"로 지정합니다",
+      "leftLabelHTML" : "Boolean"
+    },
+    {
+      "text" : "false",
+      "snippet": "false",
+      "description": "[Alopex] ComboBox 컴포넌트의 data-select-first 속성을 \"false\"로 지정합니다",
+      "leftLabelHTML" : "Boolean"
+    }]
+  }
+}

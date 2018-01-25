@@ -1,0 +1,15 @@
+'.text.html.basic,.text.html.jsp,.text.html.php':
+	'Basic' :
+		'prefix': 'Combobox(Basic)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': '기본 ComboBox 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=combobox#Basic'
+		'body': """
+<select class="Combobox">
+    <option value="korea">Korea</option>
+    <option value="usa">USA</option>
+    <option value="japan">Japan</option>
+    <option value="china">China</option>
+</select>
+"""
