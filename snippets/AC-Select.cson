@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Select 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=select#Basic_기본셀렉트'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/select#Basic_기본셀렉트'
 		'body': """
 <select id="selectId" class="Select" >
 	<option value="korea">Korea</option>
@@ -19,7 +19,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Select에 이미지 파일을 이용하여 스타일이 적용 된 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=select#Basic_이미지셀렉트'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/select#Basic_이미지셀렉트'
 		'body': """
 <div class="Divselect">
 	<select>

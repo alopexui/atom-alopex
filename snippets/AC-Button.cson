@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Button 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=button#Basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/button#Basic'
 		'body': """
 <button class="Button">Button</button>
 """
@@ -14,7 +14,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Toggle 속성을 이용하여 버튼을 체크박스처럼 사용할 수 있는 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=button#Attributes_toggle'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/button#Attributes_toggle'
 		'body': """
 <button class="Button Toggle">Button</button>
 """

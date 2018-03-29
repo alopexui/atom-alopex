@@ -2,12 +2,12 @@
   "data-position": {
     "snippet": "data-position=\"$1\"",
     "description": "[Alopex] Splitter 컴포넌트의 분할 비율을 %단위로 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/plugin/plugin.html?target=splitter#Attribute_datapositionstring"
+    "descriptionMoreURL": "http://ui.alopex.io/development/plugin/splitter#Attribute_datapositionstring"
   },
   "data-orientation": {
     "snippet": "data-orientation=\"$1\"",
     "description": "[Alopex] Splitter 컴포넌트의 분할 방향 옵션을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/plugin/plugin.html?target=splitter#Attribute_dataorientationstring",
+    "descriptionMoreURL": "http://ui.alopex.io/development/plugin/splitter#Attribute_dataorientationstring",
     "values" : [
       {
         "text" : "horizontal",

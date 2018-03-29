@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Single Fileupload 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/plugin/plugin.html?target=fileupload#Basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/plugin/fileupload#Basic'
 		'body': """
 <div id="fileuploader" class="Fileupload" data-selectType="basic" ></div>
 """
@@ -13,7 +13,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Multiple Fileupload 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/plugin/plugin.html?target=fileupload#Attributes_dataselecttypestringOptional'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/plugin/fileupload#Attributes_dataselecttypestringOptional'
 		'body': """
 <div id="fileuploader" class="Fileupload" data-selectType="advance" ></div>
 """

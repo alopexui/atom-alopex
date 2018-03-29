@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Paging 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=pagination#basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/pagination#Basic'
 		'body': """
 <div class="Paging">
 	<a class="Link">1</a>
@@ -18,7 +18,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Selected Paging 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_선택인덱스설정'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/pagination#Basic_선택인덱스설정'
 		'body': """
 <div class="Paging">
 	<a class="Link">1</a>
@@ -32,7 +32,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Mobile Style Paging 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_모바일스타일'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/pagination#Basic_모바일스타일'
 		'body': """
 <div class="Paging mobile">
 	<a class="Link">1</a>
@@ -46,7 +46,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '이전 다음 버튼이 적용된 Paging의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_마지막페이지지정'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/pagination#Basic_이전다음페이지지정'
 		'body': """
 <div class="Paging" data-totalpage="19">
 	<a class="Link Prev">Prev</a>
@@ -62,7 +62,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '이전그룹, 이전페이지 버튼이 적용된 Paging 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_이전그룹버튼이전페이지버튼'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/pagination#Basic_이전그룹버튼이전페이지버튼'
 		'body': """
 <div class="Paging" data-totalpage="19">
 	<a class="Link Prev-group"><span class="Icon Backward"></span></a>
@@ -80,7 +80,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '첫 페이지 버튼, 마지막 페이지 버튼이 적용 된 Paging 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_첫페이지버튼마지막페이지버튼'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/pagination#Basic_첫페이지버튼마지막페이지버튼'
 		'body': """
 <div class="Paging" data-totalpage="19" data-button-behavior="disable">
 	<a class="Link First"><span class="Icon Step-backward"></span></a>

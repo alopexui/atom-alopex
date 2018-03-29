@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Accordion 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=accordion#basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/accordion#Basic'
 		'body': """
 <div>
 	<ul class="Accordion">

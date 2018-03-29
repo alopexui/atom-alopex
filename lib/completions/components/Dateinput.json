@@ -2,17 +2,17 @@
   "data-format": {
     "snippet": "data-format=\"$1\"",
     "description": "[Alopex] DateInput 컴포넌트의 날짜 형태을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_dataformat"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_dataformat"
   },
   "data-reset-button": {
     "snippet": "data-reset-button=\"true\"",
     "description": "[Alopex] DateInput 컴포넌트의 삭제 버튼 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_dataresetbutton"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_dataresetbutton"
   },
   "data-pickertype": {
     "snippet": "data-pickertype=\"true\"",
     "description": "[Alopex] Dateinput 컴포넌트의 날짜 선택 단위를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_datapickertype",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_datapickertype",
     "values" : [
       {
         "text" : "daily",
@@ -31,7 +31,7 @@
   "data-pickerposition": {
     "snippet": "data-pickerposition=\"$1\"",
     "description": "[Alopex] DateInput 컴포넌트의 DatePicker 위치를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_datapickerposition",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_datapickerposition",
     "values" : [
       {
         "text" : "left",
@@ -62,22 +62,22 @@
   "data-selectyear": {
     "snippet": "data-selectyear=\"true\"",
     "description": "[Alopex] DateInput 컴포넌트의 년도 셀렉트 박스 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_dataselectyear"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_dataselectyear"
   },
   "data-selectmonth": {
     "snippet": "data-selectmonth=\"true\"",
     "description": "[Alopex] Dateinput 컴포넌트의 달 셀렉트 박스 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_dataselectmonth"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_dataselectmonth"
   },
   "data-placeholder": {
     "snippet": "data-placeholder=\"true\"",
     "description": "[Alopex] Dateinput 컴포넌트의 placeholder 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_dataplaceholder"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_dataplaceholder"
   },
   "data-inputwidth": {
     "snippet": "data-inputwidth=\"true\"",
     "description": "[Alopex] Dateinput 컴포넌트의 Dateinput 길이를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_datainputwidth",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_datainputwidth",
     "values": [
       {
         "text" : "auto",
@@ -90,6 +90,6 @@
   "data-default-date": {
     "snippet": "data-default-date=\"true\"",
     "description": "[Alopex] DateInput 컴포넌트의 focusout 시점의 default 값 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Attributes_dataplaceholder"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_datadefaultdate"
   }
 }

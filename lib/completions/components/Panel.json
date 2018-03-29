@@ -1,8 +1,8 @@
 {
   "data-fill": {
-    "snippet": "data-on=\"$1\"",
+    "snippet": "data-fill=\"$1\"",
     "description": "[Alopex] Panel 컴포넌트의 자동 여백 채우기 옵션을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=panel#Attributes_datafill",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/panel#Attributes_datafill",
     "values": [
     {
       "text" : "none",
@@ -14,22 +14,22 @@
       "text" : "vertical",
       "snippet": "vertical",
       "description": "[Alopex] 자동 여백 채우기 기능을 vertical로 지정합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=panel#Attributes_datafill_datafillvertical",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/panel#Attributes_datafill",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "horizontal",
       "snippet": "horizontal",
       "description": "[Alopex] 자동 여백 채우기 기능을 horizontal로 지정합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=panel#Attributes_datafill_datafillhorizontal",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/panel#Attributes_datafill",
       "leftLabelHTML" : "String"
     }
   ]
 },
 "data-scroll": {
-  "snippet": "data-off=\"$1\"",
+  "snippet": "data-scroll=\"$1\"",
   "description": "[Alopex] Panel 컴포넌트의 부분 스크롤 기능 사용 여부를 지정합니다",
-  "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=button#Attributes_datascroll",
+  "descriptionMoreURL": "http://ui.alopex.io/development/component/panel#Attributes_datascroll",
   "values" : [
     {
       "text" : "true",

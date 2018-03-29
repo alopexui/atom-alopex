@@ -2,16 +2,16 @@
   "data-default ": {
     "snippet": "data-default=\"$1\"",
     "description": "[Alopex] ProgressBar 컴포넌트의 초기값를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=progressbar#Attributes_datadefault"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/progressbar#Attributes_datadefault"
   },
   "data-starttext ": {
     "snippet": "data-starttext=\"$1\"",
     "description": "[Alopex] ProgressBar 컴포넌트의 시작 텍스트를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=progressbar#Attributes_datastarttextdataendtext"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/progressbar#Attributes_datastarttextdataendtext"
   },
   "data-endtext ": {
     "snippet": "data-endtext=\"$1\"",
     "description": "[Alopex] ProgressBar 컴포넌트의 종료 텍스트를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=progressbar#Attributes_datastarttextdataendtext"
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/progressbar#Attributes_datastarttextdataendtext"
   }
 }

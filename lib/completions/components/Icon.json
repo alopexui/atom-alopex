@@ -2,7 +2,7 @@
   "data-position": {
     "snippet": "data-position=\"$1\"",
     "description": "[Alopex] Icon 컴포넌트의 위치를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dropdownbutton#Attributes_dataposition",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dropdownbutton#Attributes_dataposition",
     "values" : [
       {
         "text" : "left",

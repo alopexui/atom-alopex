@@ -2,7 +2,7 @@
   "data-keyfilter-rule": {
     "snippet": "data-keyfilter-rule=\"$1\"",
     "description": "[Alopex] MaskedInput API 의 Keyfilter Rule을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=maskedinput#MaskedInputKeyFilter",
+    "descriptionMoreURL": "http://ui.alopex.io/development/javascript/maskedinput#MaskedInputKeyFilter_datakeyfilterrule",
     "values":[
       {
         "text" : "digits",
@@ -51,6 +51,6 @@
   "data-keyfilter": {
     "snippet": "data-keyfilter=\"$1\"",
     "description": "[Alopex] MaskedInput API 의 Custom Keyfilter Rule을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=maskedinput#MaskedInputKeyFilter_datakeyfilterrule"
+    "descriptionMoreURL": "http://ui.alopex.io/development/javascript/maskedinput#MaskedInputKeyFilter_datakeyfilter"
   }
 }
