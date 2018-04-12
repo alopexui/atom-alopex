@@ -2,7 +2,7 @@
   "data-open-trigger": {
     "snippet": "data-open-trigger=\"$1\"",
     "description": "[Alopex] DropdownButton 컴포넌트의 메뉴를 여는 트리거를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dropdownbutton#Attributes_dataopentrigger",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dropdownbutton#Attributes_dataopentrigger",
     "values": [
       {
         "text" : "click",
@@ -21,7 +21,7 @@
   "data-close-trigger": {
     "snippet": "data-close-trigger=\"$1\"",
     "description": "[Alopex] Dropdown 컴포넌트의 메뉴를 닫는 트리거를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dropdownbutton#Attributes_dataclosetrigger",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dropdownbutton#Attributes_dataclosetrigger",
     "values": [
       {
         "text" : "click",
@@ -40,7 +40,7 @@
   "data-position": {
     "snippet": "data-position=\"$1\"",
     "description": "[Alopex] Dropdown 컴포넌트의 위치를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dropdownbutton#Attributes_dataposition",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dropdownbutton#Attributes_dataposition",
     "values" : [
       {
         "text" : "left",

@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Checkbox 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=checkbox#Basic_기본체크박스'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/checkbox#Basic_기본체크박스'
 		'body': """
 <label>
 	<input class="Checkbox" type="checkbox" name="chk0" value = "check1">
@@ -25,7 +25,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Checkbox에 이미지 파일을 이용하여 스타일이 적용 된 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=checkbox#Basic_이미지체크박스'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/checkbox#Basic_이미지체크박스'
 		'body': """
 <label class="ImageCheckbox">
 	<input class="Checkbox" type="checkbox" name="chk1" value = "check1">

@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 DateInput 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/dateinput#Basic'
 		'body': """
 <div class="Dateinput">
 	<input>
@@ -15,7 +15,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Calendar icon image를 click 할 때 달력 컴포넌트가 활성화 되는 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/dateinput#Basic'
 		'body': """
 <div class="Dateinput">
 	<input>

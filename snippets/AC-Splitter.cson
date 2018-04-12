@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Splitter 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/2.3/development/plugin/plugin.html?target=splitter#Basic'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/plugin/splitter#Basic'
 		'body': """
 <div class="Splitter" data-position="40%" data-orientation="horizontal" style="height:600px;">
 	<div class="top_panel">

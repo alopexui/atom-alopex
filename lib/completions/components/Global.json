@@ -2,545 +2,545 @@
   "class": {
     "snippet": "class=\"$1\"",
     "description": "[Alopex] Alopex 컴포넌트를 사용합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/document/document.html?target=using#컴포넌트사용",
+    "descriptionMoreURL": "http://ui.alopex.io/document/using#컴포넌트사용",
     "values": [
       {
       "text" : "Accordion",
       "snippet": "Accordion",
       "description": "[Alopex] Accordion 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=accordion",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/accordion#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Arrow",
       "snippet": "Arrow",
       "description": "[Alopex] Tree 컴포넌트에서 항목 좌측에 블릿 아이콘 사용을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tree#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tree#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Autocomplete",
       "snippet": "Autocomplete",
       "description": "[Alopex] AutoComplete 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=autocomplete",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/autocomplete#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "bottom_panel",
       "snippet": "bottom_panel",
       "description": "[Alopex] Splitter 컴포넌트에서 horizontal 유형일 경우, 하단 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=splitter#ChildFrameAttribute_classstring",
+      "descriptionMoreURL": "http://ui.alopex.io/development/plugin/splitter#ChildFrameAttribute_classstring",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Button",
       "snippet": "Button",
       "description": "[Alopex] Button 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=button#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/button#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Calendar",
       "snippet": "Calendar",
       "description": "[Alopex] DateInput 컴포넌트에서 Calendar 아이콘 사용을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#Basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Carousel",
       "snippet": "Carousel",
       "description": "[Alopex] Carousel 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/carousel#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Checkbox",
       "snippet": "Checkbox",
       "description": "[Alopex] CheckBox 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=checkbox#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/checkbox#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Clear",
       "snippet": "Clear",
       "description": "[Alopex] DateInput 컴포넌트에서 Clear 아이콘 사용을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#WeekDayExample_WeekdayBasic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#WeekDayExample_WeekdayBasic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Combobox",
       "snippet": "Combobox",
       "description": "[Alopex] ComboBox 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=combobox#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/combobox#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Dateinput",
       "snippet": "Dateinput",
       "description": "[Alopex] DateInput 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dateinput#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Datepicker",
       "snippet": "Datepicker",
       "description": "[Alopex] DatePicker 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=datepicker#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/datepicker#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Daterange",
       "snippet": "Daterange",
       "description": "[Alopex] DateRange 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=daterange#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/daterange#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Dialog",
       "snippet": "Dialog",
       "description": "[Alopex] Dialog 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dialog#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dialog#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Dialog-contents",
       "snippet": "Dialog-contents",
       "description": "[Alopex] Dialog 컴포넌트의 컨텐츠 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dialog#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dialog#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Divider(Dropdown)",
       "snippet": "Divider",
       "description": "[Alopex] Dropdown 컴포넌트에서 구분선 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dropdown#Basic_GroupingMenu",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dropdown#Basic_GroupingMenu",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Divider(List)",
       "snippet": "Divider",
       "description": "[Alopex] List 컴포넌트에서 리스트간 구분 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=list#Basic_Divider",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/list#Basic_Divider",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Divselect",
       "snippet": "Divselect",
       "description": "[Alopex] Select 컴포넌트에 이미지를 이용하여 스타일 사용을 선업합니다.",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=select#Basic_이미지셀렉트",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/select#Basic_이미지셀렉트",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Down",
       "snippet": "Down",
       "description": "[Alopex] Spinner 컴포넌트에서 숫자 감소 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=spinner#Basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Dropdown",
       "snippet": "Dropdown",
       "description": "[Alopex] Dropdown 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dropdown#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dropdown#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Dropdownbutton",
       "snippet": "Dropdownbutton",
       "description": "[Alopex] DropdownButton 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dropdownbutton#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dropdownbutton#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Edit",
       "snippet": "Edit",
       "description": "[Alopex] Tabs 컴포넌트에서 동적 Tab 추가 버튼 사용을 위한 영역 지정을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Functions_addTabtitlecontentKeysetFocus",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Functions_addTabtitlecontentKeysetFocusindex",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Enddate",
       "snippet": "Enddate",
       "description": "[Alopex] DateRange의 종료날짜 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=daterange#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/daterange#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Fileupload",
       "snippet": "Fileupload",
       "description": "[Alopex] FileUpload 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=fileupload#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/plugin/fileupload#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "First",
       "snippet": "First",
       "description": "[Alopex] Paging 컴포넌트의 첫 페이지 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_첫페이지버튼마지막페이지버튼",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic_첫페이지버튼마지막페이지버튼",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Fixed",
       "snippet": "Fixed",
       "description": "[Alopex] Tabs 컴포넌트를 고정 너비로 사용함을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Basic_Fixed탭",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Basic_Fixed탭",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Groupbutton",
       "snippet": "Groupbutton",
       "description": "[Alopex] GroupButton 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=groupbutton#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/groupbutton#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Header",
       "snippet": "Header",
       "description": "[Alopex] Dropdown 컴포넌트에서 Grouping Menu 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=dropdown#Basic_GroupingMenu",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/dropdown#Basic_GroupingMenu",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Icon",
       "snippet": "Icon",
       "description": "[Alopex] Icon 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=icon#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/icon#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "ImageCheckbox",
       "snippet": "ImageCheckbox",
       "description": "[Alopex] CheckBox 컴포넌트에 이미지를 이용하여 스타일 사용을 선업합니다.",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=checkbox#Basic_이미지체크박스",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/checkbox#Basic_이미지체크박스",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "ImageRadio",
       "snippet": "ImageRadio",
       "description": "[Alopex] Radio 컴포넌트에 이미지를 이용하여 스타일 사용을 선업합니다.",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=radio#Basic_이미지라디오버튼",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/radio#Basic_이미지라디오버튼",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Last",
       "snippet": "Last",
       "description": "[Alopex] Paging 컴포넌트의 마지막 페이지 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_첫페이지버튼마지막페이지버튼",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic_첫페이지버튼마지막페이지버튼",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "left_panel",
       "snippet": "left_panel",
       "description": "[Alopex] Splitter 컴포넌트에서 vertical 유형일 경우, 죄측 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=splitter#ChildFrameAttribute_classstring",
+      "descriptionMoreURL": "http://ui.alopex.io/development/plugin/splitter#ChildFrameAttribute_classstring",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "List",
       "snippet": "List",
       "description": "[Alopex] List 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=list#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/list#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Link(List)",
       "snippet": "Link",
       "description": "[Alopex] List 컴포넌트내 각 항목에 특정 링크를 사용하고 그에 따른 스타일을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=list#Basic_Link",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/list#Basic_Link",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Link(Paging)",
       "snippet": "Link",
       "description": "[Alopex] Paging 컴포넌트내 페이지 넘버를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Mobile",
       "snippet": "Mobile",
       "description": "[Alopex] Paging 컴포넌트를 모바일 스타일로 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_모바일스타일",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic_모바일스타일",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Multiselect",
       "snippet": "Multiselect",
       "description": "[Alopex] MultiSelect 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=multiselect#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/plugin/multiselect#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Navmenu",
       "snippet": "Navmenu",
       "description": "[Alopex] NavigationMenu 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=navmenu#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/navmenu#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Next(Carousel)",
       "snippet": "Next",
       "description": "[Alopex] Carousel 컴포넌트의 다음 페이지 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#Basic_OptionalButtons",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/carousel#Basic_OptionalButtons",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Next(Paging)",
       "snippet": "Next",
       "description": "[Alopex] Paging 컴포넌트의 다음 페이지 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_이전그룹버튼이전페이지버튼",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic_이전그룹버튼이전페이지버튼",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Next-group",
       "snippet": "Next-group",
       "description": "[Alopex] Paging 컴포넌트의 다음 페이지 그룹 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_이전그룹버튼이전페이지버튼",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic_이전그룹버튼이전페이지버튼",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "NoLimit",
       "snippet": "NoLimit",
-      "description": "[Alopex] DateRange의 시작날짜 컴포넌트에서 최소 날짜 해제를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=daterange#basic",
+      "description": "[Alopex] DateRange의 시작날짜 컴포넌트에서 최소 날짜 해제 / 종료날짜 컴포넌트에서 최대 날짜 해제를 선언합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/daterange#Basic_NoLimit",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Page",
       "snippet": "Page",
       "description": "[Alopex] Carousel 컴포넌트의 페이지 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#Basic_BasicSample",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/carousel#Basic_BasicSample",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Paging",
       "snippet": "Paging",
       "description": "[Alopex] Paging 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Panel",
       "snippet": "Panel",
       "description": "[Alopex] Panel 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=panel#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/panel#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Panel-header",
       "snippet": "Panel-header",
       "description": "[Alopex] Panel 컴포넌트의 헤더 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=panel#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/panel#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Panel-content",
       "snippet": "Panel-content",
       "description": "[Alopex] Panel 컴포넌트의 컨텐츠 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=panel#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/panel#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Panel-footer",
       "snippet": "Panel-footer",
       "description": "[Alopex] Panel 컴포넌트의 푸터 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=panel#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/panel#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Prev(Carousel)",
       "snippet": "Prev",
       "description": "[Alopex] Carousel 컴포넌트의 이전 페이지 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#Basic_OptionalButtons",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/carousel#Basic_OptionalButtons",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Prev(Paging)",
       "snippet": "Prev",
       "description": "[Alopex] Paging 컴포넌트의 이전 페이지 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_이전그룹버튼이전페이지버튼",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic_이전그룹버튼이전페이지버튼",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Prev-group",
       "snippet": "Prev-group",
       "description": "[Alopex] Paging 컴포넌트의 이전 페이지 그룹 이동 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_이전그룹버튼이전페이지버튼",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic_이전그룹버튼이전페이지버튼",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Progressbar",
       "snippet": "Progressbar",
       "description": "[Alopex] ProgressBar 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=progressbar#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/progressbar#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Progress-text",
       "snippet": "Progress-text",
       "description": "[Alopex] ProgressBar 컴포넌트에 진행률(%) 텍스트 사용을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=progressbar#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/progressbar#Basic_텍스트가있는ProgressBar",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Radio",
       "snippet": "Radio",
       "description": "[Alopex] Radio 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=radio#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/radio#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "RemoveButton",
       "snippet": "RemoveButton",
       "description": "[Alopex] Tabs 컴포넌트에서 탭 삭제 버튼을 선언합니다.",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Basic_기본탭",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Basic_기본탭",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "right_panel",
       "snippet": "right_panel",
       "description": "[Alopex] Splitter 컴포넌트에서 vertical 유형일 경우, 우측 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=splitter#ChildFrameAttribute_classstring",
+      "descriptionMoreURL": "http://ui.alopex.io/development/plugin/splitter#ChildFrameAttribute_classstring",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Scroller(Carousel)",
       "snippet": "Scroller",
       "description": "[Alopex] Carousel 컴포넌트의 스크롤 기능을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=carousel#Basic_BasicSample",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/carousel#Basic_BasicSample",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Scroller(Tabs)",
       "snippet": "Scroller",
       "description": "[Alopex] Tabs 컴포넌트에서 스크롤 기능을 선언합니다.",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Basic_Fixed탭",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Basic_Fixed탭",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Select",
       "snippet": "Select",
       "description": "[Alopex] Select 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=select#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/select#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Selected",
       "snippet": "Selected",
       "description": "[Alopex] Paging 컴포넌트내 선택 된 페이지 넘버를 사용하고 그에 따른 스타일을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=pagination#Basic_선택인덱스설정",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/pagination#Basic_선택인덱스설정",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Spinner",
       "snippet": "Spinner",
       "description": "[Alopex] Spinner 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=spinner#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Splitter",
       "snippet": "Splitter",
       "description": "[Alopex] Splitter 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=splitter#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/plugin/splitter#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Startdate",
       "snippet": "Startdate",
       "description": "[Alopex] DateRange의 시작날짜 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=daterange#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/daterange#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Table",
       "snippet": "Table",
       "description": "[Alopex] Table 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=table#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/table#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Tabs",
       "snippet": "Tabs",
       "description": "[Alopex] Tabs 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Tabs-btn__edit",
       "snippet": "Tabs-btn__edit",
       "description": "[Alopex] Tabs 컴포넌트에서 동적 Tab 추가 버튼 스타일을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Functions_addTabtitlecontentKeysetFocus",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Functions_addTabtitlecontentKeysetFocusindex",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Textinput",
       "snippet": "Textinput",
       "description": "[Alopex] TextInput 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=textinput#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/textinput#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Textarea",
       "snippet": "Textarea",
       "description": "[Alopex] TextArea 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=textarea#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/textarea#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Thumbnail",
       "snippet": "Thumbnail",
       "description": "[Alopex] List 컴포넌트에서 리스트항목에 Thumbnail 이미지 사용을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=list#Basic_ThumbnailImage",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/list#Basic_ThumbnailImage",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Time",
       "snippet": "Time",
       "description": "[Alopex] Spinner 컴포넌트에서 시간으로 선택할 수 있는 유형으로 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=spinner#TimeSpinnner",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#TimeSpinnner",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Toggle",
       "snippet": "Toggle",
       "description": "[Alopex] Button 컴포넌트를 체크박스처럼 토글(Toggle) 가능하도록 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=button#Attributes_toggle",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/button#Attributes_toggle",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Tooltip",
       "snippet": "Tooltip",
       "description": "[Alopex] ToolTip 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tooltip#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "top_panel",
       "snippet": "top_panel",
       "description": "[Alopex] Splitter 컴포넌트에서 horizontal 영역일 경우, 상단 영역을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=splitter#ChildFrameAttribute_classstring",
+      "descriptionMoreURL": "http://ui.alopex.io/development/plugin/splitter#ChildFrameAttribute_classstring",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Tree",
       "snippet": "Tree",
       "description": "[Alopex] Tree 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tree#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/tree#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Up",
       "snippet": "Up",
       "description": "[Alopex] Spinner 컴포넌트에서 숫자 증가 버튼을 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=spinner#Basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Basic",
       "leftLabelHTML" : "String"
     },
     {
       "text" : "Webeditor",
       "snippet": "Webeditor",
       "description": "[Alopex] WebEditor 컴포넌트를 선언합니다",
-      "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=webeditor#basic",
+      "descriptionMoreURL": "http://ui.alopex.io/development/component/webeditor#Basic",
       "leftLabelHTML" : "String"
     }
     ]
@@ -548,7 +548,7 @@
   "data-bind": {
     "snippet": "data-bind=\"$1\"",
     "description": "[Alopex] 데이터 바인딩 기능을 사용합니다 ",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=databind#basic",
+    "descriptionMoreURL": "http://ui.alopex.io/development/javascript/databind#Attributes_databind",
     "values": [
       {
         "text": "html",
@@ -620,7 +620,7 @@
   "alopex-template-remove": {
     "snippet": "alopex-template-remove=\"$1\"",
     "description": "[Alopex] data-bind='foreach: list' 등을 통해 template으로 사용되고, hide처리 되는 element를 삭제 하고 싶은 경우에 사용합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/dev-js/javascript.html?target=databind#Attributes_alopextemplateremove",
+    "descriptionMoreURL": "http://ui.alopex.io/development/javascript/databind#Attributes_alopextemplateremove",
     "values": [{
       "text" : "true",
       "snippet": "true",

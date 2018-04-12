@@ -2,7 +2,7 @@
   "data-remove-button":{
     "snippet": "data-remove-button=\"$1\"",
     "description": "[Alopex] Tabs 컴포넌트의 탭 삭제 버튼 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Attributes_dataremovebutton",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Attributes_dataremovebutton",
     "values" : [
       {
         "text" : "true",
@@ -21,7 +21,7 @@
   "data-tabs-trigger":{
     "snippet": "data-tabs-trigger=\"$1\"",
     "description": "[Alopex] Tabs 컴포넌트의 탭 변경 트리거를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Attributes_datatabstrigger",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Attributes_datatabstrigger",
     "values" : [
       {
         "text" : "click",
@@ -40,7 +40,7 @@
   "data-refresh-button":{
     "snippet": "data-refresh-button=\"$1\"",
     "description": "[Alopex] Tabs 컴포넌트의 탭 새로고침 버튼 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Attributes_datarefreshbutton",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Attributes_datarefreshbutton",
     "values" : [
       {
         "text" : "true",
@@ -59,7 +59,7 @@
   "data-draggable":{
     "snippet": "data-draggable=\"$1\"",
     "description": "[Alopex] Tabs 컴포넌트의 Drag & Drop 기능 사용 여부를 지정합니다 (IE 10 이상)",
-    "descriptionMoreURL": "http://ui.alopex.io/2.3/development/component/component.html?target=tabs#Attributes_datarefreshbutton",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Attributes_datadraggable",
     "values" : [
       {
         "text" : "true",
@@ -74,5 +74,10 @@
         "leftLabelHTML" : "Boolean"
       }
     ]
+  },
+  "data-init-tabindex":{
+    "snippet": "data-init-tabindex=\"$1\"",
+    "description": "[Alopex] 탭이 init될 시에 Selected 될 Tab Index를 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/tabs#Attributes_datainittabindex"
   }
 }
