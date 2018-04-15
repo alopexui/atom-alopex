@@ -286,19 +286,10 @@ getTexts()
 		'prefix': 'getValue()'
 		'leftLabelHTML':'String'
 		'rightLabelHTML':'AlopexUI'
-		'description':'[ComboBox] 선택된 아이템의 value 값을 리턴합니다.'
+		'description':'[ComboBox] [ProgressBar] 선택된 아이템의 value 값을 리턴합니다.'
 		'descriptionMoreURL':'http://ui.alopex.io/development/component/combobox#Functions_getValue'
 		'body': """
 getValue()
-"""
-	'getText()' :
-		'prefix': 'getText()'
-		'leftLabelHTML':'String'
-		'rightLabelHTML':'AlopexUI'
-		'description':'[ComboBox] 선택된 아이템의 텍스트 값을 리턴합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/component/combobox#Functions_getText'
-		'body': """
-getText()
 """
 	'setValue(String value)' :
  		'prefix': 'setValue(String value)'
@@ -313,7 +304,7 @@ getText()
 	 'prefix': 'setText(String text)'
 	 'leftLabelHTML':'void'
 	 'rightLabelHTML':'AlopexUI'
-	 'description':'[ComboBox] 입력(Input)의 텍스트 값을 동적으로 변경합니다.'
+	 'description':'[ComboBox] [DropdownButton] 텍스트 값을 동적으로 변경합니다.'
 	 'descriptionMoreURL':'http://ui.alopex.io/development/component/combobox#Functions_setTexttexte'
 	 'body': """
 setText(${1:text})
@@ -496,15 +487,6 @@ setDataSource(${1:data})
 		'body': """
 getDataSource()
 """
- 'setText(String text)' :
-		'prefix': 'setText(String text)'
-		'leftLabelHTML':'void'
-		'rightLabelHTML':'AlopexUI'
-		'description':'[DropdownButton] 드랍다운버튼의 텍스트를 동적으로 설정합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/component/dropdownbutton#Functions_setTexttext'
-		'body': """
-setText(${1:text})
-"""
  'getText()' :
 		'prefix': 'getText()'
 		'leftLabelHTML':'void'
@@ -682,15 +664,6 @@ setMaxPage(${1:pagenum})
 		'descriptionMoreURL':'http://ui.alopex.io/development/component/pagination#Functions_getSelectedPage'
 		'body': """
 getSelectedPage()
-"""
- 'getValue()' :
-		'prefix': 'getValue()'
-		'leftLabelHTML':'Number'
-		'rightLabelHTML':'AlopexUI'
-		'description':'[ProgressBar] 진행된 프로그래스바의 백분율 값을 가져옵니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/component/progressbar#Functions_getValue'
-		'body': """
-getValue()
 """
  'setSelected()' :
 		'prefix': 'setSelected()'
