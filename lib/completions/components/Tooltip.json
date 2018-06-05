@@ -87,5 +87,15 @@
     "snippet": "data-close-callback=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 close 콜백 함수명을 지정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_dataclosecallback"
+  },
+  "data-show-disabled":{
+    "snippet": "data-show-disabled=\"$1\"",
+    "description": "[Alopex] ToolTip 컴포넌트가 diabled 상태일 때 동작 여부를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_datashowdisabled"
+  },
+  "data-create-wrapper ":{
+    "snippet": "data-create-wrapper =\"$1\"",
+    "description": "[Alopex] 마크업 변경 없이 ToolTip 컴포넌트가 diabled 상태일 때 동작하기 위한 wrapper 생성 유무를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_datacreatewrapper"
   }
 }

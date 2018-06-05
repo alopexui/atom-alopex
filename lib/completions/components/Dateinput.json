@@ -91,5 +91,15 @@
     "snippet": "data-default-date=\"true\"",
     "description": "[Alopex] DateInput 컴포넌트의 focusout 시점의 default 값 사용 여부를 지정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_datadefaultdate"
+  },
+  "data-block-key": {
+    "snippet": "data-block-key=\"true\"",
+    "description": "[Alopex] DateInput 컴포넌트의 input영역 문자가 지정한 포맷의 길이를 넘어가지 못하도록 하는 설정을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_datablockkey"
+  },
+  "data-click-select": {
+    "snippet": "data-click-select=\"true\"",
+    "description": "[Alopex] DateInput 컴포넌트를 클릭했을때 input영역 문자가 전체선택되도록 하는 설정을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_dataclickselect"
   }
 }
