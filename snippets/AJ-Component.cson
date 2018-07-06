@@ -1228,15 +1228,6 @@ webeditor('insertImage', ${1:url})
 		'description':'[Tootip] 컴포넌트에 설정된 옵션값을 가져옵니다.'
 		'descriptionMoreURL':'http://ui.alopex.io/development/component/tooltip#Functions_getOptionkey'
 		'body': """
-$('#tooltip').getOptions();
-"""
- 'getOption(String key)' :
-		'prefix': 'getOption(String key)'
-		'leftLabelHTML':'void'
-		'rightLabelHTML':'AlopexUI'
-		'description':'[Tootip] 컴포넌트에 설정된 옵션값을 가져옵니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/component/tooltip#Functions_getOptionkey'
-		'body': """
 $('#tooltip').getOption('activate');
 """
  'getOptions()' :
