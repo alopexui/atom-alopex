@@ -128,5 +128,15 @@
     "snippet": "data-enter-selectfirst=\"true\"",
     "description": "[Alopex] AutoComplete 컴포넌트의 엔터키 입력 시 첫 항목 선택 기능 사용 여부를 지정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/autocomplete#Attributes_dataenterselectfirstOptional"
+  },
+  "data-max-count": {
+    "snippet": "data-max-count=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 필터링된 내용의 높이를 갯수로 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/autocomplete#Attributes_datamaxcountOptional"
+  },
+  "data-fixed-width": {
+    "snippet": "data-fixed-width=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 dropdown의 넓이를 픽셀단위로 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/autocomplete#Attributes_datafixedwidthOptional"
   }
 }

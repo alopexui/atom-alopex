@@ -729,7 +729,7 @@ setOptions({
 					console.log("Dragging");
 				},
 				onDragStart: function(event) { // 드래그 시작 시점의 콜백 함수를 정의
-					console.log("Drag Start");
+			"		console.log("Drag Start");
 				},
 				onDragEnd: function(event) { // 드래그 종료(Drop) 시점의 콜백 함수를 정의
 					console.log("Drag End");
@@ -1220,4 +1220,52 @@ webeditor('createLink', {
 		'descriptionMoreURL':'http://ui.alopex.io/development/plugin/webeditor#Functions_insertImage'
 		'body': """
 webeditor('insertImage', ${1:url})
+"""
+ 'getOption(String key)' :
+		'prefix': 'getOption(String key)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Tootip] 컴포넌트에 설정된 옵션값을 가져옵니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/tooltip#Functions_getOptionkey'
+		'body': """
+$('#tooltip').getOptions();
+"""
+ 'getOption(String key)' :
+		'prefix': 'getOption(String key)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Tootip] 컴포넌트에 설정된 옵션값을 가져옵니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/tooltip#Functions_getOptionkey'
+		'body': """
+$('#tooltip').getOption('activate');
+"""
+ 'getOptions()' :
+		'prefix': 'getOptions()'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Tootip] 컴포넌트에 설정된 옵션값을 가져옵니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/tooltip#Functions_getOptions'
+		'body': """
+$('#tooltip').getOptions();
+"""
+'setOption(key, value)' :
+		'prefix': 'setOption(key, value)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Tootip] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/tooltip#Functions_setOptionkeyvalue'
+		'body': """
+$('#tooltip').setOption('opentrigger', 'click');
+"""
+'setOptions(Object tooltipOptions)' :
+		'prefix': 'setOptions(Object tooltipOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Tootip] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/tooltip#Functions_setOptionsoptions'
+		'body': """
+$('#tooltip').setOptions({
+    'opentrigger': 'click',
+    'activate': 'disabled'
+});
 """

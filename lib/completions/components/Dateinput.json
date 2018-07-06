@@ -101,5 +101,10 @@
     "snippet": "data-click-select=\"true\"",
     "description": "[Alopex] DateInput 컴포넌트를 클릭했을때 input영역 문자가 전체선택되도록 하는 설정을 지정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_dataclickselect"
+  },
+  "data-startweekday": {
+    "snippet": "data-startweekday=\"$1\"",
+    "description": "[Alopex] DateInput 컴포넌트의 한주의 시작요일을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/dateinput#Attributes_datastartweekday"
   }
 }

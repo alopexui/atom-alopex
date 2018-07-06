@@ -33,5 +33,10 @@
       "description": "[Alopex] ComboBox 컴포넌트의 data-select-first 속성을 \"false\"로 지정합니다",
       "leftLabelHTML" : "Boolean"
     }]
+  },
+  "data-max-count": {
+    "snippet": "data-max-count=\"$1\"",
+    "description": "[Alopex] ComboBox 컴포넌트의 필터링된 내용의 높이를 갯수로 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/combobox#Attributes_datamaxcount"
   }
 }

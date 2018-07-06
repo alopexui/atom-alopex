@@ -1,3 +1,8 @@
 {
-  
+    "data-position": {
+      "snippet": "data-position=\"$1\"",
+      "description": "[Alopex] Multiselect 컴포넌트의 position을 지정합니다",
+      "descriptionMoreURL": "http://ui.alopex.io/development/plugin/multiselect#Attribute_dataposition"
+    }
 }
+  
