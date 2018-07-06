@@ -1239,7 +1239,7 @@ $('#tooltip').getOption('activate');
 		'body': """
 $('#tooltip').getOptions();
 """
-'setOption(key, value)' :
+ 'setOption(key, value)' :
 		'prefix': 'setOption(key, value)'
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
@@ -1248,7 +1248,7 @@ $('#tooltip').getOptions();
 		'body': """
 $('#tooltip').setOption('opentrigger', 'click');
 """
-'setOptions(Object tooltipOptions)' :
+ 'setOptions(Object tooltipOptions)' :
 		'prefix': 'setOptions(Object tooltipOptions)'
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
