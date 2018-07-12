@@ -369,8 +369,8 @@ closeDatePicker()
 		'prefix': 'open()'
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
-		'description':'[Dialog] Dialog 컴포넌트를 열어줍니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/component/dialog#Functions_openoption'
+		'description':'[Component공통] 컴포넌트 또는 목록을 열어줍니다'
+		'descriptionMoreURL':''
 		'body': """
 open()
 """
@@ -442,7 +442,7 @@ confirm(function() {
 		'prefix': 'close()'
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
-		'description':'[Component공통] 컴포넌트를 닫아줍니다.'
+		'description':'[Component공통] 컴포넌트 또는 목록을 닫아줍니다.'
 		'descriptionMoreURL':''
 		'body': """
 close()
