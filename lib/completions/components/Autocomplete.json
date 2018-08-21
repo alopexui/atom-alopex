@@ -138,5 +138,24 @@
     "snippet": "data-fixed-width=\"$1\"",
     "description": "[Alopex] AutoComplete 컴포넌트의 dropdown의 넓이를 픽셀단위로 설정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/autocomplete#Attributes_datafixedwidthOptional"
+  },
+  "data-bind": {
+    "snippet": "data-bind=\"$1\"",
+    "description": "[Alopex] AutoComplete 컴포넌트의 데이터 바인딩 source, select 키명를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/autocomplete#Attributes_databindOptional",
+    "values": [
+      {
+        "text" : "source",
+        "snippet": "source:data",
+        "description": "[Alopex] 데이터 바인딩 source의 키명을 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "select",
+        "snippet": "select:selected_val",
+        "description": "[Alopex] 데이터에서 선택할 룰의 키명을 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
   }
 }
