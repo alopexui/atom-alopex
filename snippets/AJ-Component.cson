@@ -286,7 +286,7 @@ getTexts()
 		'prefix': 'getValue()'
 		'leftLabelHTML':'String'
 		'rightLabelHTML':'AlopexUI'
-		'description':'[ComboBox] [ProgressBar] 선택된 아이템의 value 값을 리턴합니다.'
+		'description':'[ComboBox] [ProgressBar] [Spinner] 선택된 아이템의 value 값을 리턴합니다.'
 		'descriptionMoreURL':'http://ui.alopex.io/development/component/combobox#Functions_getValue'
 		'body': """
 getValue()
@@ -299,6 +299,15 @@ getValue()
  		'descriptionMoreURL':'http://ui.alopex.io/development/component/combobox#Functions_setValuevalue'
  		'body': """
  setValue(${1:value})
+"""
+	'setValue(Object object)' :
+ 		'prefix': 'setValue(Object object)'
+ 		'leftLabelHTML':'void'
+ 		'rightLabelHTML':'AlopexUI'
+ 		'description':'[Spinner] Time Spinner 컴포넌트의 value를 설정하는 API 입니다.'
+ 		'descriptionMoreURL':'http://localhost:9000/development/component/spinner#Functions_setValueobject'
+ 		'body': """
+ setValue(${1:object})
 """
  'setText(String text)' :
 	 'prefix': 'setText(String text)'
