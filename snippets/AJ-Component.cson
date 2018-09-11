@@ -589,6 +589,15 @@ removeElement()
 		'body': """
 getResponses()
 """
+ 'clearFile(fileInfo)' :
+		'prefix': 'clearFile(fileInfo)'
+		'leftLabelHTML':'Object'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[FileUpload] 콜백함수 처리시에 fileInfo에 있는 파일을 삭제합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/plugin/fileupload#Functions_clearFilefileInfo'
+		'body': """
+clearFile(fileInfo)
+"""
  'setOrient(String orient)' :
 		'prefix': 'setOrient(String orient)'
 		'leftLabelHTML':'void'
