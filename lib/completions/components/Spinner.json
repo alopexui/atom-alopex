@@ -23,5 +23,15 @@
     "snippet": "data-pushincrease=\"true\"",
     "description": "[Alopex] Spinner 컴포넌트의 증감 버튼을 계속 누르고 있을때 숫자가 증가하는 기능의 사용여부를 설정합니다.",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Attributes_datapushincrease"
+  },
+  "data-minyear": {
+    "snippet": "data-minyear=\"$1\"",
+    "description": "[Alopex] Date Spinner 컴포넌트의 년도의 최소값을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_dataminyearOptional"
+  },
+  "data-maxyear": {
+    "snippet": "data-maxyear=\"$1\"",
+    "description": "[Alopex] Date Spinner 컴포넌트의 년도의 최대값을 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_datamaxyearOptional"
   }
 }

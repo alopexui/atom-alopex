@@ -24,6 +24,8 @@
 	<input data-hour>
 	<span data-seperator>:</span>
 	<input data-minute>
+	<span data-seperator>:</span>
+	<input data-second>
 	<input data-ampm>
 	<a class="Up"></a>
 	<a class="Down"></a>
@@ -41,7 +43,27 @@
 	<input data-hour>
 	<span data-seperator>:</span>
 	<input data-minute>
+	<span data-seperator>:</span>
+	<input data-second>
 	<input data-ampm>
+	<a class="Up"></a>
+	<a class="Down"></a>
+</div>
+"""
+
+	'Date' :
+		'prefix': 'Spinner(Date)'
+		'rightLabelHTML' : 'Alopex'
+		'leftLabelHTML' : 'Markup'
+		'description': 'Date Spinner 의 HTML Markup 을 구성합니다.'
+		'descriptionMoreURL': 'http://ui.alopex.io/development/component/spinner#DateSpinner'
+		'body': """
+<div class="Spinner Date" >
+	<input data-year>
+	<span data-seperator>-</span>
+	<input data-month>
+	<span data-seperator>-</span>
+	<input data-date>
 	<a class="Up"></a>
 	<a class="Down"></a>
 </div>
