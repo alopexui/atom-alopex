@@ -26,12 +26,17 @@
   },
   "data-minyear": {
     "snippet": "data-minyear=\"$1\"",
-    "description": "[Alopex] Date Spinner 컴포넌트의 년도의 최소값을 지정합니다",
+    "description": "[Alopex] Date Spinner 컴포넌트에서 년도의 최소값을 지정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_dataminyearOptional"
   },
   "data-maxyear": {
     "snippet": "data-maxyear=\"$1\"",
-    "description": "[Alopex] Date Spinner 컴포넌트의 년도의 최대값을 지정합니다",
+    "description": "[Alopex] Date Spinner 컴포넌트에서 년도의 최대값을 지정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_datamaxyearOptional"
+  },
+  "data-automation": {
+    "snippet": "data-automation=\"true\"",
+    "description": "[Alopex] Time Spinner, Date Spinner 컴포넌트에서 위아래로 값 조정시에 그앞의 값이 유기적으로 변경되게 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#TimeSpinner_dataautomationOptional"
   }
 }
