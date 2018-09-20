@@ -15,7 +15,7 @@
 	                    }
 	                });
 	            },
-	            onError : function(files,status,errMsg,pd){
+	            onError : function(files,status,errMsg,pd,xhr){
 	                var errorInfo = files+" / "+status+" / "+errMsg;
 	                alert(errorInfo);
 	            }

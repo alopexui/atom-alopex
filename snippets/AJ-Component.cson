@@ -525,7 +525,7 @@ setOptions({
 		alert(files);
 		// return false; // 리턴 값이 false 일 경우, 전송 중단
 	},
-	onError : function(files,status,errMsg,pd) {
+	onError : function(files,status,errMsg,pd,xhr) {
 		var errorInfo = files+" / "+status+" / "+errMsg;
 		alert(errorInfo);
 	},
