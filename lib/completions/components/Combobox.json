@@ -38,5 +38,10 @@
     "snippet": "data-max-count=\"$1\"",
     "description": "[Alopex] ComboBox 컴포넌트의 필터링된 내용의 높이를 갯수로 설정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/combobox#Attributes_datamaxcount"
+  },
+  "data-select-text":{
+    "snippet": "data-select-text=\"true\"",
+    "description": "[Alopex] Text박스 클릭 시 텍스트가 모두 선택 될지를 지정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/combobox#Attributes_dataselecttextOptional"
   }
 }
