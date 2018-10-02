@@ -38,5 +38,20 @@
     "snippet": "data-automation=\"true\"",
     "description": "[Alopex] Time Spinner, Date Spinner 컴포넌트에서 위아래로 값 조정시에 그앞의 값이 유기적으로 변경되게 설정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#TimeSpinner_dataautomationOptional"
+  },
+  "data-value-type": {
+    "snippet": "data-value-type=\"string\"",
+    "description": "[Alopex] Time Spinner, Date Spinner, 일반 Spinner 컴포넌트에서 set/get시 문자열의 형태로 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Attributes_datavaluetypeOptional"
+  },
+  "data-time-format": {
+    "snippet": "data-time-format=\"HHmmsdsaa\"",
+    "description": "[Alopex] Time Spinner 컴포넌트에서 data-value-type을 'string'으로 설정시에 데이터 포맷을 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#TimeSpinner_datatimeformatOptional"
+  },
+  "data-date-format": {
+    "snippet": "data-date-format=\"yyyyMMdd\"",
+    "description": "[Alopex] Date Spinner 컴포넌트에서 data-value-type을 'string'으로 설정시에 데이터 포맷을 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_datadateformatOptional"
   }
 }
