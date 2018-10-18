@@ -53,5 +53,61 @@
     "snippet": "data-date-format=\"yyyyMMdd\"",
     "description": "[Alopex] Date Spinner 컴포넌트에서 data-value-type을 'string'으로 설정시에 데이터 포맷을 설정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_datadateformatOptional"
+  },
+  "data-time-focus": {
+    "snippet": "data-time-focus=\"$1\"",
+    "description": "[Alopex] Time Spinner 컴포넌트가 렌더링 된 직후 up/down 버튼을 눌렀을 때 값이 변동되는 input을 설정한다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#TimeSpinner_datatimefocusOptional",
+    "values": [
+      {
+        "text" : "hour",
+        "snippet": "hour",
+        "description": "[Alopex] focus input을 \"시간\"으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "minute",
+        "snippet": "minute",
+        "description": "[Alopex] focus input을 \"분\"으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "second",
+        "snippet": "second",
+        "description": "[Alopex] focus input을 \"초\"로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "ampm",
+        "snippet": "ampm",
+        "description": "[Alopex] focus input을 \"AM/PM\"으로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
+  },
+  "data-date-focus": {
+    "snippet": "data-date-focus=\"$1\"",
+    "description": "[Alopex] Date Spinner 컴포넌트가 렌더링 된 직후 up/down 버튼을 눌렀을 때 값이 변동되는 input을 설정한다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_datadatefocusOptional",
+    "values": [
+      {
+        "text" : "year",
+        "snippet": "year",
+        "description": "[Alopex] focus input을 \"년\"으로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "month",
+        "snippet": "month",
+        "description": "[Alopex] focus input을 \"월\"로 지정합니다",
+        "leftLabelHTML" : "String"
+      },
+      {
+        "text" : "date",
+        "snippet": "date",
+        "description": "[Alopex] focus input을 \"일\"로 지정합니다",
+        "leftLabelHTML" : "String"
+      }
+    ]
   }
 }
