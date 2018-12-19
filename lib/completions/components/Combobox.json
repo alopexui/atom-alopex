@@ -43,5 +43,10 @@
     "snippet": "data-select-text=\"true\"",
     "description": "[Alopex] Text박스 클릭 시 텍스트가 모두 선택 될지를 지정합니다",
     "descriptionMoreURL": "http://ui.alopex.io/development/component/combobox#Attributes_dataselecttextOptional"
+  },
+  "data-position":{
+    "snippet": "data-position=\"top\"",
+    "description": "[Alopex] dropdown의 위치를 설정합니다",
+    "descriptionMoreURL": "http://ui.alopex.io/development/component/combobox#Attributes_dataposition"
   }
 }
