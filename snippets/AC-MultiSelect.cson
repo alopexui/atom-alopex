@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Multiselect 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/plugin/multiselect#Basic'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/plugin/multiselect#Basic'
 		'body': """
 <select class="Multiselect">
 	<option value="korea">Korea</option>

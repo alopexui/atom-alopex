@@ -2,62 +2,62 @@
   "data-min": {
     "snippet": "data-min=\"$1\"",
     "description": "[Alopex] Spinner 컴포넌트의 value의 최소값을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Attributes_datamin"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#Attributes_datamin"
   },
   "data-max": {
     "snippet": "data-max=\"$1\"",
     "description": "[Alopex] Spinner 컴포넌트의 value의 최대값을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Attributes_datamax"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#Attributes_datamax"
   },
   "data-step": {
     "snippet": "data-step=\"$1\"",
     "description": "[Alopex] Spinner 컴포넌트의 증가/감소하는 양을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Attributes_datastep"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#Attributes_datastep"
   },
   "data-intervalrate": {
     "snippet": "data-intervalrate=\"$1\"",
     "description": "[Alopex] Spinner 컴포넌트의 증감 버튼을 계속 누르고 있을때 숫자가 증가하는 속도를 조절합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Attributes_dataintervalrate"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#Attributes_dataintervalrate"
   },
   "data-pushincrease": {
     "snippet": "data-pushincrease=\"true\"",
     "description": "[Alopex] Spinner 컴포넌트의 증감 버튼을 계속 누르고 있을때 숫자가 증가하는 기능의 사용여부를 설정합니다.",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Attributes_datapushincrease"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#Attributes_datapushincrease"
   },
   "data-minyear": {
     "snippet": "data-minyear=\"$1\"",
     "description": "[Alopex] Date Spinner 컴포넌트에서 년도의 최소값을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_dataminyearOptional"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#DateSpinner_dataminyearOptional"
   },
   "data-maxyear": {
     "snippet": "data-maxyear=\"$1\"",
     "description": "[Alopex] Date Spinner 컴포넌트에서 년도의 최대값을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_datamaxyearOptional"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#DateSpinner_datamaxyearOptional"
   },
   "data-automation": {
     "snippet": "data-automation=\"true\"",
     "description": "[Alopex] Time Spinner, Date Spinner 컴포넌트에서 위아래로 값 조정시에 그앞의 값이 유기적으로 변경되게 설정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#TimeSpinner_dataautomationOptional"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#TimeSpinner_dataautomationOptional"
   },
   "data-value-type": {
     "snippet": "data-value-type=\"string\"",
     "description": "[Alopex] Time Spinner, Date Spinner, 일반 Spinner 컴포넌트에서 set/get시 문자열의 형태로 설정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#Attributes_datavaluetypeOptional"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#Attributes_datavaluetypeOptional"
   },
   "data-time-format": {
     "snippet": "data-time-format=\"HHmmsdsaa\"",
     "description": "[Alopex] Time Spinner 컴포넌트에서 data-value-type을 'string'으로 설정시에 데이터 포맷을 설정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#TimeSpinner_datatimeformatOptional"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#TimeSpinner_datatimeformatOptional"
   },
   "data-date-format": {
     "snippet": "data-date-format=\"yyyyMMdd\"",
     "description": "[Alopex] Date Spinner 컴포넌트에서 data-value-type을 'string'으로 설정시에 데이터 포맷을 설정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_datadateformatOptional"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#DateSpinner_datadateformatOptional"
   },
   "data-time-focus": {
     "snippet": "data-time-focus=\"$1\"",
     "description": "[Alopex] Time Spinner 컴포넌트가 렌더링 된 직후 up/down 버튼을 눌렀을 때 값이 변동되는 input을 설정한다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#TimeSpinner_datatimefocusOptional",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#TimeSpinner_datatimefocusOptional",
     "values": [
       {
         "text" : "hour",
@@ -88,7 +88,7 @@
   "data-date-focus": {
     "snippet": "data-date-focus=\"$1\"",
     "description": "[Alopex] Date Spinner 컴포넌트가 렌더링 된 직후 up/down 버튼을 눌렀을 때 값이 변동되는 input을 설정한다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/spinner#DateSpinner_datadatefocusOptional",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/spinner#DateSpinner_datadatefocusOptional",
     "values": [
       {
         "text" : "year",

@@ -4,7 +4,7 @@
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Validator] Validator의 Custom Method를 정의합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/validator#Functions_ValidatoraddMethodStringnamefunctionhandler'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/validator#Functions_ValidatoraddMethodStringnamefunctionhandler'
 		'body': """
 Validator.addMethod(${1:'methodName'}, function(element, value, param) {
 	//무조건 rule 파라미터로 넘어온 값과 일치해야 검증을 통과시키는 로직.
@@ -20,7 +20,7 @@ Validator.addMethod(${1:'methodName'}, function(element, value, param) {
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Validator] Validation Method 커스텀 메시지를 설정합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/validator#Functions_ValidatorsetMessageStringmethodString|functionmessage'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/validator#Functions_ValidatorsetMessageStringmethodString|functionmessage'
 		'body': """
 Validator.setMessage(${1:'methodName'}, ${2:'message'});
 """

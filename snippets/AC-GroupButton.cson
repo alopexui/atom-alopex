@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 GroupButton 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/groupbutton#Basic'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/groupbutton#Basic'
 		'body': """
 <div class="Groupbutton">
 	<button class="Button">btn1</button>
@@ -19,7 +19,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '세로 방향의 GroupButton 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/groupbutton#Basic_Align'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/groupbutton#Basic_Align'
 		'body': """
 <div class="Groupbutton Vertical">
 	<button class="Button">btn1</button>
@@ -34,7 +34,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Radio GroupButton의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/groupbutton#Basic_RadioButtons'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/groupbutton#Basic_RadioButtons'
 		'body': """
 <div class="Groupbutton">
 	<label class="Button">
@@ -57,7 +57,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Checkbox GroupButton의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/groupbutton#Basic_CheckboxButtons'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/groupbutton#Basic_CheckboxButtons'
 		'body': """
 <div class="Groupbutton">
 	<label class="Button">

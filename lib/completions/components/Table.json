@@ -2,7 +2,7 @@
   "data-resizable":{
     "snippet": "data-resizable=\"$1\"",
     "description": "[Alopex] Table 컴포넌트의 컬럼 헤더에서 사용하며 컬럼을 리사이징 할 수 있습니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/table#Attributes_dataresizableboolean",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/table#Attributes_dataresizableboolean",
     "values" : [
       {
         "text" : "true",
@@ -21,7 +21,7 @@
   "data-sortable":{
     "snippet": "data-sortable=\"$1\"",
     "description": "[Alopex] Table 컴포넌트의 정렬 옵션을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/table#Attributes_datasortable",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/table#Attributes_datasortable",
     "values" : [
       {
         "text" : "string",
@@ -46,7 +46,7 @@
   "data-sort-function":{
     "snippet": "data-sort-function=\"$1\"",
     "description": "[Alopex] Table 컴포넌트의 사용자 정의 소팅 함수를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/table#Attributes_datasortfunctionfunctionName",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/table#Attributes_datasortfunctionfunctionName",
     "values" : [
       {
         "text" : "functionName",
@@ -59,7 +59,7 @@
   "data-editable":{
     "snippet": "data-editable=\"$1\"",
     "description": "[Alopex] 각 셀에 해당하는 td 영역에서 사용하며, 컬럼의 셀 편집 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/table#Attributes_datasortable",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/table#Attributes_datasortable",
     "values" : [
       {
         "text" : "true",
@@ -78,7 +78,7 @@
   "data-scroller-use": {
     "snippet": "data-scroller-use=\"$1\"",
     "description": "[Alopex] Table 컴포넌트의 Wrapper 와 Scroller 엘리먼트 생성 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/table#Attributes_datascrolleruse",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/table#Attributes_datascrolleruse",
     "values" : [
       {
         "text" : "true",
