@@ -4,7 +4,7 @@
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[DataBinding] data-bind 속성이 있는 HTML엘리먼트에 데이터를 바인딩합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/databind#Functions_setDatadata'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/databind#Functions_setDatadata'
 		'body': """
 setData(${1:data})
 """
@@ -13,7 +13,7 @@ setData(${1:data})
 		'leftLabelHTML':'JSON Object'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[DataBinding] data-bind 속성이 있는 HTML엘리먼트의 데이터를 가져옵니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/databind#Functions_getDataJSONoption'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/databind#Functions_getDataJSONoption'
 		'body': """
 getData()
 """
@@ -22,7 +22,7 @@ getData()
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Progress] 선택된 영역과 같은 크기의 오버레이를 영역 바로 위에 생성합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/overlay#Functions_overlayoption'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/overlay#Functions_overlayoption'
 		'body': """
 overlay()
 """
@@ -31,7 +31,7 @@ overlay()
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Progress] 선택된 영역과 같은 크기의 오버레이를 영역 바로 위에 설정 값에 따라 생성합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/overlay#Functions_overlayoption'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/overlay#Functions_overlayoption'
 		'body': """
 overlay({
 	duration : 300, //오버레이/default progress가 완전히 표시되기까지 걸리는 시간
@@ -64,7 +64,7 @@ progress({
 		'leftLabelHTML':'Object'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Validator] form/input/select 요소에 valdation 설정하고, 설정을 저장하고 있는 Validation Object를 리턴합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/validator#Functions_validatorObjectconfig'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/validator#Functions_validatorObjectconfig'
 		'body': """
 validator()
 """
@@ -73,7 +73,7 @@ validator()
 		'leftLabelHTML':'Object'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Validator] form/input/select 요소에 valdation 을 config 값에 따라 설정하고, 설정을 저장하고 있는 Validation Object를 리턴합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/validator#Functions_validatorObjectconfig'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/validator#Functions_validatorObjectconfig'
 		'body': """
 validator({
 	rule:{required:true, minlength:2} //필수 입력 및 최소 2글자 이상 입력
@@ -84,7 +84,7 @@ validator({
 		'leftLabelHTML':'Boolean'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Validator] Validator 검증 결과 값을 리턴합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/validator#Functions_ValidatorObject함수'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/validator#Functions_ValidatorObject함수'
 		'body': """
 validate()
 """
@@ -93,7 +93,7 @@ validate()
 		'leftLabelHTML':'Boolean'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Validator] config 값에 따라 설정된 Validator 검증 결과 값을 리턴합니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/validator#Functions_ValidatorObject함수'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/validator#Functions_ValidatorObject함수'
 		'body': """
 validate({
 	rule:{required:true, minlength:2} //필수 입력 및 최소 2글자 이상 입력
@@ -104,7 +104,7 @@ validate({
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
 		'description':'[Validator] 현재 Validator object가 지시하고 있는 target element에 대한 검증을 실시하였을 때, 발생한 오에 대한 오류메시지를 모두 가져옵니다.'
-		'descriptionMoreURL':'http://ui.alopex.io/development/javascript/validator#Functions_ValidatorObject함수'
+		'descriptionMoreURL':'https://ui.alopex.io/development/javascript/validator#Functions_ValidatorObject함수'
 		'body': """
 getErrorMessage()
 """

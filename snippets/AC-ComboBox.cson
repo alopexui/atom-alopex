@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 ComboBox 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/combobox#Basic'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/combobox#Basic'
 		'body': """
 <select class="Combobox">
     <option value="korea">Korea</option>

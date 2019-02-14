@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 ToolTip 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/tooltip#Basic'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/tooltip#Basic'
 		'body': """
 <button class="Button">click</button>
 <div class="Tooltip">button</div>

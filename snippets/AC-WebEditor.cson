@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 WebEditor 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/plugin/webeditor#Basic'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/plugin/webeditor#Basic'
 		'body': """
 <div class="Webeditor"><p>Hello Alopex</p></div>
 """

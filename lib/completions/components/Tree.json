@@ -2,7 +2,7 @@
   "data-checkbox":{
     "snippet": "data-checkbox=\"$1\"",
     "description": "[Alopex] Tree 컴포넌트의 checkbox 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tree#Attributes_datacheckbox",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tree#Attributes_datacheckbox",
     "values":[
       {
         "text" : "hidden",
@@ -21,7 +21,7 @@
   "data-source-type":{
     "snippet": "data-source-type=\"$1\"",
     "description": "[Alopex] Tree 컴포넌트의 데이터 구조를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tree#Attributes_datasourcetype",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tree#Attributes_datasourcetype",
     "values":[
       {
         "text" : "flat",
@@ -34,7 +34,7 @@
   "data-draggable":{
     "snippet": "data-draggable=\"$1\"",
     "description": "[Alopex] Tree 컴포넌트의 Drag & Drop 기능 사용 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tree#Attributes_datadraggable",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tree#Attributes_datadraggable",
     "values" : [
       {
         "text" : "true",
@@ -53,6 +53,6 @@
   "data-html-bind":{
     "snippet": "data-html-bind=\"true\"",
     "description": "[Alopex] 노드의 text 값에 html 사용여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tree#Attributes_datahtmlbind"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tree#Attributes_datahtmlbind"
   }
 }

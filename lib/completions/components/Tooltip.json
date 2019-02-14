@@ -2,12 +2,12 @@
   "data-base": {
     "snippet": "data-base=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 base 엘리먼트를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_database"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_database"
   },
   "data-position": {
     "snippet": "data-position=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 위치를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_dataposition",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_dataposition",
     "values" : [
       {
         "text" : "left",
@@ -38,7 +38,7 @@
   "data-tooltip-trigger": {
     "snippet": "data-tooltip-trigger=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 트리거를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_datatooltiptrigger",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_datatooltiptrigger",
     "values": [
       {
         "text" : "click",
@@ -57,7 +57,7 @@
   "data-animation":{
     "snippet": "data-animation=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 open/close 애니메이션 효과를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_dataanimation",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_dataanimation",
     "values" : [
       {
         "text" : "fade",
@@ -76,36 +76,36 @@
   "data-animationtime":{
     "snippet": "data-animationtime=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 애니메이션 시간을 ms 단위로 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_dataanimationtime"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_dataanimationtime"
   },
   "data-open-callback":{
     "snippet": "data-open-callback=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 open 콜백 함수명을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_dataopencallback"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_dataopencallback"
   },
   "data-close-callback":{
     "snippet": "data-close-callback=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 close 콜백 함수명을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_dataclosecallback"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_dataclosecallback"
   },
   "data-show-disabled":{
     "snippet": "data-show-disabled=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트가 diabled 상태일 때 동작 여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_datashowdisabled"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_datashowdisabled"
   },
   "data-create-wrapper ":{
     "snippet": "data-create-wrapper =\"$1\"",
     "description": "[Alopex] 마크업 변경 없이 ToolTip 컴포넌트가 diabled 상태일 때 동작하기 위한 wrapper 생성 유무를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_datacreatewrapper"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_datacreatewrapper"
   },
   "data-activate": {
     "snippet": "data-activate=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 타겟 element 상태에 따라 사용여부를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_dataactivate"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_dataactivate"
   },
   "data-text": {
     "snippet": "data-text=\"$1\"",
     "description": "[Alopex] ToolTip 컴포넌트의 문구를 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/component/tooltip#Attributes_datatext"
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/tooltip#Attributes_datatext"
   }
 }

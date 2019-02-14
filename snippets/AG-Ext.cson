@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'AlopexGrid'
 		'leftLabelHTML' : 'Object'
 		'description': '[Excel] 엑셀 내보내기를 사용하기 위해서는 먼저 worker를 정의 해야 합니다. worker는 그리드 인스턴스와 내보낼 엑셀 파일명, palette 등을 등록합니다.'
-		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#ExcelExport_ExcelWorker'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#ExcelExport_ExcelWorker'
 		'body': """
 	var worker = new ExcelWorker({
 		excelFileName: '$1', // 로컬에 저장할 엑셀 파일명을 설정합니다.
@@ -31,7 +31,7 @@
 		'rightLabelHTML' : 'AlopexGrid'
 		'leftLabelHTML' : 'Void'
 		'description': '[Excel] 설정한 worker를 이용해 실제로 그리드 데이터를 엑셀 파일로 내보내는 API입니다.'
-		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#ExcelExport_exportAPI'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#ExcelExport_exportAPI'
 		'body': """
 	worker.export({
 		merge : ${1:true}, //병합 해제된 채로 그리드를 내보냅니다.
@@ -48,7 +48,7 @@
 		'rightLabelHTML' : 'AlopexGrid'
 		'leftLabelHTML' : 'Void'
 		'description': '[Excel] 가져온 엑셀파일의 데이터를 처리하는 API입니다.'
-		'descriptionMoreURL': 'http://grid.alopex.io/html/docs.html#ExcelImport_importAPI'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#ExcelImport_importAPI'
 		'body': """
 	worker.import($grid, files, function(dataList){
 	\t$1
@@ -60,7 +60,7 @@
 		'rightLabelHTML' : 'AlopexGrid'
 		'leftLabelHTML' : 'Initialization '
 		'description': '[Initialization ] AlopexGrid 기본 옵션이 설정된 스크립트 입니다.'
-		'descriptionMoreURL': 'http://grid.alopex.io/index.html#getstarted'
+		'descriptionMoreURL': 'https://grid.alopex.io/index.html#getstarted'
 		'body': """
 $('${1:#grid}').alopexGrid({
 	autoColumnIndex: true,

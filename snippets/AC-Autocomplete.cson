@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'data-url 방식 Autocomplete 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/autocomplete#Basic_dataurl방식'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/autocomplete#Basic_dataurl방식'
 		'body': """
 <div class="Autocomplete" data-url="/words" data-paramname="keyword" ></div>
 """
@@ -14,7 +14,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'data-source 방식 Autocomplete 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/autocomplete#Basic_datasource방식'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/autocomplete#Basic_datasource방식'
 		'body': """
 <div class="Autocomplete" data-source='[{"text":"Idaho"},{"text":"Illinois"},{"text":"Indiana"},{"text":"Iowa"}]'></div>
 """

@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 ProgressBar 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/progressbar#Basic_기본Progressbar'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/progressbar#Basic_기본Progressbar'
 		'body': """
 <div class="Progressbar"></div>
 """
@@ -14,7 +14,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Text가 적용된 ProgressBar 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/progressbar#Basic_텍스트가있는ProgressBar'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/progressbar#Basic_텍스트가있는ProgressBar'
 		'body': """
 <div class="Progressbar Progress-text"></div>
 """

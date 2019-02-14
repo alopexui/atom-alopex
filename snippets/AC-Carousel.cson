@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Carousel 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/carousel#Basic'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/carousel#Basic'
 		'body': """
 <div class="Carousel">
 	<div class="Scroller">
@@ -29,7 +29,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Carousel 내부에 좌우 이동 버튼 및 페이지바가 추가된 HTML Markup을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/carousel#Basic_OptionalButtons'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/carousel#Basic_OptionalButtons'
 		'body': """
 <div class="Carousel">
 	<div class="Scroller">
@@ -48,7 +48,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Carousel 내에 Paging를 추가하여 현재 보여지는 페이지의 정보를 표시합니다. '
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/carousel#Basic_Paging표시'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/carousel#Basic_Paging표시'
 		'body': """
 <div class="Carousel">
 	<div class="Scroller">

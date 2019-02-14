@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Panel 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/panel#Basic'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/panel#Basic'
 		'body': """
 <div class="Panel">
 	<div class="Panel-header">Panel-header</div>

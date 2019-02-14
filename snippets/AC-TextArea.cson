@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 TextArea 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/textarea#Basic'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/textarea#Basic'
 		'body': """
 <textarea class="Textarea" rows="6" cols="40"></textarea>
 """

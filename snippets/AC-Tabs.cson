@@ -4,7 +4,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '기본 Tabs 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/tabs#Basic_기본탭'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/tabs#Basic_기본탭'
 		'body': """
 <div class="Tabs">
 	<ul>
@@ -45,7 +45,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Tab영역에 이미지가 포함된 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/tabs#Basic_이미지탭'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/tabs#Basic_이미지탭'
 		'body': """
 <div class="Tabs">
 	<ul>
@@ -72,7 +72,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '너비가 고정된 Tabs 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/tabs#Basic_Fixed탭'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/tabs#Basic_Fixed탭'
 		'body': """
 <div class="Tabs Fixed" data-tab-width="120px" data-remove-button="true">
 	<div class="Scroller">
@@ -122,7 +122,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': '2 Depth Tab을 구성하기 위한 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'http://ui.alopex.io/development/component/tabs#Basic_2Depth탭Left'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/component/tabs#Basic_2Depth탭Left'
 		'body': """
 <div id="tabDepth2" class="Tabs Fixed" data-depth2-position="left">
 	<div class="Scroller">

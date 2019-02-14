@@ -2,7 +2,7 @@
   "data-select-type": {
     "snippet": "data-select-type=\"$1\"",
     "description": "[Alopex] FileUpload 컴포넌트의 타입을 지정합니다",
-    "descriptionMoreURL": "http://ui.alopex.io/development/plugin/fileupload#Attributes_dataselecttypestringOptional",
+    "descriptionMoreURL": "https://ui.alopex.io/development/plugin/fileupload#Attributes_dataselecttypestringOptional",
     "values" : [
       {
         "text" : "basic",
