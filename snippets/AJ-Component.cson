@@ -1252,10 +1252,10 @@ $('#tooltip').getOption('activate');
 		'prefix': 'getOptions()'
 		'leftLabelHTML':'void'
 		'rightLabelHTML':'AlopexUI'
-		'description':'[Tootip] 컴포넌트에 설정된 옵션값을 가져옵니다.'
+		'description':'[Compononent] 컴포넌트에 설정된 옵션값을 가져옵니다.'
 		'descriptionMoreURL':'http://ui.alopex.io/development/component/tooltip#Functions_getOptions'
 		'body': """
-$('#tooltip').getOptions();
+getOptions()
 """
  'setOption(key, value)' :
 		'prefix': 'setOption(key, value)'
@@ -1276,5 +1276,215 @@ $('#tooltip').setOption('opentrigger', 'click');
 $('#tooltip').setOptions({
     'opentrigger': 'click',
     'activate': 'disabled'
+});
+"""
+ 'setOptions(Object carouselOptions)' :
+		'prefix': 'setOptions(Object carouselOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Carousel] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/carousel#Functions_setOptionsoptions'
+		'body': """
+$('#Carousel').setOptions({
+	swipemode: true,
+	playControlButton: true
+});
+"""
+ 'setOptions(Object checkboxOptions)' :
+		'prefix': 'setOptions(Object checkboxOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Checkbox] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/checkbox#Functions_setOptionsoptions'
+		'body': """
+$('#Checkbox').setOptions({
+	disabled: true
+});
+"""
+ 'setOptions(Object dateinputOptions)' :
+		'prefix': 'setOptions(Object dateinputOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Dateinput] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/dateinput#Functions_setOptionsoptions'
+		'body': """
+$('#Dateinput').setOptions({
+	selectmonth: true,
+	selectyear: true
+});
+"""
+ 'setOptions(Object daterangeOptions)' :
+		'prefix': 'setOptions(Object daterangeOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Daterange] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/daterange#Functions_setOptionsoptions'
+		'body': """
+$('#Daterange').setOptions({
+	selectyear: true,
+	selectmonth: true
+});
+"""
+ 'setOptions(Object dialogOptions)' :
+		'prefix': 'setOptions(Object dialogOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Dialog] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/dialog#Functions_setOptionsoptions'
+		'body': """
+$('#Dialog').setOptions({
+	animation: 'slide',
+	animationtime: 5000
+});
+"""
+ 'setOptions(Object dropdownOptions)' :
+		'prefix': 'setOptions(Object dropdownOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Dropdown] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/dropdown#Functions_setOptionsoptions'
+		'body': """
+$('#Dropdown').setOptions({
+	base: '#menu',
+	closetrigger: 'mouseover'
+});
+"""
+ 'setOptions(Object dropdownbuttonOptions)' :
+		'prefix': 'setOptions(Object dropdownbuttonOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Dropdownbutton] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/dropdownbutton#Functions_setOptionsoptions'
+		'body': """
+$('#Dropdownbutton').setOptions({
+	closetrigger: 'mouseleave',
+	opentrigger: 'dblclick'
+});
+"""
+ 'setOptions(Object iconOptions)' :
+		'prefix': 'setOptions(Object iconOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Icon] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/icon#Functions_setOptionsoptions'
+		'body': """
+$('#Icon').setOptions({
+	position: 'top'
+});
+"""
+ 'setOptions(Object pagingOptions)' :
+		'prefix': 'setOptions(Object pagingOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Paging] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/pagination#Functions_setOptionsoptions'
+		'body': """
+$('#Paging').setOptions({
+	totalpage: 3,
+	maxpage: 4
+});
+"""
+ 'setOptions(Object panelOptions)' :
+		'prefix': 'setOptions(Object panelOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Panel] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/panel#Functions_setOptionsoptions'
+		'body': """
+$('#Panel').setOptions({
+	fill: 'vertical',
+	scroll: true
+});
+"""
+ 'setOptions(Object radioOptions)' :
+		'prefix': 'setOptions(Object radioOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Radio] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/radio#Functions_setOptionsoptions'
+		'body': """
+$('#Radio').setOptions({
+	disabled: true
+});
+"""
+ 'setOptions(Object selectOptions)' :
+		'prefix': 'setOptions(Object selectOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Select] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/select#Functions_setOptionsoptions'
+		'body': """
+$('#Select').setOptions({
+	selectsize: 3,
+	disabled: true
+});
+"""
+ 'setOptions(Object spinnerOptions)' :
+		'prefix': 'setOptions(Object spinnerOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Spinner] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/spinner#Functions_setOptionsoptions'
+		'body': """
+$('#Spinner').setOptions({
+	min: 0,
+	max: 100
+});
+"""
+ 'setOptions(Object tableOptions)' :
+		'prefix': 'setOptions(Object tableOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Table] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/table#Functions_setOptionsoptions'
+		'body': """
+$('#Table').setOptions({
+	scrolleruse: true,
+});
+"""
+ 'setOptions(Object tabsOptions)' :
+		'prefix': 'setOptions(Object tabsOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Tabs] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/tabs#Functions_setOptionsoptions'
+		'body': """
+$('#Tabs').setOptions({
+	removebutton: true,
+	draggable: true
+});
+"""
+ 'setOptions(Object textinputOptions)' :
+		'prefix': 'setOptions(Object textinputOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Textinput] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/textinput#Functions_setOptionsoptions'
+		'body': """
+$('#Textinput').setOptions({
+	disabled: true
+});
+"""
+ 'setOptions(Object textareaOptions)' :
+		'prefix': 'setOptions(Object textareaOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Textarea] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/textarea#Functions_setOptionsoptions'
+		'body': """
+$('#Textarea').setOptions({
+	disabled: true
+});
+"""
+ 'setOptions(Object treeOptions)' :
+		'prefix': 'setOptions(Object treeOptions)'
+		'leftLabelHTML':'void'
+		'rightLabelHTML':'AlopexUI'
+		'description':'[Tree] 컴포넌트에 동적으로 옵션을 설정합니다.'
+		'descriptionMoreURL':'http://ui.alopex.io/development/component/tree#Functions_setOptionsoptions'
+		'body': """
+$('#Tree').setOptions({
+	checkbox: 'hidden',
+	draggable: true
 });
 """
