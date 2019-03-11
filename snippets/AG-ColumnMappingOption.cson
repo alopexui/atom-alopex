@@ -314,6 +314,20 @@
 		'description': '[Option.ColumnMapping] JSON 데이터에서 값을 꺼내올 key 값을 지정합니다.'
 		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#OptioncolumnMapping_key'
 		'body': "key: '${1:key}',$2"
+	'Option.ColumnMapping.maxWidth' :
+		'prefix': 'maxWidth'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'String|Number'
+		'description': '[Option.ColumnMapping] 해당 칼럼의 최대 너비를 px 단위로 명시합니다.'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#OptioncolumnMapping_maxWidth'
+		'body': "maxWidth: '${1:30}',$2"
+	'Option.ColumnMapping.minWidth' :
+		'prefix': 'minWidth'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'String|Number'
+		'description': '[Option.ColumnMapping] 해당 칼럼의 최소 너비를 px 단위로 명시합니다.'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#OptioncolumnMapping_minWidth'
+		'body': "minWidth: '${1:30}',$2"
 	'Option.ColumnMapping.multi' :
 		'prefix': 'multi'
 		'rightLabelHTML' : 'AlopexGrid'
