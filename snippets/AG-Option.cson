@@ -123,8 +123,9 @@
 		cellSelectableOption: {
 			copyCellStyle: ${1:false}, // 선택영역을 복사할 때, 셀이 렌더링된 스타일을 복사하여 엑셀 등에서 적용되게 하고자 할 때 사용 //변경
 			copyRenderedText: ${2:false}, // 선택영역을 복사할 때, 기본적으로 셀이 가지는 value를 복사합니다.
-			copyTextformOnly: ${3:false} // 일반 텍스트 형태로만 복사를 시도
-		},$4
+			copyTextformOnly: ${3:false}, // 일반 텍스트 형태로만 복사를 시도
+			useHomeEndKey: ${4:false}	// HOME/END 키를 이용하여 그리드의 최상단/최하단으로 스크롤 이동할 수 있습니다.
+		},$5
 		"""
 	'Option.clientSortingOnDynamicDataSet' :
 		'prefix': 'clientSortingOnDynamicDataSet'
@@ -345,6 +346,20 @@
 		'description': '[Option] 마우스로 헤더를 여러 개 선택하여 한꺼번에 열 너비를 조정할 수 있습니다.'
 		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#Options_enableHeaderSelect'
 		'body': "enableHeaderSelect: ${1:true},$2"
+	'Option.enableNewContextMenu' :
+		'prefix': 'enableNewContextMenu'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Boolean'
+		'description': '[Option] 기본 제공되는 뉴 컨텍스트 메뉴가 아닌 사용자가 정의한 뉴 컨텍스트 메뉴를 사용하고자 할 때 설정하는 옵션입니다.'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#Options_enableNewContextMenu'
+		'body': "enableNewContextMenu: ${1:false},$2"
+	'Option.enableNewDefaultContextMenu' :
+		'prefix': 'enableNewDefaultContextMenu'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Boolean'
+		'description': '[Option] 기본으로 제공되는 뉴 컨텍스트 메뉴를 사용하고자 할 때 사용합니다.'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#Options_enableNewDefaultContextMenu'
+		'body': "enableNewDefaultContextMenu: ${1:false},$2"
 	'Option.enlargeOption' :
 		'prefix': 'enlargeOption'
 		'rightLabelHTML' : 'AlopexGrid'
@@ -413,26 +428,30 @@
 		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#Options_filter'
 		'body': """
 		filter: {
-			dynamicDataFilter: ${1:false},
-			filterGridColumnOption: {$2},
-			filterGridOption: {$3},
-			minHeight: ${4:200},
-			minWidth: ${5:275},
-			movable: ${6:false},
-			removeFilterOptionByHidden: ${7:false}
-			saveFilterSize: ${8:false},
-			scrollResetAfterFilter: ${9:true},
-			sorting: ${10:false},
-			textFilterByEnter: ${12:false},
-			textFilterDelay: ${12:450},
-			title: ${13:false},
-			typeList: ['${14:equal}','notequal','contain','notcontain','lt','lte','gt','gte'],
+			dataFilterInstant: ${1:false},
+			dataFilterSearch: ${2:false},
+			filterByEnter: ${3:false},
+			filterDelay: ${4:450},
+			filterGridColumnOption: {$5},
+			filterGridOption: {$6},
+			focus: ${7:null},
+			minHeight: ${8:200},
+			minWidth: ${9:275},
+			movable: ${10:false},
+			removeFilterOptionByHidden: ${11:false},
+			saveFilterSize: ${12:false},
+			scrollResetAfterFilter: ${13:true},
+			sorting: ${14:false},
+			textFilterFunction: ${15:null},
+			title: ${16:false},
+			trimText: ${17:false},
+			typeList: ['${18:equal}','notequal','contain','notcontain','lt','lte','gt','gte'],
 			typeListDefault: {
-				selectValue: '${15}',
+				selectValue: '${19}',
 				expandSelectValue: '',
 				radioValue: 'and'
 			}
-		},$16
+		},$20
 		"""
 	'Option.filteringHeader' :
 		'prefix': 'filteringHeader'
@@ -640,6 +659,13 @@
 			noFilteredData: ${3:null} // 필터링된 데이터가 없을 때 보이는 메시지
 		},$4
 		"""
+	'Option.rowDragDrop' :
+		'prefix': 'rowDragDrop'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Boolean'
+		'description': '[Option] 드래그가 가능한 출력된 데이터 칼럼을 지정합니다. 해당 옵션 값이 true일때만 그리드의 출력된 데이터 컬럼을 마우스 드래그로 이동할 수 있습니다.'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#Options_rowDragDrop'
+		'body': "rowDragDrop: ${1:false},$2"
 	'Option.multiRowDragDrop' :
 		'prefix': 'multiRowDragDrop'
 		'rightLabelHTML' : 'AlopexGrid'
@@ -647,6 +673,47 @@
 		'description': '[Option] columnMapping.dragdropColumn 옵션이 true일 때, 다건의 데이터를 드래그 앤 드롭할 수 있게 하는 옵션입니다.'
 		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#Options_multiRowDragDrop'
 		'body': "multiRowDragDrop: ${1:true},$2"
+	'Option.newContextMenu' :
+		'prefix': 'newContextMenu'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Array'
+		'description': '[Option] AlopexGrid 뉴 컨텍스트 메뉴 옵션을 설정합니다.'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#Options_newContextMenu'
+		'body': """
+		newContextMenu : [
+		{
+			id: '$1', // 뉴 컨텍스트 메뉴의 순서와 사용유무를 설정하기 위한 id
+			title: '$2', // 뉴 컨텍스트 메뉴 이름 설정
+			processor: function(data, mapping, $grid, e) { // 해당 메뉴를 클릭 했을 때 수행되는 프로세스
+			\t$3
+			},
+			use: function(data, mapping, $grid, e) { // 해당 메뉴가 보이는 영역 설정
+			\t$4
+				var $cell = AlopexGrid.parseEvent(e).$cell;
+				return $cell.hasClass('headercell'); // 헤더 셀 영역에서 만 보임
+			},
+			subMenu : [	// 뉴 컨텍스트 메뉴의 하위 메뉴를 구성하기 위한 메뉴
+				{
+					title: '$5',
+					processor: function(data, mapping, $grid, e) {
+					\t$6
+					},
+					use: function(data, mapping, $grid, e) {
+					\t$7
+						var $cell = AlopexGrid.parseEvent(e).$cell;
+						return ($cell.hasClass('headercell') || $cell.hasClass('bodycell')); // 헤더 셀, 본문 영역에서 보임
+					},
+				}
+			]
+		}],$8
+		"""
+	'Option.newContextMenuUseOrder' :
+		'prefix': 'newContextMenuUseOrder'
+		'rightLabelHTML' : 'AlopexGrid'
+		'leftLabelHTML' : 'Array'
+		'description': '[Option] 뉴 컨텍스트 메뉴를 사용할 때 기본 제공되는 뉴 컨텍스트 메뉴와 사용자가 정의한 뉴 컨텍스트 메뉴를 원하는 순서 및 사용 유무를 설정하는 옵션입니다.'
+		'descriptionMoreURL': 'https://grid.alopex.io/html/docs.html#Options_newContextMenuUseOrder'
+		'body': "newContextMenuUseOrder: ${1:null},$2"
 	'Option.numberingColumnFromZero' :
 		'prefix': 'numberingColumnFromZero'
 		'rightLabelHTML' : 'AlopexGrid'
@@ -904,12 +971,13 @@
 			filterName: ${2:null}, // useFilter 옵션 사용 시 그리드에 추가되는 필터명
 			useRenderToSearch: ${3:true}, // 셀에 렌더링된 내용을 이용하여 검색할 것인가 여부
 			caseSensitive: ${4:false}, // 대소문자를 구분하여 검색할 것인가 여부
-			ignoreWhiteSpace: ${5:false}, 스페이스, 엔터, 탭 과 같은 공백문자를 무시하고 검색할 것인가 여부
+			ignoreWhiteSpace: ${5:false}, // 스페이스, 엔터, 탭 과 같은 공백문자를 무시하고 검색할 것인가 여부
 			useRegex: ${6:false}, // 사용자가 제시한 키워드를 JavaScript의 RegExp 오브젝트로 변환시켜 검색에 사용할 것인가 여부
 			byColumn: ${7:false}, // 검색시 하이라이트 전환을 행 단위로 넘기는것이 아닌 셀 단위로 넘길것인가 여부
 			showProgress: ${8:false}, // 검색시 그리드에 프로그래스바를 실행합니다.
+			progressText: ${9:null},	// showPrgress 사용 시 progressText를 설정하여 search 시 프로그래스바의 progressText를 설정 할 수 있습니다.
 			targetColumn: [] // 검색시 범위를 한정지을 칼럼 리스트
-		},$7
+		},$10
 		"""
 	'Option.setOriginalFromStart' :
 		'prefix': 'setOriginalFromStart'
