@@ -106,5 +106,15 @@
     "snippet": "data-startweekday=\"$1\"",
     "description": "[Alopex] DateInput 컴포넌트의 한주의 시작요일을 지정합니다",
     "descriptionMoreURL": "https://ui.alopex.io/development/component/dateinput#Attributes_datastartweekday"
+  },
+  "data-maxdate": {
+    "snippet": "data-maxdate=\"$1\"",
+    "description": "[Alopex] DateInput 설정한 포맷 형태로 선택할 수 있는 최대 날짜 값을 설정합니다",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/dateinput#Attributes_datamaxdate"
+  },
+  "data-mindate": {
+    "snippet": "data-mindate=\"$1\"",
+    "description": "[Alopex] DateInput 설정한 포맷 형태로 선택할 수 있는 최소 날짜 값을 설정합니다",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/dateinput#Attributes_datamindate"
   }
 }
