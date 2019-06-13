@@ -13,7 +13,7 @@
 		'rightLabelHTML' : 'Alopex'
 		'leftLabelHTML' : 'Markup'
 		'description': 'Multiple Fileupload 의 HTML Markup 을 구성합니다.'
-		'descriptionMoreURL': 'https://ui.alopex.io/development/plugin/fileupload#Attributes_dataselecttypestringOptional'
+		'descriptionMoreURL': 'https://ui.alopex.io/development/plugin/fileupload#Attributes_dataselecttypestring'
 		'body': """
 <div id="fileuploader" class="Fileupload" data-selectType="advance" ></div>
 """
