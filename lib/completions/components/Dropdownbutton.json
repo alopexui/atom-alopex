@@ -67,5 +67,10 @@
         "leftLabelHTML" : "String"
       }
     ]
+  },
+  "data-dynamic-dropdown": {
+    "snippet": "data-dynamic-dropdown=\"$1\"",
+    "description": "[Alopex] Dropdownbutton 컴포넌트의 Dropdown의 동적 생성 여부를 지정합니다",
+    "descriptionMoreURL": "https://ui.alopex.io/development/component/dropdownbutton#Attributes_datadynamicdropdown"
   }
 }
